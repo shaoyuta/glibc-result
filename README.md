@@ -1,0 +1,2 @@
+# glibc-result
+glibc result
