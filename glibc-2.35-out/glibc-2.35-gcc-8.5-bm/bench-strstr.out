@@ -1,0 +1,324 @@
+                       	basic_strstr	twoway_strstr	__strstr_sse2_unaligned	__strstr_sse2
+Length   64/  1, alignment  1/ 3, found:	46.625	74.1875	335.5	40.4375
+Length   64/  1, alignment  0/ 9, fail :	48.125	11.8125	13.6875	12.8125
+Length   64/  2, alignment  1/ 3, found:	52.0625	277.062	13.6875	47
+Length   64/  2, alignment  0/ 9, fail :	48.75	37.6875	33.125	43.0625
+Length   64/  3, alignment  1/ 3, found:	54.625	76.75	12.875	86.25
+Length   64/  3, alignment  0/ 9, fail :	49.625	61.6875	17.9375	83.1875
+Length   64/  4, alignment  1/ 3, found:	54.5	94.3125	12.8125	79.125
+Length   64/  4, alignment  0/ 9, fail :	54	87.375	15.5625	68.25
+Length   64/  5, alignment  1/ 3, found:	57.875	108	12.625	76.8125
+Length   64/  5, alignment  0/ 9, fail :	52.4375	95.4375	15.5	72.875
+Length   64/  6, alignment  1/ 3, found:	69.625	176.812	21.25	75.6875
+Length   64/  6, alignment  0/ 9, fail :	64.9375	172.875	20.5	71.3125
+Length   64/  7, alignment  1/ 3, found:	72.1875	172.062	20.9375	66.625
+Length   64/  7, alignment  0/ 9, fail :	70.875	161.938	22.1875	63.75
+Length   64/  8, alignment  1/ 3, found:	73.625	139.312	19.5	61.3125
+Length   64/  8, alignment  0/ 9, fail :	69.0625	144.25	22.3125	59.9375
+Length   64/  9, alignment  1/ 3, found:	72.5625	95.625	22.6875	67.6875
+Length   64/  9, alignment  0/ 9, fail :	67.125	82.0625	15.8125	62.625
+Length   64/ 10, alignment  1/ 3, found:	53.125	22.1875	22.75	23.5
+Length   64/ 10, alignment  0/ 9, fail :	45.75	15.6875	15.3125	13.9375
+Length   64/ 11, alignment  1/ 3, found:	61.1875	116.188	17	65.75
+Length   64/ 11, alignment  0/ 9, fail :	64.875	92.625	16.5	63.125
+Length   64/ 12, alignment  1/ 3, found:	56.875	125.625	17.75	74.125
+Length   64/ 12, alignment  0/ 9, fail :	49.25	105.812	16.5	69.4375
+Length   64/ 13, alignment  1/ 3, found:	68.3125	161.5	18.125	97.6875
+Length   64/ 13, alignment  0/ 9, fail :	57.75	149.188	16.1875	90.4375
+Length   64/ 14, alignment  1/ 3, found:	55.875	160.5	18.25	83.6875
+Length   64/ 14, alignment  0/ 9, fail :	53.375	150.25	16.4375	76.875
+Length   64/ 15, alignment  1/ 3, found:	68.4375	189.5	19.6875	76.125
+Length   64/ 15, alignment  0/ 9, fail :	58.9375	193.125	16	68.6875
+Length   64/ 16, alignment  1/ 3, found:	60.875	186.125	19.75	72.75
+Length   64/ 16, alignment  0/ 9, fail :	61.5	174.938	19.0625	66.875
+Length   96/  1, alignment  1/ 3, found:	64.625	15.875	14.9375	13.0625
+Length   96/  1, alignment  0/ 9, fail :	62.875	14.75	11.8125	14.4375
+Length   96/  2, alignment  1/ 3, found:	74.6875	138.062	20.625	142.125
+Length   96/  2, alignment  0/ 9, fail :	71.875	128.562	17.1875	119.938
+Length   96/  3, alignment  1/ 3, found:	94.9375	74.1875	23.9375	124.25
+Length   96/  3, alignment  0/ 9, fail :	89.9375	68.8125	19.5	120.438
+Length   96/  4, alignment  1/ 3, found:	77.3125	87.875	20.875	94.875
+Length   96/  4, alignment  0/ 9, fail :	70.125	73.1875	16.625	89.5
+Length   96/  5, alignment  1/ 3, found:	76.0625	145.25	22.25	84.9375
+Length   96/  5, alignment  0/ 9, fail :	72.875	134.875	19.5625	80.3125
+Length   96/  6, alignment  1/ 3, found:	90.9375	242.562	21.9375	88.375
+Length   96/  6, alignment  0/ 9, fail :	84.5	242.5	17.875	76
+Length   96/  7, alignment  1/ 3, found:	73	291	24.125	83.25
+Length   96/  7, alignment  0/ 9, fail :	72.375	288.25	16.3125	72.875
+Length   96/  8, alignment  1/ 3, found:	71.1875	24.375	21.375	25.6875
+Length   96/  8, alignment  0/ 9, fail :	61.5625	15.375	15.5625	14.1875
+Length   96/  9, alignment  1/ 3, found:	99	96.9375	26.4375	75.8125
+Length   96/  9, alignment  0/ 9, fail :	100.438	77.375	20.25	69.0625
+Length   96/ 10, alignment  1/ 3, found:	78.3125	197.375	23.6875	87.8125
+Length   96/ 10, alignment  0/ 9, fail :	68.25	202	16.75	82.375
+Length   96/ 11, alignment  1/ 3, found:	94.125	231.375	28.875	80.1875
+Length   96/ 11, alignment  0/ 9, fail :	91.625	230.562	19.25	71.8125
+Length   96/ 12, alignment  1/ 3, found:	74.8125	229.625	25.75	70.125
+Length   96/ 12, alignment  0/ 9, fail :	70.1875	234	16.4375	67.3125
+Length   96/ 13, alignment  1/ 3, found:	67.8125	20.625	25.3125	22.0625
+Length   96/ 13, alignment  0/ 9, fail :	62.1875	13.6875	17.75	13.125
+Length   96/ 14, alignment  1/ 3, found:	78.5	217.625	30.0625	75.75
+Length   96/ 14, alignment  0/ 9, fail :	69.75	225.875	19	67.1875
+Length   96/ 15, alignment  1/ 3, found:	90.125	125.812	27.375	76.875
+Length   96/ 15, alignment  0/ 9, fail :	85.9375	102.562	16.3125	78.0625
+Length   96/ 16, alignment  1/ 3, found:	72.3125	18.625	25	20.5625
+Length   96/ 16, alignment  0/ 9, fail :	61.8125	13.6875	15.375	12.75
+Length  128/  1, alignment  1/ 3, found:	82.8125	14.125	16.9375	14.0625
+Length  128/  1, alignment  0/ 9, fail :	81.9375	14.8125	16.75	15.5625
+Length  128/  2, alignment  1/ 3, found:	117.625	76.75	22.0625	155.062
+Length  128/  2, alignment  0/ 9, fail :	117.25	63.125	22.5625	152.75
+Length  128/  3, alignment  1/ 3, found:	95.0625	133	23	155.875
+Length  128/  3, alignment  0/ 9, fail :	90.5625	122.25	20.3125	154.562
+Length  128/  4, alignment  1/ 3, found:	103.875	93.25	26.3125	117.688
+Length  128/  4, alignment  0/ 9, fail :	101.062	81.875	31.5	111.562
+Length  128/  5, alignment  1/ 3, found:	113.188	313.875	25.5	95.4375
+Length  128/  5, alignment  0/ 9, fail :	105.375	303.312	30.5625	89.6875
+Length  128/  6, alignment  1/ 3, found:	108.062	94.6875	28.3125	85.5
+Length  128/  6, alignment  0/ 9, fail :	103.938	87.625	29.6875	81.0625
+Length  128/  7, alignment  1/ 3, found:	103.062	72.3125	25.875	62.3125
+Length  128/  7, alignment  0/ 9, fail :	96.25	58	26.125	59.5
+Length  128/  8, alignment  1/ 3, found:	133.938	146.5	25.8125	85.1875
+Length  128/  8, alignment  0/ 9, fail :	131.375	118.188	21.25	78.125
+Length  128/  9, alignment  1/ 3, found:	86.5	24.6875	23.5	25.75
+Length  128/  9, alignment  0/ 9, fail :	84.1875	19.375	19.625	21.125
+Length  128/ 10, alignment  1/ 3, found:	98.875	229.75	30.1875	80.9375
+Length  128/ 10, alignment  0/ 9, fail :	99.25	225.875	24.4375	70.4375
+Length  128/ 11, alignment  1/ 3, found:	97.9375	308.438	24.8125	77.3125
+Length  128/ 11, alignment  0/ 9, fail :	92	307.5	21.625	77.25
+Length  128/ 12, alignment  1/ 3, found:	86.9375	23.125	28.25	25.625
+Length  128/ 12, alignment  0/ 9, fail :	84	19	20.5	19.5
+Length  128/ 13, alignment  1/ 3, found:	101.75	295.688	26.0625	77.1875
+Length  128/ 13, alignment  0/ 9, fail :	94.5	292.312	20.75	70.9375
+Length  128/ 14, alignment  1/ 3, found:	96.75	250.5	30.6875	75.1875
+Length  128/ 14, alignment  0/ 9, fail :	90.1875	253.625	22.6875	71.3125
+Length  128/ 15, alignment  1/ 3, found:	113.562	291.938	26.875	81.75
+Length  128/ 15, alignment  0/ 9, fail :	104.625	294.625	20.4375	74.5625
+Length  128/ 16, alignment  1/ 3, found:	100.562	121.438	26.75	77.75
+Length  128/ 16, alignment  0/ 9, fail :	90.8125	94.5	20.5625	76.75
+Length  160/  1, alignment  1/ 3, found:	139.125	22.25	16.125	16.9375
+Length  160/  1, alignment  0/ 9, fail :	134.938	18.875	15.3125	15.9375
+Length  160/  2, alignment  1/ 3, found:	112.938	147.625	24.3125	118.062
+Length  160/  2, alignment  0/ 9, fail :	108.375	130.938	20.8125	116.5
+Length  160/  3, alignment  1/ 3, found:	142.188	82.5625	35.0625	235.75
+Length  160/  3, alignment  0/ 9, fail :	137.125	74.5625	32.6875	209.438
+Length  160/  4, alignment  1/ 3, found:	143.562	178.188	38.125	143.812
+Length  160/  4, alignment  0/ 9, fail :	140.188	159.938	34.6875	133.562
+Length  160/  5, alignment  1/ 3, found:	136.625	123.438	31.625	121.188
+Length  160/  5, alignment  0/ 9, fail :	127	107.25	28.75	113.438
+Length  160/  6, alignment  1/ 3, found:	118.188	165.25	32.875	115.125
+Length  160/  6, alignment  0/ 9, fail :	117.438	141.562	28.625	100.812
+Length  160/  7, alignment  1/ 3, found:	131.5	237.5	33.625	102.688
+Length  160/  7, alignment  0/ 9, fail :	135.188	216.562	30.3125	97.125
+Length  160/  8, alignment  1/ 3, found:	145.125	351.75	35.375	104.438
+Length  160/  8, alignment  0/ 9, fail :	142.562	315	30.75	97.6875
+Length  160/  9, alignment  1/ 3, found:	128.375	326.438	36.5	95.6875
+Length  160/  9, alignment  0/ 9, fail :	120.75	305.062	25.1875	87.625
+Length  160/ 10, alignment  1/ 3, found:	143.688	403.875	39.5625	100.625
+Length  160/ 10, alignment  0/ 9, fail :	132.75	368.75	31	87.9375
+Length  160/ 11, alignment  1/ 3, found:	139	364.812	32.4375	90.75
+Length  160/ 11, alignment  0/ 9, fail :	127.375	332.062	21.5625	80.0625
+Length  160/ 12, alignment  1/ 3, found:	109.938	291.25	29.75	82.75
+Length  160/ 12, alignment  0/ 9, fail :	104.5	248.438	21.9375	76.9375
+Length  160/ 13, alignment  1/ 3, found:	172.312	396.812	54.1875	83.9375
+Length  160/ 13, alignment  0/ 9, fail :	173.438	376.062	37.5625	77.75
+Length  160/ 14, alignment  1/ 3, found:	130	359.562	45.4375	87.5
+Length  160/ 14, alignment  0/ 9, fail :	123.312	355.562	33.25	79.3125
+Length  160/ 15, alignment  1/ 3, found:	143.375	383.562	46.5625	88.0625
+Length  160/ 15, alignment  0/ 9, fail :	141.188	382.125	33.25	80.875
+Length  160/ 16, alignment  1/ 3, found:	155.312	359.312	50.25	84.8125
+Length  160/ 16, alignment  0/ 9, fail :	141.875	481.438	35.9375	82.8125
+Length  192/  1, alignment  1/ 3, found:	121.75	17.375	18.9375	17.75
+Length  192/  1, alignment  0/ 9, fail :	116.75	19.3125	19.25	16.5625
+Length  192/  2, alignment  1/ 3, found:	124.062	30.5625	28.25	25.75
+Length  192/  2, alignment  0/ 9, fail :	115.188	18.5625	27.4375	16.25
+Length  192/  3, alignment  1/ 3, found:	121.938	23.8125	31.1875	23.875
+Length  192/  3, alignment  0/ 9, fail :	116.25	16.1875	25.625	16.125
+Length  192/  4, alignment  1/ 3, found:	142.25	166	25.25	154.688
+Length  192/  4, alignment  0/ 9, fail :	135.562	149	24.1875	125.375
+Length  192/  5, alignment  1/ 3, found:	143.25	334.625	26.875	112.375
+Length  192/  5, alignment  0/ 9, fail :	129.062	317.188	24.4375	111.062
+Length  192/  6, alignment  1/ 3, found:	157.312	387.75	30	101.375
+Length  192/  6, alignment  0/ 9, fail :	153	369.938	32.5625	97
+Length  192/  7, alignment  1/ 3, found:	160.438	414.75	38.8125	108.875
+Length  192/  7, alignment  0/ 9, fail :	156.312	379.5	36.3125	101.25
+Length  192/  8, alignment  1/ 3, found:	191.875	451.938	32.4375	113.375
+Length  192/  8, alignment  0/ 9, fail :	190.312	439.688	33.6875	106.188
+Length  192/  9, alignment  1/ 3, found:	126.25	87.75	34.0625	66.5625
+Length  192/  9, alignment  0/ 9, fail :	123.5	73.625	34.75	64.625
+Length  192/ 10, alignment  1/ 3, found:	131	99.875	32.25	76.0625
+Length  192/ 10, alignment  0/ 9, fail :	128.688	84.9375	33.875	68.5625
+Length  192/ 11, alignment  1/ 3, found:	127.375	28.125	29.25	27
+Length  192/ 11, alignment  0/ 9, fail :	122.625	79.375	32	64.0625
+Length  192/ 12, alignment  1/ 3, found:	190.562	236.875	35.5625	99.5
+Length  192/ 12, alignment  0/ 9, fail :	191.062	228.062	32.9375	88.5
+Length  192/ 13, alignment  1/ 3, found:	128	143.562	31.75	83.0625
+Length  192/ 13, alignment  0/ 9, fail :	122.562	124.625	24.8125	78.0625
+Length  192/ 14, alignment  1/ 3, found:	121.5	23.75	31.4375	24.375
+Length  192/ 14, alignment  0/ 9, fail :	119.438	16.1875	24.5	16.75
+Length  192/ 15, alignment  1/ 3, found:	123.75	23.4375	30.5	22.5
+Length  192/ 15, alignment  0/ 9, fail :	115.75	15.3125	23.75	16.1875
+Length  192/ 16, alignment  1/ 3, found:	122.625	23.125	29.875	22.9375
+Length  192/ 16, alignment  0/ 9, fail :	115.625	14.75	24.1875	15.625
+Length  224/  1, alignment  1/ 3, found:	164.688	17.75	18.875	15.9375
+Length  224/  1, alignment  0/ 9, fail :	170.562	16.25	18	16.8125
+Length  224/  2, alignment  1/ 3, found:	176.438	172.375	27.3125	288.75
+Length  224/  2, alignment  0/ 9, fail :	174.062	163.812	25.125	264.688
+Length  224/  3, alignment  1/ 3, found:	174.125	348	43.3125	275.625
+Length  224/  3, alignment  0/ 9, fail :	170.875	436.125	37.8125	266.188
+Length  224/  4, alignment  1/ 3, found:	196.438	261.5	31.25	151.25
+Length  224/  4, alignment  0/ 9, fail :	186.188	240.75	25.5	147.938
+Length  224/  5, alignment  1/ 3, found:	234.625	142.938	32.0625	95.8125
+Length  224/  5, alignment  0/ 9, fail :	146.875	130.312	24.4375	91.5
+Length  224/  6, alignment  1/ 3, found:	194.312	268.188	45.3125	112.812
+Length  224/  6, alignment  0/ 9, fail :	188.312	261.688	38.875	110.312
+Length  224/  7, alignment  1/ 3, found:	187.312	84.1875	37.125	105.625
+Length  224/  7, alignment  0/ 9, fail :	183.062	72.0625	28.625	96.75
+Length  224/  8, alignment  1/ 3, found:	190	79.5625	34.3125	101.062
+Length  224/  8, alignment  0/ 9, fail :	184.688	68.375	31.375	95.5
+Length  224/  9, alignment  1/ 3, found:	167.625	421.75	42.3125	100.375
+Length  224/  9, alignment  0/ 9, fail :	156.188	413.375	36.125	93.9375
+Length  224/ 10, alignment  1/ 3, found:	166.25	510.625	33	104.75
+Length  224/ 10, alignment  0/ 9, fail :	158.125	507.625	25.0625	98.5625
+Length  224/ 11, alignment  1/ 3, found:	193.312	512	41.3125	98.375
+Length  224/ 11, alignment  0/ 9, fail :	189.812	499.938	35.125	92.75
+Length  224/ 12, alignment  1/ 3, found:	159.688	500.625	32.5	93.75
+Length  224/ 12, alignment  0/ 9, fail :	152.562	487.5	25.5625	95.0625
+Length  224/ 13, alignment  1/ 3, found:	168.875	25.8125	31.875	27.3125
+Length  224/ 13, alignment  0/ 9, fail :	169.438	23.875	24.5	21.8125
+Length  224/ 14, alignment  1/ 3, found:	167.188	22.9375	30.9375	26.4375
+Length  224/ 14, alignment  0/ 9, fail :	168.875	16.125	24.25	15.0625
+Length  224/ 15, alignment  1/ 3, found:	164.375	23.5	37.875	21.75
+Length  224/ 15, alignment  0/ 9, fail :	163.125	15.1875	24.5625	15.125
+Length  224/ 16, alignment  1/ 3, found:	233.188	542.938	49.125	97.5
+Length  224/ 16, alignment  0/ 9, fail :	222.562	507.188	34.5625	89.75
+Length  256/  1, alignment  1/ 3, found:	183.5	18.375	21.0625	19.5
+Length  256/  1, alignment  0/ 9, fail :	187.938	27.25	19.875	21.5
+Length  256/  2, alignment  1/ 3, found:	182.875	82.1875	31.0625	339.375
+Length  256/  2, alignment  0/ 9, fail :	171.938	71.0625	31.625	317
+Length  256/  3, alignment  1/ 3, found:	166.438	114.438	36.875	134.062
+Length  256/  3, alignment  0/ 9, fail :	163.938	104.562	44.125	129.625
+Length  256/  4, alignment  1/ 3, found:	248.688	129.375	33	285.312
+Length  256/  4, alignment  0/ 9, fail :	247.5	118.438	35.25	153.625
+Length  256/  5, alignment  1/ 3, found:	208.625	556.688	39.25	162.75
+Length  256/  5, alignment  0/ 9, fail :	203.688	528.75	34.75	150.312
+Length  256/  6, alignment  1/ 3, found:	187.375	139.125	36.8125	188.75
+Length  256/  6, alignment  0/ 9, fail :	179.438	124.562	33.8125	127.562
+Length  256/  7, alignment  1/ 3, found:	266	125.25	52.5625	113.562
+Length  256/  7, alignment  0/ 9, fail :	266.125	102.438	43.3125	111
+Length  256/  8, alignment  1/ 3, found:	230.875	99.8125	44.8125	109.938
+Length  256/  8, alignment  0/ 9, fail :	229.125	78.5	40.25	108.188
+Length  256/  9, alignment  1/ 3, found:	185.75	95.75	39.9375	105.562
+Length  256/  9, alignment  0/ 9, fail :	178	77.3125	42.875	103.375
+Length  256/ 10, alignment  1/ 3, found:	185.75	90.3125	36	112.5
+Length  256/ 10, alignment  0/ 9, fail :	180.562	74.75	33.4375	105.5
+Length  256/ 11, alignment  1/ 3, found:	178.875	91.0625	37.9375	114.25
+Length  256/ 11, alignment  0/ 9, fail :	169.125	74.3125	34.9375	108.25
+Length  256/ 12, alignment  1/ 3, found:	186.188	93.5625	42.125	99.5
+Length  256/ 12, alignment  0/ 9, fail :	183.125	75.0625	38.875	93.6875
+Length  256/ 13, alignment  1/ 3, found:	185.812	192.938	34.125	100.75
+Length  256/ 13, alignment  0/ 9, fail :	183.562	168.625	29.875	91.0625
+Length  256/ 14, alignment  1/ 3, found:	170.188	139.75	34.25	93.8125
+Length  256/ 14, alignment  0/ 9, fail :	163.688	117.062	28.75	82.3125
+Length  256/ 15, alignment  1/ 3, found:	163.062	135.875	33.9375	92.5
+Length  256/ 15, alignment  0/ 9, fail :	161.062	115.25	28.25	85.9375
+Length  256/ 16, alignment  1/ 3, found:	189.812	24.5	32.8125	24.75
+Length  256/ 16, alignment  0/ 9, fail :	194.188	20	28.4375	21.875
+Length  256/ 16, alignment  1/11, found:	183.188	23.5	32.25	22
+Length  256/ 16, alignment 14/ 5, fail :	190.5	18	27.5	16.625
+Length  256/ 32, alignment  1/11, found:	162.188	414.625	43.25	108.5
+Length  256/ 32, alignment 14/ 5, fail :	155.688	346.312	28.75	99.75
+Length  256/ 64, alignment  1/11, found:	236.375	553.938	77.625	142.875
+Length  256/ 64, alignment 14/ 5, fail :	256.438	442.188	40.25	130.312
+Length  256/128, alignment  1/11, found:	171.438	843	98.6875	234
+Length  256/128, alignment 14/ 5, fail :	177.625	658.938	27.625	203.875
+Length  256/256, alignment  1/11, found:	194.5	44.0625	319.312	41.875
+Length  256/256, alignment 14/ 5, fail :	190.812	30.125	38.25	26.0625
+Length  512/ 16, alignment  1/11, found:	409.125	844.875	47.375	165.5
+Length  512/ 16, alignment 14/ 5, fail :	428.188	820.375	49	150.062
+Length  512/ 32, alignment  1/11, found:	434.5	534.188	81.1875	117.75
+Length  512/ 32, alignment 14/ 5, fail :	400	497.562	54.8125	110.188
+Length  512/ 64, alignment  1/11, found:	376.688	595.188	105.75	143.625
+Length  512/ 64, alignment 14/ 5, fail :	363.875	493.25	71.9375	146.125
+Length  512/128, alignment  1/11, found:	341.938	843.125	112.812	232.562
+Length  512/128, alignment 14/ 5, fail :	362.375	661.062	58.75	211.375
+Length  512/256, alignment  1/11, found:	397.188	1506.44	231.625	387.438
+Length  512/256, alignment 14/ 5, fail :	425.188	1160.44	86.3125	381.062
+Length 1024/ 16, alignment  1/11, found:	862.562	2358.06	143.062	233.812
+Length 1024/ 16, alignment 14/ 5, fail :	814.812	2380.69	125.812	204.125
+Length 1024/ 32, alignment  1/11, found:	1062.31	754.188	126.562	211.375
+Length 1024/ 32, alignment 14/ 5, fail :	959.25	757.25	101.5	196.562
+Length 1024/ 64, alignment  1/11, found:	907.938	857.938	188.812	197
+Length 1024/ 64, alignment 14/ 5, fail :	871.812	765.438	158.812	193.188
+Length 1024/128, alignment  1/11, found:	753.75	1057.62	163.875	276.875
+Length 1024/128, alignment 14/ 5, fail :	728.875	922.125	96.6875	250.812
+Length 1024/256, alignment  1/11, found:	752.438	1423.12	287.25	416.562
+Length 1024/256, alignment 14/ 5, fail :	729.25	1113.5	112.875	395.25
+Length 2048/ 16, alignment  1/11, found:	1982.44	4918.75	194.688	462.625
+Length 2048/ 16, alignment 14/ 5, fail :	1937.88	4832.94	199.062	430.625
+Length 2048/ 32, alignment  1/11, found:	1931.12	1086.69	219.438	337.562
+Length 2048/ 32, alignment 14/ 5, fail :	1936.81	1020.44	193.562	313.812
+Length 2048/ 64, alignment  1/11, found:	1457.88	1131.25	233	351.5
+Length 2048/ 64, alignment 14/ 5, fail :	1418	1025.31	205.312	326.625
+Length 2048/128, alignment  1/11, found:	1717.5	1377.38	360.438	348
+Length 2048/128, alignment 14/ 5, fail :	1680.81	1291.69	282.5	327.812
+Length 2048/256, alignment  1/11, found:	1561.38	1959.31	473	486.562
+Length 2048/256, alignment 14/ 5, fail :	1509.69	1643.81	308.5	515.188
+Length 4096/ 16, alignment  1/11, found:	3307.5	9789.75	472.812	778.062
+Length 4096/ 16, alignment 14/ 5, fail :	3169	9818.38	433.562	727.938
+Length 4096/ 32, alignment  1/11, found:	4002.56	2269	477.125	691.125
+Length 4096/ 32, alignment 14/ 5, fail :	3950.38	2177.81	442.688	646
+Length 4096/ 64, alignment  1/11, found:	2790.62	1777.44	568.25	495.875
+Length 4096/ 64, alignment 14/ 5, fail :	2794.62	1671.44	441	471.688
+Length 4096/128, alignment  1/11, found:	2945.81	1666.19	451.562	414.25
+Length 4096/128, alignment 14/ 5, fail :	2919.31	1454.69	386.5	390.875
+Length 4096/256, alignment  1/11, found:	3059.19	2362.75	1011.88	716.188
+Length 4096/256, alignment 14/ 5, fail :	3001.75	2127.12	774.875	687.938
+Length 8192/ 16, alignment  1/11, found:	5774.12	20534	811.625	1137.25
+Length 8192/ 16, alignment 14/ 5, fail :	5751.94	20580.4	801.188	1099.69
+Length 8192/ 32, alignment  1/11, found:	5999.31	4033.75	690.625	922.125
+Length 8192/ 32, alignment 14/ 5, fail :	5967.31	3911.5	710	881.562
+Length 8192/ 64, alignment  1/11, found:	5881.69	2569.88	934.5	716.062
+Length 8192/ 64, alignment 14/ 5, fail :	5936.88	2429.56	869.75	673.188
+Length 8192/128, alignment  1/11, found:	7829.44	3103.75	969.438	831.5
+Length 8192/128, alignment 14/ 5, fail :	7886.12	2924.88	894.938	797.25
+Length 8192/256, alignment  1/11, found:	6529.38	3234.25	1751.12	1142.62
+Length 8192/256, alignment 14/ 5, fail :	6615.94	2828.44	1474.44	1103.31
+Length 16384/ 16, alignment  1/11, found:	15609.7	1448.19	1531.56	2387.38
+Length 16384/ 16, alignment 14/ 5, fail :	15575.8	1404.81	1551.94	2403.06
+Length 16384/ 32, alignment  1/11, found:	11697.2	7173.62	1289.69	1931.44
+Length 16384/ 32, alignment 14/ 5, fail :	11785.6	6967.56	1272.31	1870.12
+Length 16384/ 64, alignment  1/11, found:	12487	5170.44	1883.31	1952
+Length 16384/ 64, alignment 14/ 5, fail :	12396.4	4960.69	1815.94	1879
+Length 16384/128, alignment  1/11, found:	11357.3	4258.38	1797	1986.25
+Length 16384/128, alignment 14/ 5, fail :	11318.8	4088	1718.06	1952.38
+Length 16384/256, alignment  1/11, found:	11945.4	4657.88	2661.81	1993.62
+Length 16384/256, alignment 14/ 5, fail :	11937.1	4202.56	2453.81	1922.06
+Length 32768/ 16, alignment  1/11, found:	26546.7	81783.9	5199.25	5715.5
+Length 32768/ 16, alignment 14/ 5, fail :	26461.7	81821.1	5181.62	5592.19
+Length 32768/ 32, alignment  1/11, found:	23998.8	16900.4	3162.25	4747.31
+Length 32768/ 32, alignment 14/ 5, fail :	24915.7	17377.9	3187.06	4663.69
+Length 32768/ 64, alignment  1/11, found:	25395.9	13770.1	4505.5	3097.56
+Length 32768/ 64, alignment 14/ 5, fail :	25313.2	13279.9	4493.62	2989.31
+Length 32768/128, alignment  1/11, found:	26842.2	14665.8	3395.81	3960.12
+Length 32768/128, alignment 14/ 5, fail :	27024.8	14200.1	3352.44	3894.44
+Length 32768/256, alignment  1/11, found:	28226	10125.9	6254.81	3415.31
+Length 32768/256, alignment 14/ 5, fail :	28234.7	9566.81	6206.31	3286.56
+Length 65536/ 16, alignment  1/11, found:	53614.8	174506	5074.75	13293.6
+Length 65536/ 16, alignment 14/ 5, fail :	55802.3	178820	5127.56	13039.7
+Length 65536/ 32, alignment  1/11, found:	52740.2	33396.8	5839.44	6669
+Length 65536/ 32, alignment 14/ 5, fail :	52791.4	27808.9	4676.81	5315.38
+Length 65536/ 64, alignment  1/11, found:	42602.1	22494.4	7132.12	5318.38
+Length 65536/ 64, alignment 14/ 5, fail :	42514.9	22520	7060.19	5253.69
+Length 65536/128, alignment  1/11, found:	36913.9	11460.2	7172.62	5028.19
+Length 65536/128, alignment 14/ 5, fail :	35931.8	10840.8	6842.69	4754
+Length 65536/256, alignment  1/11, found:	53769	11408.5	11880.2	3833.75
+Length 65536/256, alignment 14/ 5, fail :	58337.1	11067.8	11718.2	3743.81
+Length 65536/ 64, complex needle 1:	980769	27933	500348	502710
+Length 65536/ 64, complex needle 2:	1.40906e+06	170156	488179	438733
+Length 65536/ 64, complex needle 3:	391626	820544	224968	9863.56
+Length 65536/256, complex needle 1:	4.09723e+06	21933.7	466083	498201
+Length 65536/256, complex needle 2:	5.98432e+06	157515	497731	484384
+Length 65536/256, complex needle 3:	444784	738929	205918	2767.12
+Length 65536/1024, complex needle 1:	1.70186e+07	11991.6	101332	9671.81
+Length 65536/1024, complex needle 2:	1.93555e+07	148762	207983	172024
+Length 65536/1024, complex needle 3:	478502	716015	179579	822623

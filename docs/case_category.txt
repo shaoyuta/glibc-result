@@ -1,0 +1,152 @@
+-rwxr-xr-x    1 shaoyuta UsersGrp     86984 Apr 21 01:22 bench-acos
+-rwxr-xr-x    1 shaoyuta UsersGrp     48416 Apr 21 01:22 bench-acosh
+-rwxr-xr-x    1 shaoyuta UsersGrp     83784 Apr 21 01:22 bench-asin
+-rwxr-xr-x    1 shaoyuta UsersGrp     48352 Apr 21 01:22 bench-asinh
+-rwxr-xr-x    1 shaoyuta UsersGrp     56488 Apr 21 01:22 bench-atan
+-rwxr-xr-x    1 shaoyuta UsersGrp     67648 Apr 21 01:22 bench-atan2
+-rwxr-xr-x    1 shaoyuta UsersGrp     46784 Apr 21 01:22 bench-atanh
+-rwxr-xr-x    1 shaoyuta UsersGrp     59552 Apr 21 01:22 bench-cbrt
+-rwxr-xr-x    1 shaoyuta UsersGrp     75792 Apr 21 01:22 bench-cbrtl
+-rwxr-xr-x    1 shaoyuta UsersGrp     82120 Apr 21 01:22 bench-cos
+-rwxr-xr-x    1 shaoyuta UsersGrp     82000 Apr 21 01:22 bench-cosf
+-rwxr-xr-x    1 shaoyuta UsersGrp     50016 Apr 21 01:22 bench-cosh
+-rwxr-xr-x    1 shaoyuta UsersGrp     56176 Apr 21 01:22 bench-erf
+-rwxr-xr-x    1 shaoyuta UsersGrp     56256 Apr 21 01:22 bench-erfc
+-rwxr-xr-x    1 shaoyuta UsersGrp     69184 Apr 21 01:22 bench-exp
+-rwxr-xr-x    1 shaoyuta UsersGrp     56272 Apr 21 01:22 bench-exp10
+-rwxr-xr-x    1 shaoyuta UsersGrp     81760 Apr 21 01:22 bench-exp10f
+-rwxr-xr-x    1 shaoyuta UsersGrp     45216 Apr 21 01:22 bench-exp2
+-rwxr-xr-x    1 shaoyuta UsersGrp     81760 Apr 21 01:22 bench-exp2f
+-rwxr-xr-x    1 shaoyuta UsersGrp     81760 Apr 21 01:22 bench-expf
+-rwxr-xr-x    1 shaoyuta UsersGrp     84024 Apr 21 01:22 bench-expf128
+-rwxr-xr-x    1 shaoyuta UsersGrp     56288 Apr 21 01:22 bench-expm1
+-rwxr-xr-x    1 shaoyuta UsersGrp     44448 Apr 21 01:22 bench-fmax
+-rwxr-xr-x    1 shaoyuta UsersGrp     44312 Apr 21 01:22 bench-fmaxf
+-rwxr-xr-x    1 shaoyuta UsersGrp     44448 Apr 21 01:22 bench-fmin
+-rwxr-xr-x    1 shaoyuta UsersGrp     44312 Apr 21 01:22 bench-fminf
+-rwxr-xr-x    1 shaoyuta UsersGrp     44064 Apr 21 01:22 bench-hypot
+-rwxr-xr-x    1 shaoyuta UsersGrp     43760 Apr 21 01:22 bench-ilogb
+-rwxr-xr-x    1 shaoyuta UsersGrp     43776 Apr 21 01:22 bench-ilogbf
+-rwxr-xr-x    1 shaoyuta UsersGrp     52184 Apr 21 01:22 bench-ilogbf128
+-rwxr-xr-x    1 shaoyuta UsersGrp     44176 Apr 21 01:22 bench-isfinite
+-rwxr-xr-x    1 shaoyuta UsersGrp     44152 Apr 21 01:22 bench-isinf
+-rwxr-xr-x    1 shaoyuta UsersGrp     44152 Apr 21 01:22 bench-isnan
+-rwxr-xr-x    1 shaoyuta UsersGrp     59608 Apr 21 01:22 bench-j0
+-rwxr-xr-x    1 shaoyuta UsersGrp     59608 Apr 21 01:22 bench-j1
+-rwxr-xr-x    1 shaoyuta UsersGrp     59616 Apr 21 01:22 bench-lgamma
+-rwxr-xr-x    1 shaoyuta UsersGrp     48296 Apr 21 01:22 bench-log
+-rwxr-xr-x    1 shaoyuta UsersGrp     59616 Apr 21 01:22 bench-log10
+-rwxr-xr-x    1 shaoyuta UsersGrp     59616 Apr 21 01:22 bench-log1p
+-rwxr-xr-x    1 shaoyuta UsersGrp     46784 Apr 21 01:22 bench-log2
+-rwxr-xr-x    1 shaoyuta UsersGrp     89760 Apr 21 01:22 bench-log2f
+-rwxr-xr-x    1 shaoyuta UsersGrp     43688 Apr 21 01:22 bench-logb
+-rwxr-xr-x    1 shaoyuta UsersGrp     43792 Apr 21 01:22 bench-logbf
+-rwxr-xr-x    1 shaoyuta UsersGrp     89760 Apr 21 01:22 bench-logf
+-rwxr-xr-x    1 shaoyuta UsersGrp    129936 Apr 21 01:22 bench-math-inlines
+-rwxr-xr-x    1 shaoyuta UsersGrp     43360 Apr 21 01:22 bench-modf
+-rwxr-xr-x    1 shaoyuta UsersGrp     79984 Apr 21 01:22 bench-pow
+-rwxr-xr-x    1 shaoyuta UsersGrp     83736 Apr 21 01:22 bench-powf
+-rwxr-xr-x    1 shaoyuta UsersGrp    100056 Apr 21 01:22 bench-powf128
+
+-rwxr-xr-x    1 shaoyuta UsersGrp     45512 Apr 21 01:22 bench-ffs
+-rwxr-xr-x    1 shaoyuta UsersGrp     45520 Apr 21 01:22 bench-ffsll
+
+
+
+-rwxr-xr-x    1 shaoyuta UsersGrp     44680 Apr 21 01:22 bench-malloc-simple
+-rwxr-xr-x    1 shaoyuta UsersGrp     49328 Apr 21 01:22 bench-malloc-thread
+
+-rwxr-xr-x    1 shaoyuta UsersGrp    121912 Apr 21 01:22 bench-memccpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    120560 Apr 21 01:22 bench-memchr
+-rwxr-xr-x    1 shaoyuta UsersGrp    132768 Apr 21 01:22 bench-memcmp
+-rwxr-xr-x    1 shaoyuta UsersGrp    130632 Apr 21 01:22 bench-memcpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    120328 Apr 21 01:22 bench-memcpy-large
+-rwxr-xr-x    1 shaoyuta UsersGrp    123056 Apr 21 01:22 bench-memcpy-random
+-rwxr-xr-x    1 shaoyuta UsersGrp    119480 Apr 21 01:22 bench-memcpy-walk
+-rwxr-xr-x    1 shaoyuta UsersGrp    137896 Apr 21 01:22 bench-memmem
+-rwxr-xr-x    1 shaoyuta UsersGrp    131072 Apr 21 01:22 bench-memmove
+-rwxr-xr-x    1 shaoyuta UsersGrp    119984 Apr 21 01:22 bench-memmove-large
+-rwxr-xr-x    1 shaoyuta UsersGrp    119168 Apr 21 01:22 bench-memmove-walk
+-rwxr-xr-x    1 shaoyuta UsersGrp    131152 Apr 21 01:22 bench-mempcpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    120744 Apr 21 01:22 bench-memrchr
+-rwxr-xr-x    1 shaoyuta UsersGrp    121632 Apr 21 01:22 bench-memset
+-rwxr-xr-x    1 shaoyuta UsersGrp    120320 Apr 21 01:22 bench-memset-large
+-rwxr-xr-x    1 shaoyuta UsersGrp    120536 Apr 21 01:22 bench-memset-walk
+-rwxr-xr-x    1 shaoyuta UsersGrp     43480 Apr 21 01:22 bench-rint
+-rwxr-xr-x    1 shaoyuta UsersGrp     44208 Apr 21 01:22 bench-roundeven
+-rwxr-xr-x    1 shaoyuta UsersGrp     44200 Apr 21 01:22 bench-roundevenf
+-rwxr-xr-x    1 shaoyuta UsersGrp    122304 Apr 21 01:22 bench-sin
+-rwxr-xr-x    1 shaoyuta UsersGrp    125488 Apr 21 01:22 bench-sincos
+-rwxr-xr-x    1 shaoyuta UsersGrp    128200 Apr 21 01:22 bench-sincosf
+-rwxr-xr-x    1 shaoyuta UsersGrp    122216 Apr 21 01:22 bench-sinf
+-rwxr-xr-x    1 shaoyuta UsersGrp    116128 Apr 21 01:22 bench-sinf128
+-rwxr-xr-x    1 shaoyuta UsersGrp     48416 Apr 21 01:22 bench-sinh
+-rwxr-xr-x    1 shaoyuta UsersGrp     44120 Apr 21 01:22 bench-sqrt
+-rwxr-xr-x    1 shaoyuta UsersGrp     98888 Apr 21 01:22 bench-tan
+-rwxr-xr-x    1 shaoyuta UsersGrp     46720 Apr 21 01:22 bench-tanh
+-rwxr-xr-x    1 shaoyuta UsersGrp     59616 Apr 21 01:22 bench-tgamma
+
+-rwxr-xr-x    1 shaoyuta UsersGrp    130912 Apr 21 01:22 bench-pthread-locks
+-rwxr-xr-x    1 shaoyuta UsersGrp     43480 Apr 21 01:22 bench-pthread_once
+-rwxr-xr-x    1 shaoyuta UsersGrp    121696 Apr 21 01:22 bench-rawmemchr
+
+
+
+
+-rwxr-xr-x    1 shaoyuta UsersGrp     44336 Apr 21 01:22 bench-sprintf
+
+
+-rwxr-xr-x    1 shaoyuta UsersGrp    121840 Apr 21 01:22 bench-stpcpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    130304 Apr 21 01:22 bench-stpcpy_chk
+-rwxr-xr-x    1 shaoyuta UsersGrp    122816 Apr 21 01:22 bench-stpncpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    128384 Apr 21 01:22 bench-strcasecmp
+-rwxr-xr-x    1 shaoyuta UsersGrp    150112 Apr 21 01:22 bench-strcasestr
+-rwxr-xr-x    1 shaoyuta UsersGrp    121552 Apr 21 01:22 bench-strcat
+-rwxr-xr-x    1 shaoyuta UsersGrp    121104 Apr 21 01:22 bench-strchr
+-rwxr-xr-x    1 shaoyuta UsersGrp    121136 Apr 21 01:22 bench-strchrnul
+-rwxr-xr-x    1 shaoyuta UsersGrp    135080 Apr 21 01:22 bench-strcmp
+-rwxr-xr-x    1 shaoyuta UsersGrp     47696 Apr 21 01:22 bench-strcoll
+-rwxr-xr-x    1 shaoyuta UsersGrp    121504 Apr 21 01:22 bench-strcpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    130720 Apr 21 01:22 bench-strcpy_chk
+-rwxr-xr-x    1 shaoyuta UsersGrp    121352 Apr 21 01:22 bench-strcspn
+-rwxr-xr-x    1 shaoyuta UsersGrp    121712 Apr 21 01:22 bench-strlen
+-rwxr-xr-x    1 shaoyuta UsersGrp    137560 Apr 21 01:22 bench-strncasecmp
+-rwxr-xr-x    1 shaoyuta UsersGrp     65080 Apr 21 01:22 bench-strncat
+-rwxr-xr-x    1 shaoyuta UsersGrp    155680 Apr 21 01:22 bench-strncmp
+-rwxr-xr-x    1 shaoyuta UsersGrp    122768 Apr 21 01:22 bench-strncpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    123376 Apr 21 01:22 bench-strnlen
+-rwxr-xr-x    1 shaoyuta UsersGrp    121352 Apr 21 01:22 bench-strpbrk
+-rwxr-xr-x    1 shaoyuta UsersGrp    121320 Apr 21 01:22 bench-strrchr
+-rwxr-xr-x    1 shaoyuta UsersGrp    124488 Apr 21 01:22 bench-strsep
+-rwxr-xr-x    1 shaoyuta UsersGrp    120832 Apr 21 01:22 bench-strspn
+-rwxr-xr-x    1 shaoyuta UsersGrp    147168 Apr 21 01:22 bench-strstr
+-rwxr-xr-x    1 shaoyuta UsersGrp    105296 Apr 21 01:22 bench-strtod
+-rwxr-xr-x    1 shaoyuta UsersGrp    124048 Apr 21 01:22 bench-strtok
+
+
+
+-rwxr-xr-x    1 shaoyuta UsersGrp     81368 Apr 21 01:22 bench-thread_create
+-rwxr-xr-x    1 shaoyuta UsersGrp     36176 Apr 21 01:22 bench-timing-type
+-rwxr-xr-x    1 shaoyuta UsersGrp     44208 Apr 21 01:22 bench-trunc
+-rwxr-xr-x    1 shaoyuta UsersGrp     44192 Apr 21 01:22 bench-truncf
+-rwxr-xr-x    1 shaoyuta UsersGrp    122448 Apr 21 01:22 bench-wcpcpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    122880 Apr 21 01:22 bench-wcpncpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    122256 Apr 21 01:22 bench-wcscat
+-rwxr-xr-x    1 shaoyuta UsersGrp    121456 Apr 21 01:22 bench-wcschr
+-rwxr-xr-x    1 shaoyuta UsersGrp    121496 Apr 21 01:22 bench-wcschrnul
+-rwxr-xr-x    1 shaoyuta UsersGrp    135656 Apr 21 01:22 bench-wcscmp
+-rwxr-xr-x    1 shaoyuta UsersGrp    122368 Apr 21 01:22 bench-wcscpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    121112 Apr 21 01:22 bench-wcscspn
+-rwxr-xr-x    1 shaoyuta UsersGrp    120648 Apr 21 01:22 bench-wcslen
+-rwxr-xr-x    1 shaoyuta UsersGrp     65360 Apr 21 01:22 bench-wcsncat
+-rwxr-xr-x    1 shaoyuta UsersGrp    155760 Apr 21 01:22 bench-wcsncmp
+-rwxr-xr-x    1 shaoyuta UsersGrp    122816 Apr 21 01:22 bench-wcsncpy
+-rwxr-xr-x    1 shaoyuta UsersGrp    121376 Apr 21 01:22 bench-wcsnlen
+-rwxr-xr-x    1 shaoyuta UsersGrp    121016 Apr 21 01:22 bench-wcspbrk
+-rwxr-xr-x    1 shaoyuta UsersGrp    121560 Apr 21 01:22 bench-wcsrchr
+-rwxr-xr-x    1 shaoyuta UsersGrp    120704 Apr 21 01:22 bench-wcsspn
+-rwxr-xr-x    1 shaoyuta UsersGrp    120672 Apr 21 01:22 bench-wmemchr
+-rwxr-xr-x    1 shaoyuta UsersGrp    133040 Apr 21 01:22 bench-wmemcmp
+-rwxr-xr-x    1 shaoyuta UsersGrp    120936 Apr 21 01:22 bench-wmemset
+-rwxr-xr-x    1 shaoyuta UsersGrp     59608 Apr 21 01:22 bench-y0
+-rwxr-xr-x    1 shaoyuta UsersGrp     59608 Apr 21 01:22 bench-y1

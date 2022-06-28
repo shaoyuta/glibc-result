@@ -1,0 +1,16 @@
+  "sprintf": {
+   "positional": {
+    "duration": 1.60052e+09,
+    "iterations": 2.274e+06,
+    "max": 811.436,
+    "min": 564.156,
+    "mean": 703.836
+   },
+   "non-positional": {
+    "duration": 1.59997e+09,
+    "iterations": 3.454e+06,
+    "max": 593.878,
+    "min": 374.262,
+    "mean": 463.223
+   }
+  }

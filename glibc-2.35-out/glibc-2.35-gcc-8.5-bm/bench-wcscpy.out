@@ -1,0 +1,1607 @@
+                       	generic_wcscpy	__wcscpy_ssse3	__wcscpy_sse2
+Length    0, alignments in bytes  0/ 0:	9.30591	2.58862	9.29932
+Length    0, alignments in bytes  0/ 0:	8.78174	2.59644	7.75464
+Length    0, alignments in bytes  0/ 0:	8.7771	3.3855	8.26636
+Length    0, alignments in bytes  0/ 0:	8.80176	2.58472	7.74341
+Length    1, alignments in bytes  0/ 0:	8.78125	2.59277	7.74731
+Length    1, alignments in bytes  0/ 0:	8.78125	2.59375	7.75049
+Length    1, alignments in bytes  0/ 4:	8.7793	2.58936	7.74805
+Length    1, alignments in bytes  4/ 0:	8.7749	2.58691	7.74707
+Length    2, alignments in bytes  0/ 0:	8.77393	2.59253	7.7439
+Length    2, alignments in bytes  0/ 0:	8.77368	2.61401	7.74707
+Length    2, alignments in bytes  0/ 8:	8.77515	2.58911	7.74487
+Length    2, alignments in bytes  8/ 0:	8.7749	2.58887	7.74268
+Length    3, alignments in bytes  0/ 0:	9.71436	2.59619	9.29614
+Length    3, alignments in bytes  0/ 0:	9.29761	2.59766	8.26782
+Length    3, alignments in bytes  0/12:	9.29517	2.58691	8.26514
+Length    3, alignments in bytes 12/ 0:	9.29102	2.58765	8.26245
+Length    4, alignments in bytes  0/ 0:	9.29053	3.62695	8.26123
+Length    4, alignments in bytes  0/ 0:	9.29395	3.62329	8.25806
+Length    4, alignments in bytes  0/16:	9.29297	3.61914	8.26562
+Length    4, alignments in bytes 16/ 0:	9.29028	3.10547	8.45093
+Length    5, alignments in bytes  0/ 0:	8.72925	3.40454	7.75806
+Length    5, alignments in bytes  0/ 0:	8.72656	3.65186	8.7251
+Length    5, alignments in bytes  0/20:	8.72632	3.39697	8.72998
+Length    5, alignments in bytes 20/ 0:	8.72656	3.40503	7.75806
+Length    6, alignments in bytes  0/ 0:	8.72681	3.8855	7.76245
+Length    6, alignments in bytes  0/ 0:	8.72656	3.88647	7.76074
+Length    6, alignments in bytes  0/24:	8.72607	3.88403	7.7583
+Length    6, alignments in bytes 24/ 0:	8.72656	5.83252	7.75854
+Length    7, alignments in bytes  0/ 0:	8.24854	3.40747	7.27979
+Length    7, alignments in bytes  0/ 0:	8.24756	3.4021	7.2832
+Length    7, alignments in bytes  0/28:	8.24683	3.39673	9.81714
+Length    7, alignments in bytes 28/ 0:	8.50342	6.02344	7.50342
+Length    8, alignments in bytes  0/ 0:	10.0081	4.26099	8.50317
+Length    8, alignments in bytes  0/ 0:	9.50952	4.26147	8.5083
+Length    8, alignments in bytes  0/ 0:	9.49951	4.50586	8.00903
+Length    8, alignments in bytes  0/ 0:	10.4412	4.36865	9.21558
+Length    9, alignments in bytes  0/ 0:	11.5789	4.37476	11.1548
+Length    9, alignments in bytes  0/ 0:	10.186	4.37354	9.70068
+Length    9, alignments in bytes  0/ 4:	10.1853	5.83252	8.2981
+Length    9, alignments in bytes  4/ 0:	10.6138	4.86401	7.78149
+Length   10, alignments in bytes  0/ 0:	9.21289	4.37256	7.7771
+Length   10, alignments in bytes  0/ 0:	9.21509	4.37207	7.7605
+Length   10, alignments in bytes  0/ 8:	10.6675	6.32227	7.7583
+Length   10, alignments in bytes  8/ 0:	9.21436	6.77466	7.75781
+Length   11, alignments in bytes  0/ 0:	10.1829	4.37891	9.2146
+Length   11, alignments in bytes  0/ 0:	10.1824	4.37427	9.69629
+Length   11, alignments in bytes  0/12:	10.1833	5.8396	8.72974
+Length   11, alignments in bytes 12/ 0:	9.45703	6.31543	7.77588
+Length   12, alignments in bytes  0/ 0:	9.21436	4.86938	7.76099
+Length   12, alignments in bytes  0/ 0:	9.21533	4.85645	7.75879
+Length   12, alignments in bytes  0/16:	9.21436	4.61377	7.75879
+Length   12, alignments in bytes 16/ 0:	9.22266	4.61377	8.24854
+Length   13, alignments in bytes  0/ 0:	9.21558	4.85938	7.78101
+Length   13, alignments in bytes  0/ 0:	9.21362	4.61938	8.24292
+Length   13, alignments in bytes  0/20:	9.21411	6.31641	8.24878
+Length   13, alignments in bytes 20/ 0:	9.21948	6.04492	8.25635
+Length   14, alignments in bytes  0/ 0:	9.21313	4.86157	7.76196
+Length   14, alignments in bytes  0/ 0:	9.21167	6.29102	7.77441
+Length   14, alignments in bytes  0/24:	9.2124	6.32373	9.69897
+Length   14, alignments in bytes 24/ 0:	10.6206	6.75562	8.2439
+Length   15, alignments in bytes  0/ 0:	8.24902	4.85986	7.28149
+Length   15, alignments in bytes  0/ 0:	8.25171	5.34009	7.28271
+Length   15, alignments in bytes  0/28:	8.2478	6.23999	7.27734
+Length   15, alignments in bytes 28/ 0:	8.25146	6.43896	7.56006
+Length   16, alignments in bytes  0/ 0:	8.25269	5.11011	7.28271
+Length   16, alignments in bytes 28/ 8:	8.24658	6.32129	6.79272
+Length   32, alignments in bytes  0/ 0:	11.6509	8.5813	8.76074
+Length   32, alignments in bytes 24/16:	10.1899	12.3027	9.22095
+Length   64, alignments in bytes  0/ 0:	11.9131	12.0303	11.4915
+Length   64, alignments in bytes 20/24:	13.4744	17.02	13.2556
+Length  128, alignments in bytes  0/ 0:	16.2588	17.8003	15.5281
+Length  128, alignments in bytes 16/ 0:	15.522	18.2722	15.7417
+Length  256, alignments in bytes  0/ 0:	21.345	30.084	20.6448
+Length  256, alignments in bytes 12/ 8:	25.8672	43.6594	25.7761
+Length  512, alignments in bytes  0/ 0:	46.2676	50.2349	44.9856
+Length  512, alignments in bytes  8/16:	52.5964	68.3857	52.6741
+Length 1024, alignments in bytes  0/ 0:	85.3999	101.062	96.5156
+Length 1024, alignments in bytes  4/24:	108.539	130.575	117.038
+Length   16, alignments in bytes  4/ 8:	10.1909	6.802	9.22144
+Length   16, alignments in bytes  8/ 4:	10.1863	6.32056	9.21338
+Length   16, alignments in bytes  4/ 4:	10.6689	5.10645	8.24341
+Length   16, alignments in bytes  4/ 4:	9.21875	5.10034	8.24365
+Length   32, alignments in bytes  8/16:	12.3748	11.5662	11.1592
+Length   32, alignments in bytes 16/ 8:	12.3552	12.0547	10.1963
+Length   32, alignments in bytes  8/ 8:	11.1543	8.82935	9.21411
+Length   32, alignments in bytes  8/ 8:	10.6704	8.81982	10.4243
+Length   64, alignments in bytes 12/24:	13.3459	15.6885	12.8406
+Length   64, alignments in bytes 24/12:	13.0356	16.6199	12.8232
+Length   64, alignments in bytes 12/12:	13.01	12.7041	12.8354
+Length   64, alignments in bytes 12/12:	13.0425	11.9575	12.8162
+Length  128, alignments in bytes 16/ 0:	15.7048	18.3052	16.49
+Length  128, alignments in bytes  0/16:	14.802	18.9634	16.5281
+Length  128, alignments in bytes 16/16:	15.6836	19.4597	17.2117
+Length  128, alignments in bytes 16/16:	16.5205	19.4504	16.5085
+Length  256, alignments in bytes 20/ 8:	27.5027	46.1238	25.9988
+Length  256, alignments in bytes  8/20:	28.0071	40.9106	26.1667
+Length  256, alignments in bytes 20/20:	23.2815	32.5173	22.2493
+Length  256, alignments in bytes 20/20:	22.3962	31.3555	22.2771
+Length  512, alignments in bytes 24/16:	45.7771	77.8354	46.0417
+Length  512, alignments in bytes 16/24:	57.3599	75.083	58.0869
+Length  512, alignments in bytes 24/24:	49.0183	56.8335	49.0464
+Length  512, alignments in bytes 24/24:	49.7625	55.3638	50.1174
+Length 1024, alignments in bytes 28/24:	109.937	144.977	110.206
+Length 1024, alignments in bytes 24/28:	117.421	145.528	107.845
+Length 1024, alignments in bytes 28/28:	86.4883	97.7632	87.0198
+Length 1024, alignments in bytes 28/28:	87.2751	95.7883	87.376
+Length   16, alignments in bytes  0/16:	9.77612	4.6814	8.44653
+Length   16, alignments in bytes 16/ 0:	9.33691	4.67163	7.57617
+Length   16, alignments in bytes 16/16:	8.45117	4.67407	7.55835
+Length   16, alignments in bytes  8/ 8:	9.33228	5.34985	7.55591
+Length   16, alignments in bytes  8/24:	8.44678	5.34351	7.55566
+Length   16, alignments in bytes 24/ 8:	8.44946	5.7644	7.56421
+Length   16, alignments in bytes  4/28:	9.33496	6.23657	7.56274
+Length   16, alignments in bytes 28/ 4:	8.96216	5.80029	8.0022
+Length   16, alignments in bytes 12/16:	9.77856	6.24805	8.44678
+Length   16, alignments in bytes 16/12:	8.44434	6.08862	7.55591
+Length   16, alignments in bytes 20/28:	8.44653	6.16138	7.11377
+Length   16, alignments in bytes 28/20:	9.3335	5.79517	7.11377
+Length   20, alignments in bytes  0/16:	9.33472	5.3457	7.5564
+Length   20, alignments in bytes 16/ 0:	7.57129	5.12012	6.67969
+Length   20, alignments in bytes 16/16:	7.56421	5.11523	6.67407
+Length   20, alignments in bytes  8/ 8:	7.55811	5.4519	8.29346
+Length   20, alignments in bytes  8/24:	8.24438	5.8291	7.27612
+Length   20, alignments in bytes 24/ 8:	9.66919	6.29883	7.27808
+Length   20, alignments in bytes  4/28:	8.28101	10.6025	7.74487
+Length   20, alignments in bytes 28/ 4:	8.77563	7.40771	7.7478
+Length   20, alignments in bytes 12/16:	8.77832	7.50122	8.2605
+Length   20, alignments in bytes 16/12:	9.80737	11.2961	7.74805
+Length   20, alignments in bytes 20/28:	9.8103	11.8916	7.7478
+Length   20, alignments in bytes 28/20:	8.77832	9.56738	7.23218
+Length   24, alignments in bytes  0/16:	8.78101	6.48486	7.75342
+Length   24, alignments in bytes 16/ 0:	8.77808	6.46216	7.74683
+Length   24, alignments in bytes 16/16:	8.78296	6.45923	7.74585
+Length   24, alignments in bytes  8/ 8:	8.7832	6.73022	7.84473
+Length   24, alignments in bytes  8/24:	9.38428	7.1792	8.28418
+Length   24, alignments in bytes 24/ 8:	10.9878	7.18774	8.28564
+Length   24, alignments in bytes  4/28:	10.4897	12.1758	8.28223
+Length   24, alignments in bytes 28/ 4:	10.0505	13.1731	8.28418
+Length   24, alignments in bytes 12/16:	9.38916	12.7114	8.28076
+Length   24, alignments in bytes 16/12:	9.38428	12.9141	8.00562
+Length   24, alignments in bytes 20/28:	9.71851	13.3462	8.00366
+Length   24, alignments in bytes 28/20:	11.4475	13.6311	8.00439
+Length   28, alignments in bytes  0/16:	9.72119	7.73853	8.58252
+Length   28, alignments in bytes 16/ 0:	10.875	7.74316	9.16333
+Length   28, alignments in bytes 16/16:	9.73755	7.72583	9.15186
+Length   28, alignments in bytes  8/ 8:	9.75	8.0293	9.15259
+Length   28, alignments in bytes  8/24:	9.7251	8.01367	8.57617
+Length   28, alignments in bytes 24/ 8:	11.4333	8.00708	9.15625
+Length   28, alignments in bytes  4/28:	9.72168	13.3477	8.57642
+Length   28, alignments in bytes 28/ 4:	10.2908	13.6301	9.7373
+Length   28, alignments in bytes 12/16:	9.72559	13.7397	8.57837
+Length   28, alignments in bytes 16/12:	11.4341	13.2678	9.14917
+Length   28, alignments in bytes 20/28:	11.4329	13.3555	9.14868
+Length   28, alignments in bytes 28/20:	11.4324	14.2957	9.146
+Length   32, alignments in bytes  0/16:	14.2898	10.3113	12.085
+Length   32, alignments in bytes 16/ 0:	13.7144	11.3599	12.3152
+Length   32, alignments in bytes 16/16:	13.1436	10.6792	12.01
+Length   32, alignments in bytes  8/ 8:	13.1479	10.3877	12.0466
+Length   32, alignments in bytes  8/24:	13.7146	10.395	12.5718
+Length   32, alignments in bytes 24/ 8:	13.7188	10.9717	14.2898
+Length   32, alignments in bytes  4/28:	14.8569	13.9492	13.7129
+Length   32, alignments in bytes 28/ 4:	14.1858	13.9961	13.7996
+Length   32, alignments in bytes 12/16:	14.3445	13.2698	13.2405
+Length   32, alignments in bytes 16/12:	14.3428	13.6633	13.2441
+Length   32, alignments in bytes 20/28:	14.3423	13.8198	13.7922
+Length   32, alignments in bytes 28/20:	14.2534	13.9929	13.7917
+Length   36, alignments in bytes  0/16:	13.8108	10.312	12.144
+Length   36, alignments in bytes 16/ 0:	12.1602	10.8674	11.0493
+Length   36, alignments in bytes 16/16:	11.6125	10.8899	11.0493
+Length   36, alignments in bytes  8/ 8:	11.5881	10.5916	12.1567
+Length   36, alignments in bytes  8/24:	12.1416	11.4043	12.145
+Length   36, alignments in bytes 24/ 8:	12.6975	11.1372	12.1433
+Length   36, alignments in bytes  4/28:	11.5867	13.7266	11.3186
+Length   36, alignments in bytes 28/ 4:	11.5925	14.8186	11.041
+Length   36, alignments in bytes 12/16:	13.2451	14.0945	12.6899
+Length   36, alignments in bytes 16/12:	12.1414	15.1018	11.0596
+Length   36, alignments in bytes 20/28:	11.5923	14.5466	11.0393
+Length   36, alignments in bytes 28/20:	13.2446	14.9062	11.3159
+Length   40, alignments in bytes  0/16:	11.5908	10.8674	10.5386
+Length   40, alignments in bytes 16/ 0:	12.1431	11.3208	11.0405
+Length   40, alignments in bytes 16/16:	12.1433	11.3267	11.5593
+Length   40, alignments in bytes  8/ 8:	11.0674	11.1489	11.6038
+Length   40, alignments in bytes  8/24:	12.1616	11.1355	12.6951
+Length   40, alignments in bytes 24/ 8:	13.2451	11.5981	12.6946
+Length   40, alignments in bytes  4/28:	13.2441	14.5603	12.1611
+Length   40, alignments in bytes 28/ 4:	13.2446	15.5515	12.6929
+Length   40, alignments in bytes 12/16:	13.2683	14.9172	11.605
+Length   40, alignments in bytes 16/12:	12.6951	15.2019	12.145
+Length   40, alignments in bytes 20/28:	14.8955	15.2722	12.6943
+Length   40, alignments in bytes 28/20:	12.7869	15.0386	12.2708
+Length   44, alignments in bytes  0/16:	12.2727	10.9734	12.3779
+Length   44, alignments in bytes 16/ 0:	11.9626	10.8662	11.3652
+Length   44, alignments in bytes 16/16:	11.8816	10.7795	10.8489
+Length   44, alignments in bytes  8/ 8:	10.853	10.8513	10.5867
+Length   44, alignments in bytes  8/24:	11.3625	10.8528	11.3596
+Length   44, alignments in bytes 24/ 8:	12.3982	11.0308	11.3623
+Length   44, alignments in bytes  4/28:	11.3638	14.8616	9.91846
+Length   44, alignments in bytes 28/ 4:	12.2715	15.0391	11.209
+Length   44, alignments in bytes 12/16:	11.7407	15.4932	10.6782
+Length   44, alignments in bytes 16/12:	12.7129	14.2227	12.3958
+Length   44, alignments in bytes 20/28:	12.3938	14.2937	11.363
+Length   44, alignments in bytes 28/20:	12.9023	16.7256	12.0093
+Length   48, alignments in bytes  0/16:	12.574	11.9197	12.0046
+Length   48, alignments in bytes 16/ 0:	12.0447	12.5	13.7178
+Length   48, alignments in bytes 16/16:	13.7183	12.4998	12.5925
+Length   48, alignments in bytes  8/ 8:	13.1497	12.2083	13.1465
+Length   48, alignments in bytes  8/24:	14.8572	14.0554	13.7192
+Length   48, alignments in bytes 24/ 8:	13.7439	12.7876	13.1477
+Length   48, alignments in bytes  4/28:	14.2861	15.8223	15.4268
+Length   48, alignments in bytes 28/ 4:	15.4272	16.9685	14.2888
+Length   48, alignments in bytes 12/16:	16.5701	16.3186	15.2651
+Length   48, alignments in bytes 16/12:	13.1462	16.6038	12.0059
+Length   48, alignments in bytes 20/28:	14.8596	16.6909	13.7153
+Length   48, alignments in bytes 28/20:	14.2898	16.9692	13.7183
+Length   52, alignments in bytes  0/16:	14.8601	12.4958	12.0049
+Length   52, alignments in bytes 16/ 0:	13.6743	13.0771	13.7166
+Length   52, alignments in bytes 16/16:	13.7424	13.1699	13.7192
+Length   52, alignments in bytes  8/ 8:	14.8599	12.7776	14.2893
+Length   52, alignments in bytes  8/24:	14.8601	12.7705	13.7173
+Length   52, alignments in bytes 24/ 8:	13.7214	13.3582	12.9712
+Length   52, alignments in bytes  4/28:	12.5999	17.1741	12.0081
+Length   52, alignments in bytes 28/ 4:	13.1472	17.8247	12.0039
+Length   52, alignments in bytes 12/16:	13.7148	17.175	12.0049
+Length   52, alignments in bytes 16/12:	13.1487	17.4619	12.0007
+Length   52, alignments in bytes 20/28:	13.1479	18.23	11.4558
+Length   52, alignments in bytes 28/20:	13.1465	17.8218	12.5757
+Length   56, alignments in bytes  0/16:	13.1526	13.7502	12.5745
+Length   56, alignments in bytes 16/ 0:	13.7148	13.7402	14.2888
+Length   56, alignments in bytes 16/16:	14.2971	13.54	14.8145
+Length   56, alignments in bytes  8/ 8:	15.5356	12.9319	12.696
+Length   56, alignments in bytes  8/24:	13.2419	12.8867	12.1431
+Length   56, alignments in bytes 24/ 8:	13.2415	13.3479	12.1421
+Length   56, alignments in bytes  4/28:	12.6904	16.9412	13.7952
+Length   56, alignments in bytes 28/ 4:	14.8965	18.5474	13.2646
+Length   56, alignments in bytes 12/16:	14.9028	17.4121	11.5901
+Length   56, alignments in bytes 16/12:	13.2424	17.5913	12.1433
+Length   56, alignments in bytes 20/28:	13.2412	17.6733	12.1423
+Length   56, alignments in bytes 28/20:	13.2478	17.9473	12.1394
+Length   60, alignments in bytes  0/16:	13.7119	13.0767	11.5913
+Length   60, alignments in bytes 16/ 0:	13.4043	13.2705	12.9895
+Length   60, alignments in bytes 16/16:	13.8108	13.2637	12.1602
+Length   60, alignments in bytes  8/ 8:	12.7007	13.3535	11.6018
+Length   60, alignments in bytes  8/24:	13.2466	13.3591	12.627
+Length   60, alignments in bytes 24/ 8:	13.2576	13.5532	12.4348
+Length   60, alignments in bytes  4/28:	12.6953	17.676	12.1433
+Length   60, alignments in bytes 28/ 4:	13.9504	17.9543	12.9707
+Length   60, alignments in bytes 12/16:	13.2429	18.2341	12.1465
+Length   60, alignments in bytes 16/12:	13.2507	18.0942	12.8079
+Length   60, alignments in bytes 20/28:	14.9399	17.095	12.9429
+Length   60, alignments in bytes 28/20:	13.4248	16.7856	12.908
+Length   64, alignments in bytes  0/16:	13.5249	12.8203	13.043
+Length   64, alignments in bytes 16/ 0:	13.623	13.3547	13.9468
+Length   64, alignments in bytes 16/16:	14.4292	13.3506	14.2307
+Length   64, alignments in bytes  8/ 8:	14.3682	13.0837	14.126
+Length   64, alignments in bytes  8/24:	14.3472	13.3452	14.4675
+Length   64, alignments in bytes 24/ 8:	15.3813	14.5979	15.1245
+Length   64, alignments in bytes  4/28:	15.4182	19.0464	15.5151
+Length   64, alignments in bytes 28/ 4:	15.9817	20.1807	15.6929
+Length   64, alignments in bytes 12/16:	15.9236	19.5859	15.6809
+Length   64, alignments in bytes 16/12:	15.9773	19.7732	15.626
+Length   64, alignments in bytes 20/28:	16.502	19.877	15.7451
+Length   64, alignments in bytes 28/20:	15.9619	20.1589	15.8384
+Length   68, alignments in bytes  0/16:	14.3916	14.8438	14.4526
+Length   68, alignments in bytes 16/ 0:	14.8232	15.4258	14.8186
+Length   68, alignments in bytes 16/16:	16.7009	15.4238	15.8535
+Length   68, alignments in bytes  8/ 8:	16.0034	15.1309	15.991
+Length   68, alignments in bytes  8/24:	16.6206	15.6997	16.2888
+Length   68, alignments in bytes 24/ 8:	16.5847	16.3342	16.304
+Length   68, alignments in bytes  4/28:	17.043	20.6423	16.2649
+Length   68, alignments in bytes 28/ 4:	16.6106	21.8616	16.3401
+Length   68, alignments in bytes 12/16:	16.6306	21.1016	16.2981
+Length   68, alignments in bytes 16/12:	16.5654	22.2202	16.1868
+Length   68, alignments in bytes 20/28:	16.5874	21.5691	16.2827
+Length   68, alignments in bytes 28/20:	16.6509	21.8533	16.3286
+Length   72, alignments in bytes  0/16:	15.3862	16.0168	15.3906
+Length   72, alignments in bytes 16/ 0:	15.5825	17.2087	15.5798
+Length   72, alignments in bytes 16/16:	16.5894	16.5251	16.3118
+Length   72, alignments in bytes  8/ 8:	16.5586	16.3374	16.3657
+Length   72, alignments in bytes  8/24:	16.4351	16.3213	16.291
+Length   72, alignments in bytes 24/ 8:	17.0642	16.9019	16.2827
+Length   72, alignments in bytes  4/28:	15.6851	21.5547	15.5337
+Length   72, alignments in bytes 28/ 4:	15.3867	22.7161	15.0229
+Length   72, alignments in bytes 12/16:	16.5603	22.1746	16.6753
+Length   72, alignments in bytes 16/12:	16.4629	22.2864	16.2329
+Length   72, alignments in bytes 20/28:	15.3833	22.3787	15.4814
+Length   72, alignments in bytes 28/20:	15.3855	22.6912	15
+Length   76, alignments in bytes  0/16:	15.3926	17.0015	14.9937
+Length   76, alignments in bytes 16/ 0:	16.3369	16.7395	15.5872
+Length   76, alignments in bytes 16/16:	16.3186	16.73	16.571
+Length   76, alignments in bytes  8/ 8:	16.5273	16.8777	16.386
+Length   76, alignments in bytes  8/24:	16.5056	17.2935	16.2566
+Length   76, alignments in bytes 24/ 8:	16.3269	17.0623	16.3945
+Length   76, alignments in bytes  4/28:	16.5947	22.3826	16.3306
+Length   76, alignments in bytes 28/ 4:	16.3223	22.6951	16.4954
+Length   76, alignments in bytes 12/16:	15.8794	22.7981	14.7773
+Length   76, alignments in bytes 16/12:	16.3184	22.293	15.6313
+Length   76, alignments in bytes 20/28:	16.3308	22.3853	16.4551
+Length   76, alignments in bytes 28/20:	16.3142	23.1135	16.502
+Length   80, alignments in bytes  0/16:	16.3232	16.7532	15.0854
+Length   80, alignments in bytes 16/ 0:	16.323	17.3777	15.6987
+Length   80, alignments in bytes 16/16:	16.3242	17.3503	16.3743
+Length   80, alignments in bytes  8/ 8:	16.3276	17.5378	16.4709
+Length   80, alignments in bytes  8/24:	16.3289	17.0596	16.4609
+Length   80, alignments in bytes 24/ 8:	16.3269	17.6719	16.5522
+Length   80, alignments in bytes  4/28:	16.3269	22.3716	16.3921
+Length   80, alignments in bytes 28/ 4:	16.7568	23.614	16.5491
+Length   80, alignments in bytes 12/16:	16.332	22.8025	16.4617
+Length   80, alignments in bytes 16/12:	16.3218	23.2063	16.4414
+Length   80, alignments in bytes 20/28:	16.3208	23.8167	16.3984
+Length   80, alignments in bytes 28/20:	16.3257	23.6001	16.5078
+Length   84, alignments in bytes  0/16:	16.3201	17.4294	15.1008
+Length   84, alignments in bytes 16/ 0:	16.3289	18.041	16.002
+Length   84, alignments in bytes 16/16:	16.7759	19.1011	16.5005
+Length   84, alignments in bytes  8/ 8:	16.3215	17.6638	16.386
+Length   84, alignments in bytes  8/24:	16.3115	17.6565	16.4058
+Length   84, alignments in bytes 24/ 8:	16.3403	18.283	17.0383
+Length   84, alignments in bytes  4/28:	16.333	23.3987	16.3896
+Length   84, alignments in bytes 28/ 4:	16.3245	24.531	16.5068
+Length   84, alignments in bytes 12/16:	16.3289	23.7161	16.3699
+Length   84, alignments in bytes 16/12:	16.3181	24.6626	16.4082
+Length   84, alignments in bytes 20/28:	16.3442	23.9844	15.832
+Length   84, alignments in bytes 28/20:	15.9319	22.0803	14.7974
+Length   88, alignments in bytes  0/16:	13.7673	14.1638	11.8972
+Length   88, alignments in bytes 16/ 0:	13.8616	14.5645	12.3162
+Length   88, alignments in bytes 16/16:	12.8616	14.5488	12.981
+Length   88, alignments in bytes  8/ 8:	12.865	14.4175	12.981
+Length   88, alignments in bytes  8/24:	12.8647	14.3943	12.9346
+Length   88, alignments in bytes 24/ 8:	12.8669	15.5591	14.4631
+Length   88, alignments in bytes  4/28:	13.6868	20.313	13.1414
+Length   88, alignments in bytes 28/ 4:	13.6934	21.2625	12.656
+Length   88, alignments in bytes 12/16:	13.6858	20.6646	13.7969
+Length   88, alignments in bytes 16/12:	13.6897	20.9797	14.4634
+Length   88, alignments in bytes 20/28:	13.6885	21.0056	13.4204
+Length   88, alignments in bytes 28/20:	13.6946	21.2568	13.4233
+Length   92, alignments in bytes  0/16:	13.6975	15.5225	12.6824
+Length   92, alignments in bytes 16/ 0:	14.4717	15.7427	14.2173
+Length   92, alignments in bytes 16/16:	15.6409	15.7324	14.7073
+Length   92, alignments in bytes  8/ 8:	13.9585	15.7542	13.7312
+Length   92, alignments in bytes  8/24:	13.7969	15.7585	13.7129
+Length   92, alignments in bytes 24/ 8:	15.1565	15.946	14.791
+Length   92, alignments in bytes  4/28:	13.7524	21.6138	13.6462
+Length   92, alignments in bytes 28/ 4:	15.0142	21.2742	14.7053
+Length   92, alignments in bytes 12/16:	13.436	21.4412	12.4055
+Length   92, alignments in bytes 16/12:	14.4526	20.9275	14.0435
+Length   92, alignments in bytes 20/28:	15.6943	21.0134	14.8582
+Length   92, alignments in bytes 28/20:	15.1426	21.2598	14.7678
+Length   96, alignments in bytes  0/16:	14.4392	15.6794	13.6201
+Length   96, alignments in bytes 16/ 0:	14.4573	16.2	14.3953
+Length   96, alignments in bytes 16/16:	15.7441	16.2075	14.7166
+Length   96, alignments in bytes  8/ 8:	15.0161	16.9985	16.2246
+Length   96, alignments in bytes  8/24:	16.6602	17.7454	16.2729
+Length   96, alignments in bytes 24/ 8:	16.6729	18.2295	16.2847
+Length   96, alignments in bytes  4/28:	17.2812	23.2502	16.3762
+Length   96, alignments in bytes 28/ 4:	16.7769	24.4028	16.4351
+Length   96, alignments in bytes 12/16:	16.7668	23.7461	16.3916
+Length   96, alignments in bytes 16/12:	16.7546	24.5171	16.3879
+Length   96, alignments in bytes 20/28:	16.6919	24.1182	16.3928
+Length   96, alignments in bytes 28/20:	16.7769	24.3945	16.4661
+Length  100, alignments in bytes  0/16:	15.9998	17.928	15.105
+Length  100, alignments in bytes 16/ 0:	16.0022	18.5598	15.6497
+Length  100, alignments in bytes 16/16:	16.748	18.4961	16.4041
+Length  100, alignments in bytes  8/ 8:	16.7507	18.2046	16.4062
+Length  100, alignments in bytes  8/24:	16.749	18.2971	16.854
+Length  100, alignments in bytes 24/ 8:	16.6604	19.8408	16.5742
+Length  100, alignments in bytes  4/28:	16.7754	24.1086	16.3818
+Length  100, alignments in bytes 28/ 4:	16.6213	25.2542	16.3069
+Length  100, alignments in bytes 12/16:	16.9565	23.3806	14.6987
+Length  100, alignments in bytes 16/12:	15.0845	22.4878	14.8013
+Length  100, alignments in bytes 20/28:	15.1445	22.563	14.8435
+Length  100, alignments in bytes 28/20:	15.1113	22.8049	15.3357
+Length  104, alignments in bytes  0/16:	14.4531	16.7068	13.4324
+Length  104, alignments in bytes 16/ 0:	14.4502	18.6196	14.0659
+Length  104, alignments in bytes 16/16:	15.1299	17.1367	14.7881
+Length  104, alignments in bytes  8/ 8:	15.1177	16.9626	15.3479
+Length  104, alignments in bytes  8/24:	15.0295	17.0417	14.6165
+Length  104, alignments in bytes 24/ 8:	15.1367	17.3999	14.7126
+Length  104, alignments in bytes  4/28:	14.4573	22.5491	15.416
+Length  104, alignments in bytes 28/ 4:	16.0059	26.0181	15.6108
+Length  104, alignments in bytes 12/16:	16.6514	25.4451	16.3335
+Length  104, alignments in bytes 16/12:	16.7356	25.6384	16.2515
+Length  104, alignments in bytes 20/28:	16.0059	25.7292	15.4739
+Length  104, alignments in bytes 28/20:	16.6675	26.0154	15.1067
+Length  108, alignments in bytes  0/16:	15.9924	18.9846	15.4351
+Length  108, alignments in bytes 16/ 0:	18.2961	19.1726	16.5854
+Length  108, alignments in bytes 16/16:	18.2778	19.6367	16.5889
+Length  108, alignments in bytes  8/ 8:	17.1526	19.3313	16.3232
+Length  108, alignments in bytes  8/24:	16.7146	19.2539	16.342
+Length  108, alignments in bytes 24/ 8:	17.7261	19.448	16.5762
+Length  108, alignments in bytes  4/28:	17.5295	25.729	16.4316
+Length  108, alignments in bytes 28/ 4:	17.6877	26.0266	16.6404
+Length  108, alignments in bytes 12/16:	15.9653	26.3044	15.4319
+Length  108, alignments in bytes 16/12:	18.8408	28.9326	15.9788
+Length  108, alignments in bytes 20/28:	17.7124	25.7339	16.5769
+Length  108, alignments in bytes 28/20:	18.2751	26.0234	17.1453
+Length  112, alignments in bytes  0/16:	18.2747	19.771	16.5854
+Length  112, alignments in bytes 16/ 0:	18.2905	19.7534	17.1455
+Length  112, alignments in bytes 16/16:	18.2922	19.7229	17.1465
+Length  112, alignments in bytes  8/ 8:	18.2849	19.4463	17.1431
+Length  112, alignments in bytes  8/24:	18.8489	19.4387	16.5908
+Length  112, alignments in bytes 24/ 8:	18.292	20.0193	17.1472
+Length  112, alignments in bytes  4/28:	18.292	25.729	17.1416
+Length  112, alignments in bytes 28/ 4:	18.2803	27.4399	17.1465
+Length  112, alignments in bytes 12/16:	18.2888	26.3132	17.1448
+Length  112, alignments in bytes 16/12:	18.2539	26.5381	17.1428
+Length  112, alignments in bytes 20/28:	18.2915	27.3193	16.5854
+Length  112, alignments in bytes 28/20:	18.2847	26.8647	17.1428
+Length  116, alignments in bytes  0/16:	18.241	19.7561	17.1499
+Length  116, alignments in bytes 16/ 0:	18.2314	20.3101	17.6912
+Length  116, alignments in bytes 16/16:	18.2881	20.2981	16.5881
+Length  116, alignments in bytes  8/ 8:	18.2856	20.011	17.1431
+Length  116, alignments in bytes  8/24:	18.2712	20.0095	16.5737
+Length  116, alignments in bytes 24/ 8:	19.0178	20.5962	16.5745
+Length  116, alignments in bytes  4/28:	18.2537	26.5828	17.137
+Length  116, alignments in bytes 28/ 4:	18.2854	27.7297	17.2083
+Length  116, alignments in bytes 12/16:	17.7393	25.1077	14.9709
+Length  116, alignments in bytes 16/12:	16.5132	24.7078	14.968
+Length  116, alignments in bytes 20/28:	16.4954	24.7896	15.47
+Length  116, alignments in bytes 28/20:	14.637	21.5571	14.1733
+Length  120, alignments in bytes  0/16:	15.5146	17.2229	13.8264
+Length  120, alignments in bytes 16/ 0:	14.2205	16.1604	13.335
+Length  120, alignments in bytes 16/16:	14.2212	16.1514	13.3357
+Length  120, alignments in bytes  8/ 8:	14.2209	16.012	13.3364
+Length  120, alignments in bytes  8/24:	14.2236	16.0083	12.9355
+Length  120, alignments in bytes 24/ 8:	14.2222	16.3933	13.3359
+Length  120, alignments in bytes  4/28:	14.2122	21.3447	12.8804
+Length  120, alignments in bytes 28/ 4:	14.1902	22.1631	13.3357
+Length  120, alignments in bytes 12/16:	14.2012	22.3394	12.8914
+Length  120, alignments in bytes 16/12:	14.1746	21.863	12.8955
+Length  120, alignments in bytes 20/28:	14.2263	21.9395	13.3228
+Length  120, alignments in bytes 28/20:	14.2258	22.1677	13.3113
+Length  124, alignments in bytes  0/16:	15.1467	18.2009	13.5681
+Length  124, alignments in bytes 16/ 0:	14.5605	17.7993	14.3782
+Length  124, alignments in bytes 16/16:	15.051	17.8037	14.4431
+Length  124, alignments in bytes  8/ 8:	14.2002	16.3823	13.3301
+Length  124, alignments in bytes  8/24:	13.3364	17.0212	13.3337
+Length  124, alignments in bytes 24/ 8:	13.875	16.5447	13.6499
+Length  124, alignments in bytes  4/28:	14.1213	21.939	12.8887
+Length  124, alignments in bytes 28/ 4:	13.7834	22.1716	13.6392
+Length  124, alignments in bytes 12/16:	14.1877	22.8499	12.8428
+Length  124, alignments in bytes 16/12:	13.3396	21.8777	12.8923
+Length  124, alignments in bytes 20/28:	13.7905	21.9504	13.7134
+Length  124, alignments in bytes 28/20:	13.7947	22.1555	13.6553
+Length  128, alignments in bytes  0/16:	14.6921	17.0205	14.2319
+Length  128, alignments in bytes 16/ 0:	15.1257	16.7661	14.3958
+Length  128, alignments in bytes 16/16:	14.2283	16.7598	14.2144
+Length  128, alignments in bytes  8/ 8:	13.5034	16.5339	13.8491
+Length  128, alignments in bytes  8/24:	14.6685	16.5466	15.0593
+Length  128, alignments in bytes 24/ 8:	15.116	16.9829	15.1135
+Length  128, alignments in bytes  4/28:	14.6826	21.937	14.3608
+Length  128, alignments in bytes 28/ 4:	15.1318	23.3801	15.5476
+Length  128, alignments in bytes 12/16:	15.2488	22.8145	14.4036
+Length  128, alignments in bytes 16/12:	15.5591	22.5344	15.114
+Length  128, alignments in bytes 20/28:	14.668	22.6255	14.6694
+Length  128, alignments in bytes 28/20:	15.5491	22.8181	15.1084
+Length  132, alignments in bytes  0/16:	14.7544	16.7515	14.2214
+Length  132, alignments in bytes 16/ 0:	15.127	17.2078	15.115
+Length  132, alignments in bytes 16/16:	14.2288	17.1956	14.2202
+Length  132, alignments in bytes  8/ 8:	15.1118	16.9929	14.2231
+Length  132, alignments in bytes  8/24:	14.6775	17.5759	14.512
+Length  132, alignments in bytes 24/ 8:	16.5105	19.0105	16.4858
+Length  132, alignments in bytes  4/28:	16.0034	24.6541	16.0178
+Length  132, alignments in bytes 28/ 4:	16.9707	25.647	17.0356
+Length  132, alignments in bytes 12/16:	16.0122	24.9976	15.6702
+Length  132, alignments in bytes 16/12:	16.97	23.6067	15.095
+Length  132, alignments in bytes 20/28:	15.1062	23.2749	14.3628
+Length  132, alignments in bytes 28/20:	15.0542	23.9844	15.1108
+Length  136, alignments in bytes  0/16:	14.2263	17.1997	14.2141
+Length  136, alignments in bytes 16/ 0:	14.3877	17.5745	14.4751
+Length  136, alignments in bytes 16/16:	14.2234	17.5613	14.2183
+Length  136, alignments in bytes  8/ 8:	14.2285	17.9927	14.2261
+Length  136, alignments in bytes  8/24:	14.6843	17.416	14.5066
+Length  136, alignments in bytes 24/ 8:	14.6641	17.7935	14.5439
+Length  136, alignments in bytes  4/28:	15.1123	23.2627	14.6694
+Length  136, alignments in bytes 28/ 4:	14.3896	24.8962	16.0129
+Length  136, alignments in bytes 12/16:	16.009	25.7202	15.7317
+Length  136, alignments in bytes 16/12:	15.6667	25.9548	16.4802
+Length  136, alignments in bytes 20/28:	16	26.0332	17.4277
+Length  136, alignments in bytes 28/20:	16.9722	26.3462	16.4875
+Length  140, alignments in bytes  0/16:	17.9119	19.1685	17.7395
+Length  140, alignments in bytes 16/ 0:	17.4724	19.3389	17.4568
+Length  140, alignments in bytes 16/16:	17.8164	19.3276	16.4329
+Length  140, alignments in bytes  8/ 8:	15.2095	19.4033	15.5247
+Length  140, alignments in bytes  8/24:	18.7627	19.4077	18.5398
+Length  140, alignments in bytes 24/ 8:	16.0259	19.5972	18.0396
+Length  140, alignments in bytes  4/28:	18.7449	26.031	18.6331
+Length  140, alignments in bytes 28/ 4:	16.0178	26.2791	17.4495
+Length  140, alignments in bytes 12/16:	18.5129	26.4453	18.9993
+Length  140, alignments in bytes 16/12:	16.0198	25.9636	17.9414
+Length  140, alignments in bytes 20/28:	18.6516	26.7073	22.4473
+Length  140, alignments in bytes 28/20:	23.5903	33.3643	24.0225
+Length  144, alignments in bytes  0/16:	24.4126	24.5332	22.1626
+Length  144, alignments in bytes 16/ 0:	23.4468	25.1604	23.2183
+Length  144, alignments in bytes 16/16:	23.4167	25.6492	23.3652
+Length  144, alignments in bytes  8/ 8:	24.6177	24.8364	22.7773
+Length  144, alignments in bytes  8/24:	24.6042	24.8323	23.533
+Length  144, alignments in bytes 24/ 8:	24.2607	25.4653	23.4365
+Length  144, alignments in bytes  4/28:	23.9944	33.0359	23.5376
+Length  144, alignments in bytes 28/ 4:	23.7053	34.739	23.3782
+Length  144, alignments in bytes 12/16:	23.9973	33.5825	23.5081
+Length  144, alignments in bytes 16/12:	23.6633	33.8616	24.457
+Length  144, alignments in bytes 20/28:	24.5898	33.968	23.4065
+Length  144, alignments in bytes 28/20:	24.6187	34.4722	24.5947
+Length  148, alignments in bytes  0/16:	24.5051	25.146	22.1919
+Length  148, alignments in bytes 16/ 0:	24.6177	25.7742	24.5955
+Length  148, alignments in bytes 16/16:	22.061	25.769	23.7891
+Length  148, alignments in bytes  8/ 8:	21.9866	28.957	22.7595
+Length  148, alignments in bytes  8/24:	24.5999	25.4504	23.9998
+Length  148, alignments in bytes 24/ 8:	24.0239	26.7979	24.5962
+Length  148, alignments in bytes  4/28:	24.582	33.9688	23.3875
+Length  148, alignments in bytes 28/ 4:	24.6118	35.2034	24.6433
+Length  148, alignments in bytes 12/16:	24.678	34.4944	23.718
+Length  148, alignments in bytes 16/12:	24.6174	34.7805	24.5891
+Length  148, alignments in bytes 20/28:	25.1155	34.8818	23.6863
+Length  148, alignments in bytes 28/20:	24.6213	35.1855	24.6204
+Length  152, alignments in bytes  0/16:	24.6135	28.801	22.7754
+Length  152, alignments in bytes 16/ 0:	25.083	26.2686	24.6101
+Length  152, alignments in bytes 16/16:	21.9622	26.2625	23.3838
+Length  152, alignments in bytes  8/ 8:	23.6846	29.5754	23.3833
+Length  152, alignments in bytes  8/24:	24.6013	26.0566	23.6768
+Length  152, alignments in bytes 24/ 8:	25.8464	26.5806	25.1082
+Length  152, alignments in bytes  4/28:	24.5857	34.8777	23.9949
+Length  152, alignments in bytes 28/ 4:	25.9124	36.0061	24.6089
+Length  152, alignments in bytes 12/16:	25.0161	35.4014	23.6003
+Length  152, alignments in bytes 16/12:	24.8679	35.6069	24.6067
+Length  152, alignments in bytes 20/28:	24.6021	35.6997	23.4097
+Length  152, alignments in bytes 28/20:	24.0867	36.0024	24.5967
+Length  156, alignments in bytes  0/16:	24.002	26.7148	24.7896
+Length  156, alignments in bytes 16/ 0:	24.9546	26.4941	24.7959
+Length  156, alignments in bytes 16/16:	22.6753	26.4763	22.1802
+Length  156, alignments in bytes  8/ 8:	22.9436	26.5801	22.7422
+Length  156, alignments in bytes  8/24:	25.2146	26.572	24.0042
+Length  156, alignments in bytes 24/ 8:	25.2129	26.8052	25.5579
+Length  156, alignments in bytes  4/28:	24.0093	35.7048	23.9956
+Length  156, alignments in bytes 28/ 4:	25.1719	36.0222	24.9922
+Length  156, alignments in bytes 12/16:	25.458	36.3208	23.3889
+Length  156, alignments in bytes 16/12:	24.52	35.6099	24.3035
+Length  156, alignments in bytes 20/28:	25.0581	36.2256	24.8381
+Length  156, alignments in bytes 28/20:	25.1406	36.0295	25.0813
+Length  160, alignments in bytes  0/16:	24.043	26.4773	24.2668
+Length  160, alignments in bytes 16/ 0:	25.061	30.793	24.7559
+Length  160, alignments in bytes 16/16:	22.6433	27.0884	22.2158
+Length  160, alignments in bytes  8/ 8:	23.0688	30.165	22.2061
+Length  160, alignments in bytes  8/24:	25.0671	26.7781	24.7542
+Length  160, alignments in bytes 24/ 8:	25.1462	27.4036	25.5044
+Length  160, alignments in bytes  4/28:	25.0676	35.7205	24.8347
+Length  160, alignments in bytes 28/ 4:	25.186	36.9402	25.0837
+Length  160, alignments in bytes 12/16:	25.5508	36.3242	24.8186
+Length  160, alignments in bytes 16/12:	25.1296	36.5349	24.9858
+Length  160, alignments in bytes 20/28:	25.4534	36.6284	24.696
+Length  160, alignments in bytes 28/20:	25.2036	36.9285	24.9436
+Length  164, alignments in bytes  0/16:	24.1194	27.6047	23.7686
+Length  164, alignments in bytes 16/ 0:	24.9465	27.718	24.7505
+Length  164, alignments in bytes 16/16:	22.6846	27.6965	22.2266
+Length  164, alignments in bytes  8/ 8:	23.6201	31.4016	22.1924
+Length  164, alignments in bytes  8/24:	25.0835	27.3926	24.769
+Length  164, alignments in bytes 24/ 8:	25.2078	28.4724	24.8962
+Length  164, alignments in bytes  4/28:	25.0989	36.6211	24.8579
+Length  164, alignments in bytes 28/ 4:	25.1748	37.8855	25.374
+Length  164, alignments in bytes 12/16:	25.1528	37.0891	24.7759
+Length  164, alignments in bytes 16/12:	25.1692	37.4458	24.8955
+Length  164, alignments in bytes 20/28:	25.5859	37.5757	24.8345
+Length  164, alignments in bytes 28/20:	25.2151	37.8447	24.9885
+Length  168, alignments in bytes  0/16:	24.5535	31.3926	23.6917
+Length  168, alignments in bytes 16/ 0:	25.0603	28.2234	24.7476
+Length  168, alignments in bytes 16/16:	22.7681	28.2205	22.6697
+Length  168, alignments in bytes  8/ 8:	22.7322	31.3955	22.1587
+Length  168, alignments in bytes  8/24:	25.0991	28.0073	24.7581
+Length  168, alignments in bytes 24/ 8:	25.7695	28.7175	25.0337
+Length  168, alignments in bytes  4/28:	24.8228	37.5435	24.4443
+Length  168, alignments in bytes 28/ 4:	23.8223	39.2393	23.5632
+Length  168, alignments in bytes 12/16:	25.1157	38.1777	24.7876
+Length  168, alignments in bytes 16/12:	25.2527	38.2681	25.5784
+Length  168, alignments in bytes 20/28:	24.8899	38.3684	24.5359
+Length  168, alignments in bytes 28/20:	23.8389	38.7854	24.0679
+Length  172, alignments in bytes  0/16:	24.0259	28.2339	23.6453
+Length  172, alignments in bytes 16/ 0:	24.9351	28.4458	24.6707
+Length  172, alignments in bytes 16/16:	24.6382	28.895	22.0925
+Length  172, alignments in bytes  8/ 8:	22.7109	28.531	22.1743
+Length  172, alignments in bytes  8/24:	25.1604	28.5288	25.2468
+Length  172, alignments in bytes 24/ 8:	25.1196	28.7612	24.9165
+Length  172, alignments in bytes  4/28:	25.0688	38.3679	24.8354
+Length  172, alignments in bytes 28/ 4:	25.6292	38.6936	24.8027
+Length  172, alignments in bytes 12/16:	24.7676	38.7769	24.1826
+Length  172, alignments in bytes 16/12:	24.4358	38.8618	24.6169
+Length  172, alignments in bytes 20/28:	25.0723	38.3813	24.6873
+Length  172, alignments in bytes 28/20:	25.2148	39.4951	24.7153
+Length  176, alignments in bytes  0/16:	23.9131	33.2473	23.6418
+Length  176, alignments in bytes 16/ 0:	25.0266	33.8765	25.158
+Length  176, alignments in bytes 16/16:	22.928	29.0649	22.0972
+Length  176, alignments in bytes  8/ 8:	22.446	28.7368	22.144
+Length  176, alignments in bytes  8/24:	25.0471	29.6655	24.7778
+Length  176, alignments in bytes 24/ 8:	19.8748	22.4543	19.0371
+Length  176, alignments in bytes  4/28:	19.1113	29.3384	18.7993
+Length  176, alignments in bytes 28/ 4:	19.2485	30.8325	18.9646
+Length  176, alignments in bytes 12/16:	19.1082	29.6611	18.8132
+Length  176, alignments in bytes 16/12:	19.3235	30.0376	18.9341
+Length  176, alignments in bytes 20/28:	19.7148	30.6042	18.8323
+Length  176, alignments in bytes 28/20:	19.272	32.2646	18.4087
+Length  180, alignments in bytes  0/16:	17.7419	21.5842	17.4958
+Length  180, alignments in bytes 16/ 0:	18.9844	25.1641	18.3591
+Length  180, alignments in bytes 16/16:	16.7722	22.0295	16.4609
+Length  180, alignments in bytes  8/ 8:	16.7354	21.8005	16.5198
+Length  180, alignments in bytes  8/24:	18.7075	21.7913	17.7512
+Length  180, alignments in bytes 24/ 8:	18.1216	21.6538	17.8928
+Length  180, alignments in bytes  4/28:	18.0386	28.3813	17.7979
+Length  180, alignments in bytes 28/ 4:	18.0938	29.9517	17.9009
+Length  180, alignments in bytes 12/16:	18.0793	28.6855	17.8875
+Length  180, alignments in bytes 16/12:	18.1228	29.1785	19.7837
+Length  180, alignments in bytes 20/28:	19.366	32.1992	19.4709
+Length  180, alignments in bytes 28/20:	19.8132	31.2937	17.9636
+Length  184, alignments in bytes  0/16:	17.7808	24.0073	17.0696
+Length  184, alignments in bytes 16/ 0:	17.9966	22.2961	17.8157
+Length  184, alignments in bytes 16/16:	16.3062	21.7998	15.9976
+Length  184, alignments in bytes  8/ 8:	17.7805	21.6367	16.011
+Length  184, alignments in bytes  8/24:	18.0205	21.6392	17.8416
+Length  184, alignments in bytes 24/ 8:	18.8213	22.0193	18.0342
+Length  184, alignments in bytes  4/28:	17.7749	29.0449	17.6709
+Length  184, alignments in bytes 28/ 4:	17.1711	29.8633	16.9763
+Length  184, alignments in bytes 12/16:	18.655	29.3496	17.7781
+Length  184, alignments in bytes 16/12:	18.1562	29.5671	17.9634
+Length  184, alignments in bytes 20/28:	17.834	29.645	17.6211
+Length  184, alignments in bytes 28/20:	17.9241	29.855	16.9343
+Length  188, alignments in bytes  0/16:	17.1458	24.4524	17.0205
+Length  188, alignments in bytes 16/ 0:	20.344	23.939	20.7524
+Length  188, alignments in bytes 16/16:	19.2661	23.9407	18.7776
+Length  188, alignments in bytes  8/ 8:	17.7144	24.0725	17.4575
+Length  188, alignments in bytes  8/24:	19.6321	24.0132	19.4219
+Length  188, alignments in bytes 24/ 8:	21.9138	28.1489	20.8069
+Length  188, alignments in bytes  4/28:	19.6025	32.3352	19.1387
+Length  188, alignments in bytes 28/ 4:	19.3311	29.9424	19.8682
+Length  188, alignments in bytes 12/16:	17.7329	30.0112	17.6069
+Length  188, alignments in bytes 16/12:	18.7729	29.5723	18.6458
+Length  188, alignments in bytes 20/28:	19.6196	30.5	20.1846
+Length  188, alignments in bytes 28/20:	19.8799	30.5981	19.1956
+Length  192, alignments in bytes  0/16:	18.272	21.9875	18.2454
+Length  192, alignments in bytes 16/ 0:	19.1616	22.4019	19.8098
+Length  192, alignments in bytes 16/16:	17.1189	25.7886	17.176
+Length  192, alignments in bytes  8/ 8:	17.7854	22.1604	16.8921
+Length  192, alignments in bytes  8/24:	19.0071	22.1577	18.9927
+Length  192, alignments in bytes 24/ 8:	19.6909	22.6113	19.1208
+Length  192, alignments in bytes  4/28:	19.0591	29.6396	19.0613
+Length  192, alignments in bytes 28/ 4:	19.3672	30.5347	19.2083
+Length  192, alignments in bytes 12/16:	19.6384	30.022	19.032
+Length  192, alignments in bytes 16/12:	19.2683	30.2429	19.0466
+Length  192, alignments in bytes 20/28:	19.0964	30.3247	19.7322
+Length  192, alignments in bytes 28/20:	19.2808	30.5283	19.135
+Length  196, alignments in bytes  0/16:	18.2817	23.5781	18.1143
+Length  196, alignments in bytes 16/ 0:	19.1035	22.8735	19.5896
+Length  196, alignments in bytes 16/16:	17.1772	22.8296	17.1226
+Length  196, alignments in bytes  8/ 8:	17.0762	22.9097	18.8081
+Length  196, alignments in bytes  8/24:	20.7583	24.6577	20.7112
+Length  196, alignments in bytes 24/ 8:	21.6807	28.6216	20.8262
+Length  196, alignments in bytes  4/28:	20.7349	33.0723	20.6782
+Length  196, alignments in bytes 28/ 4:	21.0391	34.561	20.8123
+Length  196, alignments in bytes 12/16:	20.7434	33.4805	20.6895
+Length  196, alignments in bytes 16/12:	21.0544	33.7253	20.8738
+Length  196, alignments in bytes 20/28:	21.376	32.2678	19.0337
+Length  196, alignments in bytes 28/20:	19.3337	31.1914	19.084
+Length  200, alignments in bytes  0/16:	18.2927	22.825	18.2053
+Length  200, alignments in bytes 16/ 0:	19.863	26.6924	18.9634
+Length  200, alignments in bytes 16/16:	17.1272	26.6768	17.1819
+Length  200, alignments in bytes  8/ 8:	17.1123	23.0496	17.1379
+Length  200, alignments in bytes  8/24:	19.7395	23.0525	19.0132
+Length  200, alignments in bytes 24/ 8:	19.354	23.4246	19.1033
+Length  200, alignments in bytes  4/28:	18.9482	30.9736	18.8687
+Length  200, alignments in bytes 28/ 4:	18.2988	32.5017	18.0247
+Length  200, alignments in bytes 12/16:	19.1316	31.356	18.9871
+Length  200, alignments in bytes 16/12:	19.3098	31.5742	19.155
+Length  200, alignments in bytes 20/28:	19.4268	31.5654	18.8982
+Length  200, alignments in bytes 28/20:	18.2893	31.8557	18.0183
+Length  204, alignments in bytes  0/16:	20.9924	23.2012	21.562
+Length  204, alignments in bytes 16/ 0:	19.073	23.3557	18.8921
+Length  204, alignments in bytes 16/16:	18.636	23.343	18.4397
+Length  204, alignments in bytes  8/ 8:	17.1455	23.4126	17.197
+Length  204, alignments in bytes  8/24:	22.6052	23.458	21.7568
+Length  204, alignments in bytes 24/ 8:	19.2122	23.5889	19.0483
+Length  204, alignments in bytes  4/28:	21.9736	31.5618	22.3833
+Length  204, alignments in bytes 28/ 4:	19.2703	31.8	19.0708
+Length  204, alignments in bytes 12/16:	21.6831	32.0173	21.5469
+Length  204, alignments in bytes 16/12:	18.6938	32.2458	18.4724
+Length  204, alignments in bytes 20/28:	21.8657	31.5789	21.7268
+Length  204, alignments in bytes 28/20:	21.7251	31.7861	21.5845
+Length  208, alignments in bytes  0/16:	21.6531	27.5679	20.8406
+Length  208, alignments in bytes 16/ 0:	21.5708	23.8013	21.4312
+Length  208, alignments in bytes 16/16:	18.7371	23.7849	18.3503
+Length  208, alignments in bytes  8/ 8:	19.3264	27.126	18.5327
+Length  208, alignments in bytes  8/24:	23.3279	29.6958	30.1177
+Length  208, alignments in bytes 24/ 8:	29.9883	33.8594	29.8352
+Length  208, alignments in bytes  4/28:	30.1372	43.709	30.0381
+Length  208, alignments in bytes 28/ 4:	30.0176	45.397	29.8105
+Length  208, alignments in bytes 12/16:	30.1938	44.3306	30.0442
+Length  208, alignments in bytes 16/12:	29.9995	45.1226	29.7336
+Length  208, alignments in bytes 20/28:	30.2224	44.6421	29.9988
+Length  208, alignments in bytes 28/20:	30.4756	44.9329	29.7886
+Length  212, alignments in bytes  0/16:	29.0408	38.1802	28.7915
+Length  212, alignments in bytes 16/ 0:	30.3147	38.8174	29.5625
+Length  212, alignments in bytes 16/16:	25.7817	33.5525	25.4382
+Length  212, alignments in bytes  8/ 8:	26.2456	33.2666	25.4712
+Length  212, alignments in bytes  8/24:	30.2705	33.26	30.0085
+Length  212, alignments in bytes 24/ 8:	29.9517	34.345	29.7749
+Length  212, alignments in bytes  4/28:	30.2461	44.6292	30.0908
+Length  212, alignments in bytes 28/ 4:	30.0371	46.384	29.7688
+Length  212, alignments in bytes 12/16:	30.2305	45.1289	30.0793
+Length  212, alignments in bytes 16/12:	30.498	45.4639	29.7642
+Length  212, alignments in bytes 20/28:	30.2021	45.5581	30.4539
+Length  212, alignments in bytes 28/20:	30.0537	45.8516	29.8154
+Length  216, alignments in bytes  0/16:	28.9658	38.1714	29.2915
+Length  216, alignments in bytes 16/ 0:	29.9031	39.4207	29.6284
+Length  216, alignments in bytes 16/16:	25.7131	34.0793	25.9902
+Length  216, alignments in bytes  8/ 8:	25.8296	38.7844	25.5461
+Length  216, alignments in bytes  8/24:	30.3206	33.8604	30.0696
+Length  216, alignments in bytes 24/ 8:	30.5239	34.4961	29.7852
+Length  216, alignments in bytes  4/28:	29.9888	45.5508	30.3491
+Length  216, alignments in bytes 28/ 4:	28.5664	46.6855	28.3977
+Length  216, alignments in bytes 12/16:	30.1956	46.1895	30.6475
+Length  216, alignments in bytes 16/12:	30.009	46.2854	29.8315
+Length  216, alignments in bytes 20/28:	30.0137	46.864	29.8657
+Length  216, alignments in bytes 28/20:	28.646	46.6692	28.4631
+Length  220, alignments in bytes  0/16:	28.9954	34.5396	28.8889
+Length  220, alignments in bytes 16/ 0:	31.2593	34.3157	31.0085
+Length  220, alignments in bytes 16/16:	27.3547	36.6125	26.95
+Length  220, alignments in bytes  8/ 8:	25.5898	34.3801	25.5708
+Length  220, alignments in bytes  8/24:	30.2908	34.3708	30.5542
+Length  220, alignments in bytes 24/ 8:	31.4229	34.6091	31.0955
+Length  220, alignments in bytes  4/28:	30.2297	46.8159	30.1597
+Length  220, alignments in bytes 28/ 4:	31.3821	46.6877	31.1624
+Length  220, alignments in bytes 12/16:	29.8542	47.2898	29.7986
+Length  220, alignments in bytes 16/12:	30.6052	46.283	30.4478
+Length  220, alignments in bytes 20/28:	32.1365	49.5632	31.5364
+Length  220, alignments in bytes 28/20:	31.4155	46.6738	31.6672
+Length  224, alignments in bytes  0/16:	30.3679	34.2739	30.2729
+Length  224, alignments in bytes 16/ 0:	31.2393	34.905	30.9871
+Length  224, alignments in bytes 16/16:	27.3457	36.7556	27.0103
+Length  224, alignments in bytes  8/ 8:	28.3159	34.5735	28.928
+Length  224, alignments in bytes  8/24:	32.1299	34.575	31.5276
+Length  224, alignments in bytes 24/ 8:	31.4041	35.2246	31.1506
+Length  224, alignments in bytes  4/28:	32.0398	46.3823	31.5322
+Length  224, alignments in bytes 28/ 4:	31.3501	47.6047	31.6548
+Length  224, alignments in bytes 12/16:	31.6597	50.0334	31.4739
+Length  224, alignments in bytes 16/12:	31.4087	47.7263	31.2346
+Length  224, alignments in bytes 20/28:	31.6719	50.4832	31.4773
+Length  224, alignments in bytes 28/20:	31.8989	47.5986	31.1628
+Length  228, alignments in bytes  0/16:	30.2783	34.8916	30.1301
+Length  228, alignments in bytes 16/ 0:	31.6919	40.6392	30.9231
+Length  228, alignments in bytes 16/16:	27.2634	43.7131	26.9636
+Length  228, alignments in bytes  8/ 8:	27.8477	40.6265	26.9763
+Length  228, alignments in bytes  8/24:	31.7124	40.6216	31.5532
+Length  228, alignments in bytes 24/ 8:	32.0015	35.8359	31.2002
+Length  228, alignments in bytes  4/28:	31.6355	47.3042	32.0159
+Length  228, alignments in bytes 28/ 4:	31.4031	48.5271	31.1174
+Length  228, alignments in bytes 12/16:	31.6602	51.5906	31.5879
+Length  228, alignments in bytes 16/12:	31.4146	48.1667	31.2422
+Length  228, alignments in bytes 20/28:	31.656	52.1055	31.5833
+Length  228, alignments in bytes 28/20:	31.5125	48.5183	31.2441
+Length  232, alignments in bytes  0/16:	30.7095	40.6277	30.1177
+Length  232, alignments in bytes 16/ 0:	31.4048	36.0249	31.4031
+Length  232, alignments in bytes 16/16:	27.3752	37.8811	27.1614
+Length  232, alignments in bytes  8/ 8:	28.3125	35.8162	27.0786
+Length  232, alignments in bytes  8/24:	32.2114	35.8049	31.5061
+Length  232, alignments in bytes 24/ 8:	31.375	36.3384	31.1028
+Length  232, alignments in bytes  4/28:	31.9517	48.2283	31.3572
+Length  232, alignments in bytes 28/ 4:	30.134	49.3501	30.3796
+Length  232, alignments in bytes 12/16:	31.6794	51.8752	31.5388
+Length  232, alignments in bytes 16/12:	31.4817	49.7502	31.2847
+Length  232, alignments in bytes 20/28:	31.5134	52.2175	31.3252
+Length  232, alignments in bytes 28/20:	30.7041	49.5457	29.9971
+Length  236, alignments in bytes  0/16:	30.3416	41.2429	30.2405
+Length  236, alignments in bytes 16/ 0:	31.1865	36.2385	29.8528
+Length  236, alignments in bytes 16/16:	25.4363	35.3618	20.1504
+Length  236, alignments in bytes  8/ 8:	20.761	30.6335	20.1365
+Length  236, alignments in bytes  8/24:	23.6318	26.9773	23.4761
+Length  236, alignments in bytes 24/ 8:	23.2986	27.1458	23.8062
+Length  236, alignments in bytes  4/28:	23.6528	36.4414	23.5039
+Length  236, alignments in bytes 28/ 4:	23.3826	36.6685	23.2151
+Length  236, alignments in bytes 12/16:	23.9688	39.1104	23.2439
+Length  236, alignments in bytes 16/12:	22.8506	35.6372	22.0449
+Length  236, alignments in bytes 20/28:	22.9187	38.5566	22.7593
+Length  236, alignments in bytes 28/20:	22.7234	35.635	22.5691
+Length  240, alignments in bytes  0/16:	21.9739	26.1812	22.4492
+Length  240, alignments in bytes 16/ 0:	22.6174	31.1304	22.4609
+Length  240, alignments in bytes 16/16:	21.3359	27.9551	19.124
+Length  240, alignments in bytes  8/ 8:	19.5845	26.3777	20.1667
+Length  240, alignments in bytes  8/24:	22.9146	30.6743	22.7766
+Length  240, alignments in bytes 24/ 8:	22.6702	26.825	22.5913
+Length  240, alignments in bytes  4/28:	22.8345	36.6077	23.4309
+Length  240, alignments in bytes 28/ 4:	23.3865	36.5752	22.5723
+Length  240, alignments in bytes 12/16:	22.9285	38.6091	22.7368
+Length  240, alignments in bytes 16/12:	22.7251	36.0159	22.5996
+Length  240, alignments in bytes 20/28:	22.8828	38.3779	23.3386
+Length  240, alignments in bytes 28/20:	22.6501	36.3081	22.5417
+Length  244, alignments in bytes  0/16:	21.9167	31.5664	21.8049
+Length  244, alignments in bytes 16/ 0:	22.5452	27.8796	22.4773
+Length  244, alignments in bytes 16/16:	20.0098	28.4016	19.2598
+Length  244, alignments in bytes  8/ 8:	19.5867	26.823	19.5964
+Length  244, alignments in bytes  8/24:	23.5679	26.8259	22.7703
+Length  244, alignments in bytes 24/ 8:	22.7131	27.2715	22.584
+Length  244, alignments in bytes  4/28:	22.9102	36.0898	23.2612
+Length  244, alignments in bytes 28/ 4:	22.6274	36.9807	22.563
+Length  244, alignments in bytes 12/16:	22.9421	38.6816	22.6824
+Length  244, alignments in bytes 16/12:	23.5825	36.6855	22.467
+Length  244, alignments in bytes 20/28:	22.8936	39.217	22.7395
+Length  244, alignments in bytes 28/20:	24.6001	40.8853	24.5981
+Length  248, alignments in bytes  0/16:	23.9299	34.4355	23.7886
+Length  248, alignments in bytes 16/ 0:	24.625	29.9189	25.1636
+Length  248, alignments in bytes 16/16:	21.3733	31.376	21.3452
+Length  248, alignments in bytes  8/ 8:	22.3059	29.7466	21.3428
+Length  248, alignments in bytes  8/24:	24.9443	30.2581	25.0723
+Length  248, alignments in bytes 24/ 8:	24.7637	30.1555	24.5415
+Length  248, alignments in bytes  4/28:	24.7917	40.7063	24.6941
+Length  248, alignments in bytes 28/ 4:	23.7078	40.6489	21.6267
+Length  248, alignments in bytes 12/16:	22.895	39.3481	23.3752
+Length  248, alignments in bytes 16/12:	22.7139	37.2839	22.5591
+Length  248, alignments in bytes 20/28:	22.759	39.6472	22.6189
+Length  248, alignments in bytes 28/20:	22.3135	37.5635	21.5432
+Length  252, alignments in bytes  0/16:	21.9529	32.0159	21.802
+Length  252, alignments in bytes 16/ 0:	23.4387	27.5833	24.0417
+Length  252, alignments in bytes 16/16:	20.6038	28.9258	20.3926
+Length  252, alignments in bytes  8/ 8:	20.0054	27.6375	19.1323
+Length  252, alignments in bytes  8/24:	23.0032	28.2314	23.0161
+Length  252, alignments in bytes 24/ 8:	23.6304	27.7952	23.5759
+Length  252, alignments in bytes  4/28:	22.9309	37.3489	23.5044
+Length  252, alignments in bytes 28/ 4:	23.6558	37.5784	23.6311
+Length  252, alignments in bytes 12/16:	22.7144	40.0151	22.4749
+Length  252, alignments in bytes 16/12:	23.7061	37.2744	23.1326
+Length  252, alignments in bytes 20/28:	23.863	39.6489	23.8352
+Length  252, alignments in bytes 28/20:	23.7051	38.6924	24.3723
+Length  256, alignments in bytes  0/16:	23.3147	32.4585	22.6895
+Length  256, alignments in bytes 16/ 0:	23.4905	28.0222	24.3376
+Length  256, alignments in bytes 16/16:	21.335	33.7993	20.4136
+Length  256, alignments in bytes  8/ 8:	20.5322	27.7849	20.4531
+Length  256, alignments in bytes  8/24:	23.925	28.3638	23.7231
+Length  256, alignments in bytes 24/ 8:	23.5496	28.2466	23.5798
+Length  256, alignments in bytes  4/28:	23.856	41.3467	24.3108
+Length  256, alignments in bytes 28/ 4:	23.6069	38.2361	23.6636
+Length  256, alignments in bytes 12/16:	23.9575	40.0107	23.7908
+Length  256, alignments in bytes 16/12:	24.292	37.9414	23.5972
+Length  256, alignments in bytes 20/28:	23.8569	40.3064	23.728
+Length  256, alignments in bytes 28/20:	23.5999	38.877	23.676
+Length  260, alignments in bytes  0/16:	22.894	32.9045	22.7476
+Length  260, alignments in bytes 16/ 0:	23.4346	32.9116	24.1465
+Length  260, alignments in bytes 16/16:	20.5637	29.7976	20.4033
+Length  260, alignments in bytes  8/ 8:	21.3354	28.2329	20.3948
+Length  260, alignments in bytes  8/24:	23.9229	28.6973	23.8218
+Length  260, alignments in bytes 24/ 8:	23.5967	28.6802	23.5547
+Length  260, alignments in bytes  4/28:	23.877	38.0188	24.4814
+Length  260, alignments in bytes 28/ 4:	23.5588	38.9019	23.5974
+Length  260, alignments in bytes 12/16:	23.8462	40.6816	23.7139
+Length  260, alignments in bytes 16/12:	24.3018	38.6079	23.6182
+Length  260, alignments in bytes 20/28:	23.9048	40.9822	23.8013
+Length  260, alignments in bytes 28/20:	23.676	39.4812	23.6819
+Length  264, alignments in bytes  0/16:	22.8088	33.3481	22.6951
+Length  264, alignments in bytes 16/ 0:	23.5085	31.137	26.1924
+Length  264, alignments in bytes 16/16:	22.3083	34.3892	22.2556
+Length  264, alignments in bytes  8/ 8:	22.3577	31.2776	22.1931
+Length  264, alignments in bytes  8/24:	26.6765	31.2834	25.9116
+Length  264, alignments in bytes 24/ 8:	25.7354	31.689	25.7024
+Length  264, alignments in bytes  4/28:	25.9072	40.2908	23.6648
+Length  264, alignments in bytes 28/ 4:	22.9011	39.4998	22.7705
+Length  264, alignments in bytes 12/16:	23.9214	42.0806	23.8757
+Length  264, alignments in bytes 16/12:	24.2656	40.3179	24.2466
+Length  264, alignments in bytes 20/28:	24.0125	41.5715	24.1787
+Length  264, alignments in bytes 28/20:	22.8889	39.4871	22.7219
+Length  268, alignments in bytes  0/16:	25.5454	33.7854	25.4255
+Length  268, alignments in bytes 16/ 0:	24.1313	28.9873	23.4517
+Length  268, alignments in bytes 16/16:	24.1311	30.3479	22.3306
+Length  268, alignments in bytes  8/ 8:	20.8369	29.0588	20.9873
+Length  268, alignments in bytes  8/24:	26.5349	29.0493	26.3376
+Length  268, alignments in bytes 24/ 8:	23.6963	29.2036	23.6348
+Length  268, alignments in bytes  4/28:	26.8967	39.2817	26.2112
+Length  268, alignments in bytes 28/ 4:	23.7131	39.4983	23.5833
+Length  268, alignments in bytes 12/16:	26.2622	42.5327	26.0935
+Length  268, alignments in bytes 16/12:	23.1919	39.238	23.0242
+Length  268, alignments in bytes 20/28:	26.3772	42.3154	26.3247
+Length  268, alignments in bytes 28/20:	25.9031	39.4919	25.718
+Length  272, alignments in bytes  0/16:	25.6072	29.5974	26.1533
+Length  272, alignments in bytes 16/ 0:	31.2686	40.1533	35.3352
+Length  272, alignments in bytes 16/16:	31.4888	43.167	31.05
+Length  272, alignments in bytes  8/ 8:	30.9202	40.4226	30.719
+Length  272, alignments in bytes  8/24:	36.7747	40.9348	36.3291
+Length  272, alignments in bytes 24/ 8:	35.8245	41.0618	35.6628
+Length  272, alignments in bytes  4/28:	37.1311	54.385	36.6038
+Length  272, alignments in bytes 28/ 4:	35.7041	56.1746	35.5669
+Length  272, alignments in bytes 12/16:	36.6396	58.1675	36.2285
+Length  272, alignments in bytes 16/12:	36.199	55.207	35.5017
+Length  272, alignments in bytes 20/28:	36.6436	58.9878	36.197
+Length  272, alignments in bytes 28/20:	35.7327	55.5928	35.5857
+Length  276, alignments in bytes  0/16:	35.9111	40.7441	35.2505
+Length  276, alignments in bytes 16/ 0:	35.6626	41.355	35.9133
+Length  276, alignments in bytes 16/16:	31.9702	43.7073	30.947
+Length  276, alignments in bytes  8/ 8:	30.8906	41.4854	30.3755
+Length  276, alignments in bytes  8/24:	36.6609	41.0454	36.3418
+Length  276, alignments in bytes 24/ 8:	35.7524	42.1885	35.6101
+Length  276, alignments in bytes  4/28:	36.6357	55.3176	36.8298
+Length  276, alignments in bytes 28/ 4:	35.6157	56.5359	35.5481
+Length  276, alignments in bytes 12/16:	36.7678	59.6389	36.3169
+Length  276, alignments in bytes 16/12:	35.656	56.1289	36.0815
+Length  276, alignments in bytes 20/28:	36.6392	59.3945	36.3059
+Length  276, alignments in bytes 28/20:	35.8091	57.0249	35.5366
+Length  280, alignments in bytes  0/16:	35.4812	41.3472	35.229
+Length  280, alignments in bytes 16/ 0:	36.0327	41.8716	35.3425
+Length  280, alignments in bytes 16/16:	30.9221	43.72	30.8499
+Length  280, alignments in bytes  8/ 8:	30.6504	41.6619	30.6594
+Length  280, alignments in bytes  8/24:	36.7668	42.1846	36.2551
+Length  280, alignments in bytes 24/ 8:	35.7048	42.1785	35.6755
+Length  280, alignments in bytes  4/28:	36.4126	56.6353	37.8857
+Length  280, alignments in bytes 28/ 4:	34.6079	57.3545	34.8982
+Length  280, alignments in bytes 12/16:	36.6133	59.8572	36.5142
+Length  280, alignments in bytes 16/12:	36.2659	56.9482	35.6274
+Length  280, alignments in bytes 20/28:	36.562	60.2151	36.5266
+Length  280, alignments in bytes 28/20:	34.7944	57.3601	34.4575
+Length  284, alignments in bytes  0/16:	35.9109	48.6267	35.1726
+Length  284, alignments in bytes 16/ 0:	37.1582	42.0818	37.2754
+Length  284, alignments in bytes 16/16:	32.2473	43.9214	31.9517
+Length  284, alignments in bytes  8/ 8:	31.3682	42.1614	30.8022
+Length  284, alignments in bytes  8/24:	36.7095	42.1812	36.3796
+Length  284, alignments in bytes 24/ 8:	37.083	42.8965	36.8547
+Length  284, alignments in bytes  4/28:	36.7988	57.043	37.0435
+Length  284, alignments in bytes 28/ 4:	37.2375	57.3574	36.8994
+Length  284, alignments in bytes 12/16:	36.4675	61.075	36.1418
+Length  284, alignments in bytes 16/12:	36.6191	56.95	36.656
+Length  284, alignments in bytes 20/28:	37.9751	60.2231	37.96
+Length  284, alignments in bytes 28/20:	37.2786	57.7322	37.064
+Length  288, alignments in bytes  0/16:	36.6758	42.075	36.8655
+Length  288, alignments in bytes 16/ 0:	37.0505	42.6877	36.6943
+Length  288, alignments in bytes 16/16:	32.0361	45.126	31.52
+Length  288, alignments in bytes  8/ 8:	31.6389	42.375	31.696
+Length  288, alignments in bytes  8/24:	37.7473	42.8711	37.804
+Length  288, alignments in bytes 24/ 8:	37.147	43.0146	36.8579
+Length  288, alignments in bytes  4/28:	38.3813	57.0464	37.7751
+Length  288, alignments in bytes 28/ 4:	37.3223	58.7065	37.0576
+Length  288, alignments in bytes 12/16:	37.875	60.6238	38.3428
+Length  288, alignments in bytes 16/12:	37.105	57.8696	36.8721
+Length  288, alignments in bytes 20/28:	37.8748	61.731	37.7136
+Length  288, alignments in bytes 28/20:	37.3059	58.2617	37.5417
+Length  292, alignments in bytes  0/16:	36.6843	49.8584	36.3843
+Length  292, alignments in bytes 16/ 0:	37.1077	51.3486	37
+Length  292, alignments in bytes 16/16:	32.2769	45.1431	31.4795
+Length  292, alignments in bytes  8/ 8:	32.5547	43.1016	31.5168
+Length  292, alignments in bytes  8/24:	37.7915	42.9875	38.4297
+Length  292, alignments in bytes 24/ 8:	37.0938	50.4773	37.0747
+Length  292, alignments in bytes  4/28:	37.9375	58.5955	37.7598
+Length  292, alignments in bytes 28/ 4:	37.1523	59.1973	37.6079
+Length  292, alignments in bytes 12/16:	37.9011	61.5725	31.156
+Length  292, alignments in bytes 16/12:	27.5303	44.2083	27.5369
+Length  292, alignments in bytes 20/28:	28.1709	46.1084	28.0564
+Length  292, alignments in bytes 28/20:	28.1208	43.9751	27.5601
+Length  296, alignments in bytes  0/16:	27.2192	32.1636	27.2085
+Length  296, alignments in bytes 16/ 0:	27.5918	33.2834	27.4424
+Length  296, alignments in bytes 16/16:	23.5439	39.3274	23.438
+Length  296, alignments in bytes  8/ 8:	23.0789	32.1555	22.7634
+Length  296, alignments in bytes  8/24:	27.2881	31.5647	27.1782
+Length  296, alignments in bytes 24/ 8:	26.8552	31.8696	27.2002
+Length  296, alignments in bytes  4/28:	27.2019	42.5391	27.1238
+Length  296, alignments in bytes 28/ 4:	26.207	43.3467	26.8689
+Length  296, alignments in bytes 12/16:	27.4099	45.1912	27.2329
+Length  296, alignments in bytes 16/12:	26.8848	43.0569	27.3179
+Length  296, alignments in bytes 20/28:	27.1611	45.4238	27.0771
+Length  296, alignments in bytes 28/20:	26.1731	43.3379	26.7041
+Length  300, alignments in bytes  0/16:	26.5017	31.6521	26.4509
+Length  300, alignments in bytes 16/ 0:	26.7834	37.7903	27.4878
+Length  300, alignments in bytes 16/16:	24.3567	34.0706	23.6533
+Length  300, alignments in bytes  8/ 8:	26.1621	32.8645	23.6311
+Length  300, alignments in bytes  8/24:	28.1228	33.1448	27.3015
+Length  300, alignments in bytes 24/ 8:	26.9121	32.0249	26.6003
+Length  300, alignments in bytes  4/28:	27.3523	43.7468	27.2585
+Length  300, alignments in bytes 28/ 4:	26.9026	43.3535	26.5901
+Length  300, alignments in bytes 12/16:	27.2673	46.2783	27.168
+Length  300, alignments in bytes 16/12:	26.24	43.0571	26.0686
+Length  300, alignments in bytes 20/28:	27.3423	46.0264	27.3074
+Length  300, alignments in bytes 28/20:	26.8857	43.344	26.6016
+Length  304, alignments in bytes  0/16:	26.3784	32.2468	26.4724
+Length  304, alignments in bytes 16/ 0:	26.7539	32.2432	26.6104
+Length  304, alignments in bytes 16/16:	22.8779	33.5659	23.4333
+Length  304, alignments in bytes  8/ 8:	22.9822	32.2217	23.4956
+Length  304, alignments in bytes  8/24:	28.1458	32.011	27.4709
+Length  304, alignments in bytes 24/ 8:	27.3325	32.4658	26.6016
+Length  304, alignments in bytes  4/28:	27.3262	43.1362	27.25
+Length  304, alignments in bytes 28/ 4:	27.3801	44.0171	26.7239
+Length  304, alignments in bytes 12/16:	27.3677	45.7925	27.3628
+Length  304, alignments in bytes 16/12:	27.4497	43.7297	26.7271
+Length  304, alignments in bytes 20/28:	27.4463	46.083	27.3523
+Length  304, alignments in bytes 28/20:	27.502	44.0039	26.7571
+Length  308, alignments in bytes  0/16:	26.345	38.6724	26.5361
+Length  308, alignments in bytes 16/ 0:	27.186	32.6936	26.6021
+Length  308, alignments in bytes 16/16:	22.876	34.0159	22.9729
+Length  308, alignments in bytes  8/ 8:	22.8423	32.9055	22.8953
+Length  308, alignments in bytes  8/24:	27.4021	32.4604	27.394
+Length  308, alignments in bytes 24/ 8:	26.772	32.9075	27.071
+Length  308, alignments in bytes  4/28:	27.4358	43.8704	27.3474
+Length  308, alignments in bytes 28/ 4:	26.9326	44.7566	27.1418
+Length  308, alignments in bytes 12/16:	27.2876	46.4558	27.3481
+Length  308, alignments in bytes 16/12:	26.8782	44.3865	27.061
+Length  308, alignments in bytes 20/28:	27.4424	46.7527	27.3142
+Length  308, alignments in bytes 28/20:	26.7505	45.1809	26.6331
+Length  312, alignments in bytes  0/16:	26.3469	32.6809	26.4143
+Length  312, alignments in bytes 16/ 0:	26.8369	33.0525	26.9763
+Length  312, alignments in bytes 16/16:	22.9211	39.5608	22.7957
+Length  312, alignments in bytes  8/ 8:	23.9988	32.8933	22.8862
+Length  312, alignments in bytes  8/24:	29.5867	35.8889	29.9771
+Length  312, alignments in bytes 24/ 8:	29.2493	36.3079	29.0181
+Length  312, alignments in bytes  4/28:	30.2361	47.6704	27.1367
+Length  312, alignments in bytes 28/ 4:	26.084	45.5979	26.7048
+Length  312, alignments in bytes 12/16:	28.6287	48.4629	28.1572
+Length  312, alignments in bytes 16/12:	26.7654	44.969	26.7117
+Length  312, alignments in bytes 20/28:	27.6978	47.3469	27.4993
+Length  312, alignments in bytes 28/20:	26.3799	45.2593	26.646
+Length  316, alignments in bytes  0/16:	26.5349	33.0569	26.6597
+Length  316, alignments in bytes 16/ 0:	27.6865	33.3445	27.749
+Length  316, alignments in bytes 16/16:	24.853	34.5374	24.3418
+Length  316, alignments in bytes  8/ 8:	23.7795	33.8394	22.8911
+Length  316, alignments in bytes  8/24:	27.3389	33.7722	27.4102
+Length  316, alignments in bytes 24/ 8:	27.8545	33.425	27.8799
+Length  316, alignments in bytes  4/28:	27.4949	45.5203	27.3552
+Length  316, alignments in bytes 28/ 4:	27.8254	45.2778	27.7097
+Length  316, alignments in bytes 12/16:	27.2024	48.1738	27.0933
+Length  316, alignments in bytes 16/12:	27.4585	44.9775	27.1077
+Length  316, alignments in bytes 20/28:	28.4893	47.8066	28.1636
+Length  316, alignments in bytes 28/20:	27.946	45.2615	27.822
+Length  320, alignments in bytes  0/16:	27.6335	33.6963	27.4883
+Length  320, alignments in bytes 16/ 0:	27.7366	33.6545	27.5925
+Length  320, alignments in bytes 16/16:	23.9631	35.4819	23.6699
+Length  320, alignments in bytes  8/ 8:	23.9888	33.4187	23.7288
+Length  320, alignments in bytes  8/24:	28.4827	33.4346	28.7583
+Length  320, alignments in bytes 24/ 8:	27.8398	40.4563	27.9521
+Length  320, alignments in bytes  4/28:	28.4985	45.0574	28.7261
+Length  320, alignments in bytes 28/ 4:	27.9958	45.9448	27.7268
+Length  320, alignments in bytes 12/16:	28.4521	47.6736	31.2473
+Length  320, alignments in bytes 16/12:	30.353	56.6943	38.4099
+Length  320, alignments in bytes 20/28:	40.1538	66.4695	39.2139
+Length  320, alignments in bytes 28/20:	38.5742	64.1191	38.4351
+Length  324, alignments in bytes  0/16:	38.4712	46.592	38.0659
+Length  324, alignments in bytes 16/ 0:	38.8774	56.0198	38.147
+Length  324, alignments in bytes 16/16:	33.2114	49.5728	32.9031
+Length  324, alignments in bytes  8/ 8:	34.0171	46.8826	32.7598
+Length  324, alignments in bytes  8/24:	39.9385	46.9875	39.1406
+Length  324, alignments in bytes 24/ 8:	38.5117	47.5322	38.7874
+Length  324, alignments in bytes  4/28:	39.5017	63.2986	39.3044
+Length  324, alignments in bytes 28/ 4:	39.2336	64.5361	38.6238
+Length  324, alignments in bytes 12/16:	39.5112	67.5071	39.2346
+Length  324, alignments in bytes 16/12:	38.6714	64.1204	38.8801
+Length  324, alignments in bytes 20/28:	39.3821	67.4126	38.9922
+Length  324, alignments in bytes 28/20:	38.5691	64.9766	38.647
+Length  328, alignments in bytes  0/16:	38.2781	47.2947	38.4956
+Length  328, alignments in bytes 16/ 0:	38.5571	47.7129	38.3022
+Length  328, alignments in bytes 16/16:	33.5532	50.019	32.8521
+Length  328, alignments in bytes  8/ 8:	33.3149	47.5037	33.4963
+Length  328, alignments in bytes  8/24:	39.5596	47.5051	39.2905
+Length  328, alignments in bytes 24/ 8:	38.5566	48.4536	38.395
+Length  328, alignments in bytes  4/28:	39.324	64.2217	39.3184
+Length  328, alignments in bytes 28/ 4:	37.833	65.3511	37.5769
+Length  328, alignments in bytes 12/16:	39.4609	68.3132	38.9912
+Length  328, alignments in bytes 16/12:	38.8425	65.415	38.4585
+Length  328, alignments in bytes 20/28:	39.386	68.3181	39.3069
+Length  328, alignments in bytes 28/20:	37.7571	65.3518	37.5356
+Length  332, alignments in bytes  0/16:	49.3928	56.0066	48.4128
+Length  332, alignments in bytes 16/ 0:	38.2859	47.9143	38.7949
+Length  332, alignments in bytes 16/16:	39.0425	49.7659	46.6775
+Length  332, alignments in bytes  8/ 8:	34.0796	48.0117	32.7517
+Length  332, alignments in bytes  8/24:	49.2727	48.0103	44.5813
+Length  332, alignments in bytes 24/ 8:	38.6885	48.2515	38.3804
+Length  332, alignments in bytes  4/28:	48.7786	65.0537	50.3123
+Length  332, alignments in bytes 28/ 4:	38.4377	65.7869	38.3445
+Length  332, alignments in bytes 12/16:	46.0112	69.1042	47.2812
+Length  332, alignments in bytes 16/12:	37.71	64.9385	38.0876
+Length  332, alignments in bytes 20/28:	49.1079	68.2239	43.8108
+Length  332, alignments in bytes 28/20:	42.2971	65.4365	41.8169
+Length  336, alignments in bytes  0/16:	46.4963	48.3652	47.5652
+Length  336, alignments in bytes 16/ 0:	41.812	48.5461	42.0977
+Length  336, alignments in bytes 16/16:	36.551	50.3806	38.0171
+Length  336, alignments in bytes  8/ 8:	36.7571	48.6497	40.3188
+Length  336, alignments in bytes  8/24:	46.7776	57.8496	48.1143
+Length  336, alignments in bytes 24/ 8:	41.7957	48.8452	41.6638
+Length  336, alignments in bytes  4/28:	46.9368	65.0542	44.7366
+Length  336, alignments in bytes 28/ 4:	41.7874	66.7625	41.8279
+Length  336, alignments in bytes 12/16:	46.9675	68.6323	47.522
+Length  336, alignments in bytes 16/12:	41.7791	65.8708	41.7683
+Length  336, alignments in bytes 20/28:	44.2153	69.1392	48.0286
+Length  336, alignments in bytes 28/20:	42.2834	66.2593	41.8101
+Length  340, alignments in bytes  0/16:	46.4683	49.0129	48.8708
+Length  340, alignments in bytes 16/ 0:	41.6704	49.9084	42.0532
+Length  340, alignments in bytes 16/16:	37.2908	51.1125	40.2991
+Length  340, alignments in bytes  8/ 8:	36.1926	49.2827	36.8743
+Length  340, alignments in bytes  8/24:	46.3	48.8337	47.8296
+Length  340, alignments in bytes 24/ 8:	41.8989	49.4636	41.7815
+Length  340, alignments in bytes  4/28:	46.6145	66.7351	48.6199
+Length  340, alignments in bytes 28/ 4:	41.9238	67.9465	41.6064
+Length  340, alignments in bytes 12/16:	47.4807	69.5593	49.9866
+Length  340, alignments in bytes 16/12:	41.7512	62.0703	32.7529
+Length  340, alignments in bytes 20/28:	38.1118	55.2056	35.3335
+Length  340, alignments in bytes 28/20:	31.0137	50.4856	31.0117
+Length  344, alignments in bytes  0/16:	35.219	36.5129	36.937
+Length  344, alignments in bytes 16/ 0:	30.981	37.563	30.948
+Length  344, alignments in bytes 16/16:	31.1018	37.2109	31.3345
+Length  344, alignments in bytes  8/ 8:	27.2332	36.3711	26.9297
+Length  344, alignments in bytes  8/24:	33.8591	35.7112	35.3975
+Length  344, alignments in bytes 24/ 8:	30.1411	36.7224	30.1589
+Length  344, alignments in bytes  4/28:	33.5696	48.3113	35.4412
+Length  344, alignments in bytes 28/ 4:	30.4343	49.1255	29.6194
+Length  344, alignments in bytes 12/16:	34.4409	50.9036	36.501
+Length  344, alignments in bytes 16/12:	30.2498	48.8215	30.0366
+Length  344, alignments in bytes 20/28:	32.4255	51.8555	36.0154
+Length  344, alignments in bytes 28/20:	29.6641	49.2463	29.5427
+Length  348, alignments in bytes  0/16:	34.6848	36.5818	34.6746
+Length  348, alignments in bytes 16/ 0:	31.2224	36.0151	31.0378
+Length  348, alignments in bytes 16/16:	30.7307	37.3494	31.146
+Length  348, alignments in bytes  8/ 8:	26.4441	36.0803	26.8679
+Length  348, alignments in bytes  8/24:	34.28	36.1096	33.6516
+Length  348, alignments in bytes 24/ 8:	31.3506	36.241	31.166
+Length  348, alignments in bytes  4/28:	33.3032	48.9089	35.8318
+Length  348, alignments in bytes 28/ 4:	32.2493	50.2107	31.6841
+Length  348, alignments in bytes 12/16:	32.7349	51.5669	34.5645
+Length  348, alignments in bytes 16/12:	30.7832	49.4707	30.5725
+Length  348, alignments in bytes 20/28:	32.0901	51.1963	34.354
+Length  348, alignments in bytes 28/20:	32.1492	49.1155	31.2136
+Length  352, alignments in bytes  0/16:	32.1313	36.0159	32.8848
+Length  352, alignments in bytes 16/ 0:	31.7551	36.4731	31.0508
+Length  352, alignments in bytes 16/16:	28.7397	37.79	29.9702
+Length  352, alignments in bytes  8/ 8:	27.6538	36.2456	28.1833
+Length  352, alignments in bytes  8/24:	32.1599	36.2278	34.2324
+Length  352, alignments in bytes 24/ 8:	31.927	38.9038	31.1958
+Length  352, alignments in bytes  4/28:	32.198	48.9065	33.8982
+Length  352, alignments in bytes 28/ 4:	31.4031	49.801	31.2175
+Length  352, alignments in bytes 12/16:	32.4109	52.1223	33.3098
+Length  352, alignments in bytes 16/12:	31.335	49.5015	31.1953
+Length  352, alignments in bytes 20/28:	32.4214	51.8733	34.9456
+Length  352, alignments in bytes 28/20:	31.3293	49.7842	31.6323
+Length  356, alignments in bytes  0/16:	31.9153	36.4714	33.9197
+Length  356, alignments in bytes 16/ 0:	32.73	40.281	34.4561
+Length  356, alignments in bytes 16/16:	31.6382	41.7053	29.833
+Length  356, alignments in bytes  8/ 8:	31.4158	40.3855	29.5452
+Length  356, alignments in bytes  8/24:	34.7402	40.0181	36.6646
+Length  356, alignments in bytes 24/ 8:	34.2292	40.9504	34.009
+Length  356, alignments in bytes  4/28:	35.29	54.0813	37.0164
+Length  356, alignments in bytes 28/ 4:	34.2625	54.5205	31.2126
+Length  356, alignments in bytes 12/16:	32.2769	52.759	34.3083
+Length  356, alignments in bytes 16/12:	31.4458	50.2336	31.2839
+Length  356, alignments in bytes 20/28:	32.4465	53.0364	33.3857
+Length  356, alignments in bytes 28/20:	31.5415	50.4507	31.748
+Length  360, alignments in bytes  0/16:	31.8723	36.8967	32.6726
+Length  360, alignments in bytes 16/ 0:	31.2905	37.2761	31.7295
+Length  360, alignments in bytes 16/16:	29.0874	39.1174	27.5095
+Length  360, alignments in bytes  8/ 8:	29.5305	38.1519	28.8049
+Length  360, alignments in bytes  8/24:	39.6716	37.1206	33.3103
+Length  360, alignments in bytes 24/ 8:	31.4846	37.6426	31.8228
+Length  360, alignments in bytes  4/28:	32.165	50.2463	33.2471
+Length  360, alignments in bytes 28/ 4:	30.9639	51.6338	30.7993
+Length  360, alignments in bytes 12/16:	32.0879	52.907	34.2668
+Length  360, alignments in bytes 16/12:	31.8865	50.7524	31.1821
+Length  360, alignments in bytes 20/28:	32.4048	53.1208	33.7498
+Length  360, alignments in bytes 28/20:	30.853	51.0376	30.79
+Length  364, alignments in bytes  0/16:	31.7769	37.8655	33.1172
+Length  364, alignments in bytes 16/ 0:	31.1904	37.4219	31.1064
+Length  364, alignments in bytes 16/16:	26.8333	39.2476	27.512
+Length  364, alignments in bytes  8/ 8:	27.0715	37.6152	27.3503
+Length  364, alignments in bytes  8/24:	32.7639	38.0076	33.4404
+Length  364, alignments in bytes 24/ 8:	31.3213	37.6487	31.105
+Length  364, alignments in bytes  4/28:	31.9514	51.4065	32.9832
+Length  364, alignments in bytes 28/ 4:	31.3184	51.0505	31.1248
+Length  364, alignments in bytes 12/16:	40.1638	53.4683	32.5613
+Length  364, alignments in bytes 16/12:	30.7458	51.197	30.6909
+Length  364, alignments in bytes 20/28:	32.0923	53.1262	35.2622
+Length  364, alignments in bytes 28/20:	31.4016	51.5195	31.2668
+Length  368, alignments in bytes  0/16:	31.7861	37.4539	33.1494
+Length  368, alignments in bytes 16/ 0:	31.8389	37.9478	30.9841
+Length  368, alignments in bytes 16/16:	27.4766	39.2036	30.1748
+Length  368, alignments in bytes  8/ 8:	29.5493	37.6367	27.4668
+Length  368, alignments in bytes  8/24:	40.8982	37.6331	36.4021
+Length  368, alignments in bytes 24/ 8:	31.4553	38.0962	31.1829
+Length  368, alignments in bytes  4/28:	38.512	51.3064	36.8096
+Length  368, alignments in bytes 28/ 4:	31.3965	51.7214	31.2229
+Length  368, alignments in bytes 12/16:	41.7817	53.45	36.8049
+Length  368, alignments in bytes 16/12:	31.4126	51.4238	31.6282
+Length  368, alignments in bytes 20/28:	31.9885	53.7898	36.6318
+Length  368, alignments in bytes 28/20:	31.4275	52.1814	31.2373
+Length  372, alignments in bytes  0/16:	31.3381	38.261	33.7102
+Length  372, alignments in bytes 16/ 0:	31.1724	38.9382	31.1211
+Length  372, alignments in bytes 16/16:	28.1384	39.6567	27.9062
+Length  372, alignments in bytes  8/ 8:	28.073	38.5903	27.4199
+Length  372, alignments in bytes  8/24:	40.5732	38.0857	33.488
+Length  372, alignments in bytes 24/ 8:	31.8762	45.8013	31.3547
+Length  372, alignments in bytes  4/28:	39.3992	51.5681	35.8616
+Length  372, alignments in bytes 28/ 4:	31.3015	52.3828	31.1475
+Length  372, alignments in bytes 12/16:	35.532	54.7944	36.6091
+Length  372, alignments in bytes 16/12:	31.3962	52.0881	31.1997
+Length  372, alignments in bytes 20/28:	32.6438	54.4592	33.9167
+Length  372, alignments in bytes 28/20:	34.1472	57.6367	33.9341
+Length  376, alignments in bytes  0/16:	34.6028	49.9485	39.1582
+Length  376, alignments in bytes 16/ 0:	34.594	42.2019	33.8318
+Length  376, alignments in bytes 16/16:	30.1978	43.6479	30.866
+Length  376, alignments in bytes  8/ 8:	31.9111	42.0354	30.2312
+Length  376, alignments in bytes  8/24:	43.5442	40.3086	37.7793
+Length  376, alignments in bytes 24/ 8:	34.1606	42.4397	33.9565
+Length  376, alignments in bytes  4/28:	35.1226	57.5347	36.9729
+Length  376, alignments in bytes 28/ 4:	33.7681	57.7976	34.0901
+Length  376, alignments in bytes 12/16:	45.2849	59.7781	39.7546
+Length  376, alignments in bytes 16/12:	34.2795	57.9548	34.0896
+Length  376, alignments in bytes 20/28:	35.3037	60.0513	38.5713
+Length  376, alignments in bytes 28/20:	33.5647	57.7827	33.4368
+Length  380, alignments in bytes  0/16:	34.8003	44.3088	36.2161
+Length  380, alignments in bytes 16/ 0:	35.2319	42.3645	35.1404
+Length  380, alignments in bytes 16/16:	31.8723	43.9304	28.0369
+Length  380, alignments in bytes  8/ 8:	29.9973	41.095	29.9802
+Length  380, alignments in bytes  8/24:	43.9285	42.5164	35.7427
+Length  380, alignments in bytes 24/ 8:	32.4917	40.5493	32.5066
+Length  380, alignments in bytes  4/28:	32.4622	52.7527	37.0132
+Length  380, alignments in bytes 28/ 4:	32.5864	53.4553	38.9438
+Length  380, alignments in bytes 12/16:	43.9661	77.1169	46.5488
+Length  380, alignments in bytes 16/12:	44.3113	72.9434	44.8079
+Length  380, alignments in bytes 20/28:	49.582	76.2373	52.9712
+Length  380, alignments in bytes 28/20:	44.9048	73.3389	44.7878
+Length  384, alignments in bytes  0/16:	49.8777	53.8079	44.9473
+Length  384, alignments in bytes 16/ 0:	44.7871	54.7627	44.6133
+Length  384, alignments in bytes 16/16:	39.646	56.2295	43.4253
+Length  384, alignments in bytes  8/ 8:	40.1638	64.6245	40.2708
+Length  384, alignments in bytes  8/24:	50.3132	54.0569	45.7883
+Length  384, alignments in bytes 24/ 8:	44.866	55.231	44.8013
+Length  384, alignments in bytes  4/28:	50.7686	73.521	45.9062
+Length  384, alignments in bytes 28/ 4:	45.1042	74.2705	45.4407
+Length  384, alignments in bytes 12/16:	46.634	76.6204	47.002
+Length  384, alignments in bytes 16/12:	44.9846	73.873	44.7952
+Length  384, alignments in bytes 20/28:	50.6221	77.1606	45.4065
+Length  384, alignments in bytes 28/20:	44.8599	74.6948	44.7612
+Length  388, alignments in bytes  0/16:	50.0286	54.8022	45.1658
+Length  388, alignments in bytes 16/ 0:	44.792	54.9978	45.2449
+Length  388, alignments in bytes 16/16:	39.5066	56.8367	43.2632
+Length  388, alignments in bytes  8/ 8:	40.6011	54.6807	42.3464
+Length  388, alignments in bytes  8/24:	47.75	56.1011	45.8835
+Length  388, alignments in bytes 24/ 8:	44.9675	55.4365	45.2505
+Length  388, alignments in bytes  4/28:	50.6953	73.9717	45.7795
+Length  388, alignments in bytes 28/ 4:	45.3701	75.2051	44.7939
+Length  388, alignments in bytes 12/16:	50.3137	77.564	45.8037
+Length  388, alignments in bytes 16/12:	45.0034	75.2922	44.738
+Length  388, alignments in bytes 20/28:	50.5688	78.5383	45.6494
+Length  388, alignments in bytes 28/20:	44.9841	75.6418	44.9497
+Length  392, alignments in bytes  0/16:	49.9355	54.9902	45.2021
+Length  392, alignments in bytes 16/ 0:	44.8906	65.2073	44.7034
+Length  392, alignments in bytes 16/16:	41.4531	59.7109	40.8184
+Length  392, alignments in bytes  8/ 8:	40.123	56.1018	39.9192
+Length  392, alignments in bytes  8/24:	50.2471	55.4111	46.0918
+Length  392, alignments in bytes 24/ 8:	44.9473	55.8374	44.8152
+Length  392, alignments in bytes  4/28:	48.4961	74.8901	45.7375
+Length  392, alignments in bytes 28/ 4:	44.2671	76.5203	44.0156
+Length  392, alignments in bytes 12/16:	48.2925	78.959	45.9197
+Length  392, alignments in bytes 16/12:	44.9229	76.0684	45.0913
+Length  392, alignments in bytes 20/28:	50.908	78.9165	52.1348
+Length  392, alignments in bytes 28/20:	44.2083	75.9976	44.5247
+Length  396, alignments in bytes  0/16:	60.6008	65.8516	62.3926
+Length  396, alignments in bytes 16/ 0:	44.6741	55.7249	44.783
+Length  396, alignments in bytes 16/16:	52.3071	55.4395	51.613
+Length  396, alignments in bytes  8/ 8:	41.249	56.3633	39.2644
+Length  396, alignments in bytes  8/24:	61.2812	56.0254	61.6301
+Length  396, alignments in bytes 24/ 8:	44.8801	56.0281	45.1831
+Length  396, alignments in bytes  4/28:	62.5667	75.7166	61.8406
+Length  396, alignments in bytes 28/ 4:	44.8657	76.0234	44.7227
+Length  396, alignments in bytes 12/16:	60.4431	79.3972	60.4077
+Length  396, alignments in bytes 16/12:	44.6152	75.6123	44.1721
+Length  396, alignments in bytes 20/28:	61.4316	79.2073	60.8335
+Length  396, alignments in bytes 28/20:	41.3672	63.7485	36.1096
+Length  400, alignments in bytes  0/16:	45.175	48.7224	45.0276
+Length  400, alignments in bytes 16/ 0:	35.7776	41.8508	35.6421
+Length  400, alignments in bytes 16/16:	37.1714	44.3672	39.4719
+Length  400, alignments in bytes  8/ 8:	39.5798	41.613	39.9412
+Length  400, alignments in bytes  8/24:	45.3794	41.6077	44.3845
+Length  400, alignments in bytes 24/ 8:	34.9021	41.4238	34.6189
+Length  400, alignments in bytes  4/28:	43.8743	54.6833	44.3804
+Length  400, alignments in bytes 28/ 4:	34.8936	55.5732	34.7305
+Length  400, alignments in bytes 12/16:	43.7124	58.0608	43.5537
+Length  400, alignments in bytes 16/12:	34.7781	55.2812	35.0229
+Length  400, alignments in bytes 20/28:	43.6138	57.6484	44.03
+Length  400, alignments in bytes 28/20:	35.3804	55.5562	34.8013
+Length  404, alignments in bytes  0/16:	45.0039	41.0852	44.3425
+Length  404, alignments in bytes 16/ 0:	34.751	49.3545	34.8608
+Length  404, alignments in bytes 16/16:	39.7917	42.5063	38.2712
+Length  404, alignments in bytes  8/ 8:	39.7305	40.8926	38.8264
+Length  404, alignments in bytes  8/24:	44.3179	40.8972	44.1577
+Length  404, alignments in bytes 24/ 8:	34.7754	41.9375	34.7546
+Length  404, alignments in bytes  4/28:	43.9922	55.3503	44.9348
+Length  404, alignments in bytes 28/ 4:	34.8645	56.2417	34.7651
+Length  404, alignments in bytes 12/16:	44.6077	58.647	44.7053
+Length  404, alignments in bytes 16/12:	37.9028	61.0291	38.3682
+Length  404, alignments in bytes 20/28:	47.8618	63.6855	47.5977
+Length  404, alignments in bytes 28/20:	38.5955	61.3391	37.2537
+Length  408, alignments in bytes  0/16:	45.4385	41.6904	44.6113
+Length  408, alignments in bytes 16/ 0:	34.6436	41.5049	34.6426
+Length  408, alignments in bytes 16/16:	38.8535	51.1204	39.3628
+Length  408, alignments in bytes  8/ 8:	37.7683	41.876	37.8198
+Length  408, alignments in bytes  8/24:	43.814	41.3403	43.9597
+Length  408, alignments in bytes 24/ 8:	37.6965	42.7085	34.605
+Length  408, alignments in bytes  4/28:	43.9033	56.019	44.3547
+Length  408, alignments in bytes 28/ 4:	34.376	56.9102	34.272
+Length  408, alignments in bytes 12/16:	44.2908	58.6724	44.5056
+Length  408, alignments in bytes 16/12:	34.7463	57.1121	34.7554
+Length  408, alignments in bytes 20/28:	45.6326	64.3936	48.6819
+Length  408, alignments in bytes 28/20:	37.5532	61.9846	37.4368
+Length  412, alignments in bytes  0/16:	46.0017	49.3438	44.7119
+Length  412, alignments in bytes 16/ 0:	37.6797	45.4424	39.8962
+Length  412, alignments in bytes 16/16:	39.0615	46.8923	42.7026
+Length  412, alignments in bytes  8/ 8:	43.0498	53.8335	41.3066
+Length  412, alignments in bytes  8/24:	47.5466	46.1472	47.5645
+Length  412, alignments in bytes 24/ 8:	40.6201	47.113	40.5271
+Length  412, alignments in bytes  4/28:	49.9692	67.8972	61.3987
+Length  412, alignments in bytes 28/ 4:	50.5845	78.6851	49.9285
+Length  412, alignments in bytes 12/16:	60.9478	82.0308	61.0544
+Length  412, alignments in bytes 16/12:	49.6062	78.28	49.2463
+Length  412, alignments in bytes 20/28:	65.2324	81.5686	63.574
+Length  412, alignments in bytes 28/20:	50.5977	78.6655	50.218
+Length  416, alignments in bytes  0/16:	65.1567	57.6587	63.3208
+Length  416, alignments in bytes 16/ 0:	49.6372	58.7458	49.7075
+Length  416, alignments in bytes 16/16:	57.1111	60.8352	51.7991
+Length  416, alignments in bytes  8/ 8:	50.8279	57.9631	52.4912
+Length  416, alignments in bytes  8/24:	64.9214	57.9575	63.9685
+Length  416, alignments in bytes 24/ 8:	49.8398	58.5864	49.6494
+Length  416, alignments in bytes  4/28:	64.8835	78.386	64.0205
+Length  416, alignments in bytes 28/ 4:	50.0696	79.6172	49.8525
+Length  416, alignments in bytes 12/16:	65.322	82.0032	64.095
+Length  416, alignments in bytes 16/12:	49.7986	79.2063	50.0208
+Length  416, alignments in bytes 20/28:	64.8315	82.6882	63.9448
+Length  416, alignments in bytes 28/20:	49.7703	79.6052	50.2588
+Length  420, alignments in bytes  0/16:	60.8049	58.2742	63.3892
+Length  420, alignments in bytes 16/ 0:	50.4299	68.7407	49.4766
+Length  420, alignments in bytes 16/16:	51.6877	60.7422	53.6511
+Length  420, alignments in bytes  8/ 8:	52.6064	59.021	54.3394
+Length  420, alignments in bytes  8/24:	64.8633	59.0952	63.5093
+Length  420, alignments in bytes 24/ 8:	49.8599	59.626	49.9075
+Length  420, alignments in bytes  4/28:	64.7937	79.7815	63.4868
+Length  420, alignments in bytes 28/ 4:	49.8625	81.0122	49.9915
+Length  420, alignments in bytes 12/16:	64.7966	83.5269	62.5769
+Length  420, alignments in bytes 16/12:	50.1206	80.6028	49.6289
+Length  420, alignments in bytes 20/28:	60.7849	84.6074	63.553
+Length  420, alignments in bytes 28/20:	49.936	81.0093	49.8865
+Length  424, alignments in bytes  0/16:	64.7173	70.6611	63.2393
+Length  424, alignments in bytes 16/ 0:	49.6799	71.1677	49.877
+Length  424, alignments in bytes 16/16:	56.1279	61.2539	54.3242
+Length  424, alignments in bytes  8/ 8:	54.375	59.1907	53.8464
+Length  424, alignments in bytes  8/24:	64.8291	59.21	62.7188
+Length  424, alignments in bytes 24/ 8:	50.6038	59.717	49.7017
+Length  424, alignments in bytes  4/28:	65.3821	80.4272	63.2207
+Length  424, alignments in bytes 28/ 4:	49.8901	81.3611	49.1692
+Length  424, alignments in bytes 12/16:	63.2935	83.8613	63.5469
+Length  424, alignments in bytes 16/12:	50.7749	80.9429	49.7178
+Length  424, alignments in bytes 20/28:	63.4692	84.2263	63.3865
+Length  424, alignments in bytes 28/20:	49.7004	81.3337	49.1492
+Length  428, alignments in bytes  0/16:	62.0137	71.3948	63.2593
+Length  428, alignments in bytes 16/ 0:	50.7024	59.7388	49.6335
+Length  428, alignments in bytes 16/16:	56.4021	62.0427	54.9626
+Length  428, alignments in bytes  8/ 8:	52.4031	60.3538	52.7771
+Length  428, alignments in bytes  8/24:	56.5271	50.0803	50.5317
+Length  428, alignments in bytes 24/ 8:	35.9641	43.2747	35.8057
+Length  428, alignments in bytes  4/28:	44.8762	58.5308	45.7886
+Length  428, alignments in bytes 28/ 4:	35.9277	62.167	39.2021
+Length  428, alignments in bytes 12/16:	50.8962	66.7095	49.8794
+Length  428, alignments in bytes 16/12:	38.8015	63.7771	38.4429
+Length  428, alignments in bytes 20/28:	49.9102	66.364	49.6274
+Length  428, alignments in bytes 28/20:	39.167	64.6714	39.0122
+Length  432, alignments in bytes  0/16:	51.0505	49.6277	53.0195
+Length  432, alignments in bytes 16/ 0:	41.5684	50.6233	41.4304
+Length  432, alignments in bytes 16/16:	43.707	52.1492	43.9895
+Length  432, alignments in bytes  8/ 8:	42.9109	50.9702	43.4121
+Length  432, alignments in bytes  8/24:	54.8003	50.2488	53.3088
+Length  432, alignments in bytes 24/ 8:	41.7	50.7783	41.5085
+Length  432, alignments in bytes  4/28:	53.0989	67.9846	53.8777
+Length  432, alignments in bytes 28/ 4:	42.4226	68.9976	41.8657
+Length  432, alignments in bytes 12/16:	51.98	67.3057	46.8884
+Length  432, alignments in bytes 16/12:	35.9185	59.1296	36.4761
+Length  432, alignments in bytes 20/28:	47.0598	61.5847	45.3318
+Length  432, alignments in bytes 28/20:	39.6497	64.804	38.9961
+Length  436, alignments in bytes  0/16:	51.429	48.9785	49.3445
+Length  436, alignments in bytes 16/ 0:	39.0627	47.936	39.5894
+Length  436, alignments in bytes 16/16:	41.0081	46.9004	40.5159
+Length  436, alignments in bytes  8/ 8:	40.6646	45.124	39.1011
+Length  436, alignments in bytes  8/24:	46.7412	52.448	46.198
+Length  436, alignments in bytes 24/ 8:	35.9041	52.9033	37.0972
+Length  436, alignments in bytes  4/28:	48.6067	60.8948	48.1143
+Length  436, alignments in bytes 28/ 4:	36.6523	60.6729	35.9382
+Length  436, alignments in bytes 12/16:	46.9399	61.7856	45.8027
+Length  436, alignments in bytes 16/12:	35.8845	59.7937	35.738
+Length  436, alignments in bytes 20/28:	43.8894	62.7659	45.7742
+Length  436, alignments in bytes 28/20:	36.439	66.1677	39.1748
+Length  440, alignments in bytes  0/16:	47.8745	47.9331	50.4055
+Length  440, alignments in bytes 16/ 0:	39.033	57.7151	39.0173
+Length  440, alignments in bytes 16/16:	45.2021	50.542	42.8811
+Length  440, alignments in bytes  8/ 8:	44.3621	48.3137	43.0784
+Length  440, alignments in bytes  8/24:	51.428	57.7063	49.7029
+Length  440, alignments in bytes 24/ 8:	40.1045	58.1951	39.2415
+Length  440, alignments in bytes  4/28:	49.6577	60.4363	46.3997
+Length  440, alignments in bytes 28/ 4:	35.5474	60.6841	36.0298
+Length  440, alignments in bytes 12/16:	46.7231	62.4502	45.3828
+Length  440, alignments in bytes 16/12:	36.4014	60.3823	35.9143
+Length  440, alignments in bytes 20/28:	50.4004	69.1648	49.5256
+Length  440, alignments in bytes 28/20:	38.7825	66.6995	38.824
+Length  444, alignments in bytes  0/16:	54.7705	51.4556	52.9734
+Length  444, alignments in bytes 16/ 0:	43.0354	51.6433	42.8926
+Length  444, alignments in bytes 16/16:	46.8157	52.2432	39.9041
+Length  444, alignments in bytes  8/ 8:	44.7878	48.6223	42.7148
+Length  444, alignments in bytes  8/24:	50.7073	48.5752	49.7427
+Length  444, alignments in bytes 24/ 8:	41.3994	48.8303	40.5044
+Length  444, alignments in bytes  4/28:	51.0496	66.5581	49.72
+Length  444, alignments in bytes 28/ 4:	40.4507	66.7205	40.666
+Length  444, alignments in bytes 12/16:	53.1294	73.3096	53.45
+Length  444, alignments in bytes 16/12:	42.5178	66.9153	39.8281
+Length  444, alignments in bytes 20/28:	51.4048	68.4668	50.7405
+Length  444, alignments in bytes 28/20:	40.9871	66.1873	40.6365
+Length  448, alignments in bytes  0/16:	50.948	46.9534	47.0181
+Length  448, alignments in bytes 16/ 0:	37.0107	44.9099	36.8096
+Length  448, alignments in bytes 16/16:	41.2625	46.2485	41.6199
+Length  448, alignments in bytes  8/ 8:	41.2847	45.1741	39.2317
+Length  448, alignments in bytes  8/24:	46.4363	44.6726	48.1255
+Length  448, alignments in bytes 24/ 8:	37.8643	45.1343	37.0161
+Length  448, alignments in bytes  4/28:	46.7935	61.0886	48.1028
+Length  448, alignments in bytes 28/ 4:	37.0889	61.3528	39.4221
+Length  448, alignments in bytes 12/16:	50.7878	68.8538	53.354
+Length  448, alignments in bytes 16/12:	40.5171	66.801	37.0464
+Length  448, alignments in bytes 20/28:	47.7744	63.4189	48.0615
+Length  448, alignments in bytes 28/20:	37.0945	61.8779	36.9504
+Length  452, alignments in bytes  0/16:	49.0154	49.8989	52.9998
+Length  452, alignments in bytes 16/ 0:	40.3809	59.6594	40.6016
+Length  452, alignments in bytes 16/16:	45.3179	50.9331	45.5847
+Length  452, alignments in bytes  8/ 8:	44.4871	52.9019	46.8403
+Length  452, alignments in bytes  8/24:	54.167	55.0298	62.573
+Length  452, alignments in bytes 24/ 8:	47.7136	70.3096	47.6887
+Length  452, alignments in bytes  4/28:	61.0859	78.5972	61.0986
+Length  452, alignments in bytes 28/ 4:	47.6421	79.783	49.2039
+Length  452, alignments in bytes 12/16:	62.9985	85.0554	64.053
+Length  452, alignments in bytes 16/12:	48.0769	79.3611	47.4507
+Length  452, alignments in bytes 20/28:	61.7014	82.4929	58.9768
+Length  452, alignments in bytes 28/20:	43.636	72.0107	43.0503
+Length  456, alignments in bytes  0/16:	54.8831	53.6863	55.9724
+Length  456, alignments in bytes 16/ 0:	42.9062	53.7849	42.8311
+Length  456, alignments in bytes 16/16:	44.2297	51.3306	43.7971
+Length  456, alignments in bytes  8/ 8:	43.3821	49.7107	43.3257
+Length  456, alignments in bytes  8/24:	51.0547	52.3921	54.0344
+Length  456, alignments in bytes 24/ 8:	43.2305	54.0549	43.2559
+Length  456, alignments in bytes  4/28:	55.188	68.23	52.1204
+Length  456, alignments in bytes 28/ 4:	39.8984	66.8269	36.5225
+Length  456, alignments in bytes 12/16:	48.0703	64.9482	64.2698
+Length  456, alignments in bytes 16/12:	51.8916	86.2849	51.135
+Length  456, alignments in bytes 20/28:	66.2451	89.563	67.1228
+Length  456, alignments in bytes 28/20:	51.3379	86.6704	51.2229
+Length  460, alignments in bytes  0/16:	69.468	63.2947	69.9963
+Length  460, alignments in bytes 16/ 0:	51.1196	63.5134	50.9753
+Length  460, alignments in bytes 16/16:	59.4238	65.3604	58.7639
+Length  460, alignments in bytes  8/ 8:	58.3367	63.6023	57.8726
+Length  460, alignments in bytes  8/24:	69.6284	63.1238	66.8655
+Length  460, alignments in bytes 24/ 8:	49.8496	61.4607	49.1902
+Length  460, alignments in bytes  4/28:	66.9014	83.8782	64.9438
+Length  460, alignments in bytes 28/ 4:	47.677	66.1821	36.9172
+Length  460, alignments in bytes 12/16:	50.1392	65.5444	50.2161
+Length  460, alignments in bytes 16/12:	36.6609	62.3135	36.824
+Length  460, alignments in bytes 20/28:	50.6025	64.6855	50.7209
+Length  460, alignments in bytes 28/20:	40.248	62.5913	39.4417
+Length  464, alignments in bytes  0/16:	50.4604	46.3635	50.4282
+Length  464, alignments in bytes 16/ 0:	39.3457	46.3176	39.8484
+Length  464, alignments in bytes 16/16:	43.0054	47.6465	42.821
+Length  464, alignments in bytes  8/ 8:	46.8433	50.7483	46.3464
+Length  464, alignments in bytes  8/24:	55.1531	50.8267	55.0896
+Length  464, alignments in bytes 24/ 8:	43.0676	50.8572	43.325
+Length  464, alignments in bytes  4/28:	55.1572	68.064	55.0913
+Length  464, alignments in bytes 28/ 4:	43.7795	69.0276	43.1575
+Length  464, alignments in bytes 12/16:	55.7393	70.9148	55.363
+Length  464, alignments in bytes 16/12:	42.9656	69.1682	43.3689
+Length  464, alignments in bytes 20/28:	55.1746	69.7278	50.71
+Length  464, alignments in bytes 28/20:	39.3933	63.2625	39.8665
+Length  468, alignments in bytes  0/16:	50.4614	46.3147	50.4231
+Length  468, alignments in bytes 16/ 0:	40.0549	56.4666	39.5605
+Length  468, alignments in bytes 16/16:	42.0024	48.5596	42.749
+Length  468, alignments in bytes  8/ 8:	42.6433	46.6006	42.4119
+Length  468, alignments in bytes  8/24:	50.9631	46.6958	50.6963
+Length  468, alignments in bytes 24/ 8:	39.595	47.886	39.3059
+Length  468, alignments in bytes  4/28:	50.5342	63.0562	51.1309
+Length  468, alignments in bytes 28/ 4:	39.3955	63.9414	39.1841
+Length  468, alignments in bytes 12/16:	51.127	65.7866	61.4294
+Length  468, alignments in bytes 16/12:	54.7788	88.1287	54.4543
+Length  468, alignments in bytes 20/28:	70.4551	91.4092	70.3223
+Length  468, alignments in bytes 28/20:	54.6423	88.5156	54.8313
+Length  472, alignments in bytes  0/16:	70.0625	77.5432	70.3079
+Length  472, alignments in bytes 16/ 0:	54.4099	75.8704	54.8716
+Length  472, alignments in bytes 16/16:	59.5051	67.0881	59.6719
+Length  472, alignments in bytes  8/ 8:	57.8647	65.2568	58.6025
+Length  472, alignments in bytes  8/24:	70.1357	65.0474	70.5081
+Length  472, alignments in bytes 24/ 8:	54.6516	65.5735	54.8308
+Length  472, alignments in bytes  4/28:	69.9058	88.2412	70.3621
+Length  472, alignments in bytes 28/ 4:	53.8423	89.3582	54.1008
+Length  472, alignments in bytes 12/16:	70.0269	92.3098	69.8674
+Length  472, alignments in bytes 16/12:	54.8613	89.3391	54.5229
+Length  472, alignments in bytes 20/28:	70.0159	92.6223	69.9084
+Length  472, alignments in bytes 28/20:	53.7673	89.7793	53.8555
+Length  476, alignments in bytes  0/16:	70.5007	78.1619	69.5217
+Length  476, alignments in bytes 16/ 0:	56.783	65.4709	56.5378
+Length  476, alignments in bytes 16/16:	61.1453	67.3201	60.7202
+Length  476, alignments in bytes  8/ 8:	59.5308	66.0579	58.7747
+Length  476, alignments in bytes  8/24:	70.1289	65.9929	69.8845
+Length  476, alignments in bytes 24/ 8:	56.6204	66.5439	56.1047
+Length  476, alignments in bytes  4/28:	69.9163	89.5669	64.8821
+Length  476, alignments in bytes 28/ 4:	45.7764	70.3958	40.906
+Length  476, alignments in bytes 12/16:	50.5032	67.6331	50.7522
+Length  476, alignments in bytes 16/12:	40.3743	64.2322	40.7546
+Length  476, alignments in bytes 20/28:	51.3413	70.9595	56.7642
+Length  476, alignments in bytes 28/20:	44.5759	70.3896	44.2627
+Length  480, alignments in bytes  0/16:	59.3257	54.8958	59.646
+Length  480, alignments in bytes 16/ 0:	47.8123	55.4241	47.5652
+Length  480, alignments in bytes 16/16:	50.8479	57.6133	50.438
+Length  480, alignments in bytes  8/ 8:	50.7886	55.2363	54.9902
+Length  480, alignments in bytes  8/24:	66.0688	61.1521	66.7837
+Length  480, alignments in bytes 24/ 8:	51.6721	55.6782	47.7705
+Length  480, alignments in bytes  4/28:	59.7122	74.6948	60.3535
+Length  480, alignments in bytes 28/ 4:	47.686	75.7136	47.0642
+Length  480, alignments in bytes 12/16:	60.6824	79.6785	66.1018
+Length  480, alignments in bytes 16/12:	52.9319	78.5557	47.1714
+Length  480, alignments in bytes 20/28:	60.2769	73.8601	55.8237
+Length  480, alignments in bytes 28/20:	45.4775	70.9448	40.6421
+Length  484, alignments in bytes  0/16:	51.3635	48.4392	51.4502
+Length  484, alignments in bytes 16/ 0:	40.8472	48.1572	40.9844
+Length  484, alignments in bytes 16/16:	44.1606	49.4924	44.3403
+Length  484, alignments in bytes  8/ 8:	43.9717	48.4551	43.3958
+Length  484, alignments in bytes  8/24:	51.3638	48.4456	51.4175
+Length  484, alignments in bytes 24/ 8:	40.7419	48.3896	41.0818
+Length  484, alignments in bytes  4/28:	51.2773	64.9802	51.375
+Length  484, alignments in bytes 28/ 4:	41.3638	65.8694	41.1807
+Length  484, alignments in bytes 12/16:	51.3655	67.9875	51.3989
+Length  484, alignments in bytes 16/12:	40.8201	66.0015	40.6294
+Length  484, alignments in bytes 20/28:	51.0312	67.9338	51.741
+Length  484, alignments in bytes 28/20:	40.8879	65.8545	40.5894
+Length  488, alignments in bytes  0/16:	52.1047	48.1621	51.3667
+Length  488, alignments in bytes 16/ 0:	40.8967	49.1189	40.3706
+Length  488, alignments in bytes 16/16:	44.2791	59.1157	44.498
+Length  488, alignments in bytes  8/ 8:	43.2405	48.4658	43.98
+Length  488, alignments in bytes  8/24:	52.2346	48.3743	51.417
+Length  488, alignments in bytes 24/ 8:	42.1279	51.0212	41.0959
+Length  488, alignments in bytes  4/28:	51.5242	65.6453	51.9465
+Length  488, alignments in bytes 28/ 4:	40.0366	66.4556	39.8916
+Length  488, alignments in bytes 12/16:	51.9236	68.2292	51.4221
+Length  488, alignments in bytes 16/12:	41.4348	66.1545	40.6252
+Length  488, alignments in bytes 20/28:	51.4326	69.0818	51.4133
+Length  488, alignments in bytes 28/20:	40.1375	66.9656	39.9387
+Length  492, alignments in bytes  0/16:	51.4822	58.6748	52.012
+Length  492, alignments in bytes 16/ 0:	40.687	48.8999	40.4858
+Length  492, alignments in bytes 16/16:	44.3811	50.8191	44.0515
+Length  492, alignments in bytes  8/ 8:	44.6826	48.7654	45.2913
+Length  492, alignments in bytes  8/24:	51.2698	48.7615	51.4856
+Length  492, alignments in bytes 24/ 8:	55.2666	48.9067	41.1416
+Length  492, alignments in bytes  4/28:	59.9456	66.8721	51.4023
+Length  492, alignments in bytes 28/ 4:	40.8396	67.0791	40.8547
+Length  492, alignments in bytes 12/16:	50.8975	68.8987	51.7793
+Length  492, alignments in bytes 16/12:	40.4678	66.1604	41.0098
+Length  492, alignments in bytes 20/28:	51.595	68.5278	51.6448
+Length  492, alignments in bytes 28/20:	41.6819	66.4478	40.804
+Length  496, alignments in bytes  0/16:	51.8494	49.1851	51.6033
+Length  496, alignments in bytes 16/ 0:	40.4785	49.1299	40.8584
+Length  496, alignments in bytes 16/16:	44.252	50.6558	43.9595
+Length  496, alignments in bytes  8/ 8:	44.4146	59.1145	43.7012
+Length  496, alignments in bytes  8/24:	52.0063	49.4927	51.7903
+Length  496, alignments in bytes 24/ 8:	42.3374	50.7644	41.8135
+Length  496, alignments in bytes  4/28:	51.7319	66.3767	56.4807
+Length  496, alignments in bytes 28/ 4:	45.7937	73.2317	44.2385
+Length  496, alignments in bytes 12/16:	57.0078	73.6733	51.6675
+Length  496, alignments in bytes 16/12:	40.8538	67.3262	43.6497
+Length  496, alignments in bytes 20/28:	56.2036	76.0459	56.4419
+Length  496, alignments in bytes 28/20:	44.9402	73.7979	45.001
+Length  500, alignments in bytes  0/16:	60.0925	68.7981	61.3213
+Length  500, alignments in bytes 16/ 0:	52.6963	76.96	52.3833
+Length  500, alignments in bytes 16/16:	55.3105	66.9031	58.9961
+Length  500, alignments in bytes  8/ 8:	58.3765	78.5466	56.8225
+Length  500, alignments in bytes  8/24:	66.4421	63.4382	65.9893
+Length  500, alignments in bytes 24/ 8:	52.4875	76.6096	50.4827
+Length  500, alignments in bytes  4/28:	60.0652	77.708	60.8071
+Length  500, alignments in bytes 28/ 4:	47.3059	79.3149	54.0498
+Length  500, alignments in bytes 12/16:	68.9814	92.7698	69.7771
+Length  500, alignments in bytes 16/12:	54.5508	92.2788	56.6692
+Length  500, alignments in bytes 20/28:	71.6968	97.4644	71.6875
+Length  500, alignments in bytes 28/20:	56.9241	82.7322	47.4414
+Length  504, alignments in bytes  0/16:	60.0833	70.6555	60.0667
+Length  504, alignments in bytes 16/ 0:	47.2324	70.908	48.6001
+Length  504, alignments in bytes 16/16:	53.1086	61.5293	51.802
+Length  504, alignments in bytes  8/ 8:	51.2749	62.072	57.4766
+Length  504, alignments in bytes  8/24:	66.7417	64.0032	67.2996
+Length  504, alignments in bytes 24/ 8:	52.9583	64.4939	53.1729
+Length  504, alignments in bytes  4/28:	55.7964	67.5657	51.6726
+Length  504, alignments in bytes 28/ 4:	40.5176	68.3879	39.8657
+Length  504, alignments in bytes 12/16:	51.7063	70.8093	51.7354
+Length  504, alignments in bytes 16/12:	41.1436	68.9106	40.8196
+Length  504, alignments in bytes 20/28:	51.7683	70.4526	52.3694
+Length  504, alignments in bytes 28/20:	40.2146	68.3655	40.7539
+Length  508, alignments in bytes  0/16:	53.6187	54.5295	56.4697
+Length  508, alignments in bytes 16/ 0:	45.7859	54.6499	45.4172
+Length  508, alignments in bytes 16/16:	49.5825	56.9407	48.9695
+Length  508, alignments in bytes  8/ 8:	48.074	54.7305	49.1238
+Length  508, alignments in bytes  8/24:	56.4597	54.876	58.4307
+Length  508, alignments in bytes 24/ 8:	48.4153	58.4404	48.2483
+Length  508, alignments in bytes  4/28:	61.0076	79.1523	60.125
+Length  508, alignments in bytes 28/ 4:	48.9292	79.4136	48.3821
+Length  508, alignments in bytes 12/16:	60.8425	82.1987	59.6641
+Length  508, alignments in bytes 16/12:	48.9163	82.0649	53.2566
+Length  508, alignments in bytes 20/28:	68.28	90.5898	67.7856
+Length  508, alignments in bytes 28/20:	54.1931	81.6646	48.0925
+Length  512, alignments in bytes  0/16:	61.5173	58.2605	61.1858
+Length  512, alignments in bytes 16/ 0:	48.8232	71.2415	50.0283
+Length  512, alignments in bytes 16/16:	57.2915	66.696	57.7104
+Length  512, alignments in bytes  8/ 8:	57.5625	60.2034	51.718
+Length  512, alignments in bytes  8/24:	61.0789	59.4675	60.9763
+Length  512, alignments in bytes 24/ 8:	48.0835	59.1121	46.624
+Length  512, alignments in bytes  4/28:	67.6438	90.5247	70.3206
+Length  512, alignments in bytes 28/ 4:	55.134	92.833	55.4385
+Length  512, alignments in bytes 12/16:	69.8994	95.7	73.0164
+Length  512, alignments in bytes 16/12:	58.4946	95.2021	57.7251
+Length  512, alignments in bytes 20/28:	73.5737	98.4785	73.6843
+Length  512, alignments in bytes 28/20:	57.5508	95.5869	58.3899

@@ -1,0 +1,26 @@
+Page 1:
+首先，需要简单介绍一下TDX。TDX 技术是一个比较大的话题，如果要完整地介绍TDX，将非常困难。这里，我尝试用最简单的话来概括什么是TDX。
+简单来说：
+
+At first, a brief introduction of TDX is required. But TDX technology is a very large topic, it's very hard to introduce TDX detail in this meeting. 
+Here, I try to give a simplest summary obout TDX.
+In short:
+
+什么是TDX?
+TDX的目标，是为了提供一个硬件隔离的，机密的虚拟机。
+
+What is TDX?
+Intel TDX is to provide a hardware-isolated, confidential Virtuanl Machines. Which called Trust Domain.
+
+TDX 基于2个技术：
+1. VMX extensions。 VMX 是一个现成的技术，它是虚拟机软件所依赖的底层技术。
+TDX，是在原来VMX的基础上，增加了新的指令集，以实现新的TDX需要的功能。
+2. MKTME: 全内存加密技术
+
+TDX mainly base on two technologies:
+1. VMX extensions. Here, VMX is Intel hardware virtualization technology. In TDX, Intel extend VMX instructions set to implement the TDX 
+2. MKTME：TDX use MKTEM engine to enable memory encryption.
+
+
+
+Mainly based on 2 intel technologies:

@@ -1,0 +1,87 @@
+log category:
+
+ bench-malloc-simple-1024.out
+ bench-malloc-simple-128.out
+ bench-malloc-simple-16.out
+ bench-malloc-simple-2048.out
+ bench-malloc-simple-256.out
+ bench-malloc-simple-32.out
+ bench-malloc-simple-4096.out
+ bench-malloc-simple-512.out
+ bench-malloc-simple-64.out
+ bench-malloc-simple-8.out
+ bench-malloc-thread-1.out
+ bench-malloc-thread-16.out
+ bench-malloc-thread-32.out
+ bench-malloc-thread-8.out
+ bench-memcmp.out
+ bench-memcpy-large.out
+ bench-memcpy-random.out
+ bench-memcpy-walk.out
+ bench-memcpy.out
+ bench-memmove-large.out
+ bench-memmove-walk.out
+ bench-memmove.out
+ bench-mempcpy.out
+ bench-memset-large.out
+ bench-memset-walk.out
+ bench-memset.out
+ bench-rawmemchr.out
+ bench-strcmp.out
+ bench-strlen.out
+ bench-strncmp.out
+ bench-wcscmp.out
+ bench-wcslen.out
+ bench-wcsncmp.out
+ bench-wmemcmp.out
+ bench-wmemset.out
+
+
+ bench-math-inlines.out
+ bench-sprintf.out
+ bench-strcoll.out
+
+ bench-memccpy.out
+ bench-memchr.out
+ bench-memmem.out
+ bench-memrchr.out
+ bench-stpcpy.out
+ bench-stpcpy_chk.out
+ bench-stpncpy.out
+ bench-strcasecmp.out
+ bench-strcasestr.out
+ bench-strcat.out
+ bench-strchr.out
+ bench-strchrnul.out
+ bench-strcpy.out
+ bench-strcpy_chk.out
+ bench-strcspn.out
+ bench-strncasecmp.out
+ bench-strncat.out
+ bench-strncpy.out
+ bench-strnlen.out
+ bench-strpbrk.out
+ bench-strrchr.out
+ bench-strsep.out
+ bench-strspn.out
+ bench-strstr.out
+ bench-strtok.out
+ bench-wcpcpy.out
+ bench-wcpncpy.out
+ bench-wcscat.out
+ bench-wcschr.out
+ bench-wcschrnul.out
+ bench-wcscpy.out
+ bench-wcscspn.out
+ bench-wcsncat.out
+ bench-wcsncpy.out
+ bench-wcsnlen.out
+ bench-wcspbrk.out
+ bench-wcsrchr.out
+ bench-wcsspn.out
+ bench-wmemchr.out
+
+ bench-strtod.out
+
+
+

@@ -1,0 +1,23 @@
+{
+ "timing_type": "hp_timing",
+ "functions": {
+  "malloc": {
+   "": {
+    "malloc_block_size": 256,
+    "max_rss": 2044,
+    "main_arena_st_allocs_0025_time": 26.0977,
+    "main_arena_st_allocs_0100_time": 28.067,
+    "main_arena_st_allocs_0400_time": 30.8991,
+    "main_arena_st_allocs_1600_time": 86.8532,
+    "main_arena_mt_allocs_0025_time": 46.9802,
+    "main_arena_mt_allocs_0100_time": 54.4716,
+    "main_arena_mt_allocs_0400_time": 55.3392,
+    "main_arena_mt_allocs_1600_time": 114.805,
+    "thread_arena__allocs_0025_time": 43.1521,
+    "thread_arena__allocs_0100_time": 51.8508,
+    "thread_arena__allocs_0400_time": 54.9469,
+    "thread_arena__allocs_1600_time": 115.345
+   }
+  }
+ }
+}

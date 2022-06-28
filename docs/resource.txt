@@ -1,0 +1,31 @@
+https://github.com/google/gvisor/issues/6378
+
+TDX is built using a combination of VMX & MKTME technology, and a CPU-attested, software module, as shown in the figure below. 
+Intel TDX solution can provide the following capabilities to TDs:
+
+Memory and CPU state confidentiality and integrity to help keep the sensitive IP and workload data secure from most software-based attacks and many hardware-based attacks.
+
+Remote attestation enables a relying party (either the owner of the workload or a user of the services provided by the workload) to establish trustworthiness prior to providing that workload data.
+
+
+
+
+提供了如下：
+
+Memory and CPU state confidentiality and integrity to help keep the sensitive IP and workload data secure
+主要基于2个技术
+1. VMX
+2. MKTME
+
+
+https://www.intel.com/content/www/us/en/developer/articles/technical/intel-trust-domain-extensions.html
+Intel® Trust Domain Extensions (Intel® TDX) is introducing new, architectural elements to help deploy hardware-isolated, virtual machines (VMs) called trust domains (TDs). Intel TDX is designed to isolate VMs from the virtual-machine manager (VMM)/hypervisor and any other non-TD software on the platform to protect TDs from a broad range of software. These hardware-isolated TDs include:
+
+Secure-Arbitration Mode (SEAM) – a new mode of the CPU designed to host an Intel-provided, digitally-signed, security-services module called the Intel TDX module.
+Shared bit in GPA to help allow TD to access shared memory.
+Secure EPT to help translate private GPA to provide address-translation integrity and to prevent TD-code fetches from shared memory. Encryption and integrity protection of private-memory access using a TD-private key is the goal.
+Physical-address-metadata table (PAMT) to help track page allocation, page initialization, and TLB consistency.
+Multi-key, total-memory-encryption (MKTME) engine designed to provide memory encryption using AES-128- XTS and integrity using 28-bit MAC and a TD-ownership bit.
+Remote attestation designed to provide evidence of TD executing on a genuine, Intel TDX system and its TCB version.
+
+https://www.intel.com/content/dam/develop/external/us/en/documents/tdx-whitepaper-v4.pdf
