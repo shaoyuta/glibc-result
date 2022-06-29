@@ -8,6 +8,9 @@ import sys
 import re
 import argparse
 import json
+import fileinput
+from xmlrpc.client import boolean
+from tempfile import NamedTemporaryFile
 
 DEFAULT_GLIBC_VERSION = "2.35"
 SPLIT_CH = ''
@@ -179,8 +182,12 @@ class ParserType1(Parser):
 
     # pylint: disable=W1514
     def parse(self):
-        with open(self.filename) as json_file:
-            json_objs = json.load(json_file)
+        if self.filename == "-":
+            json_file=sys.stdin
+        else:
+            json_file=open(self.filename)
+        
+        json_objs = json.load(json_file)
 
         for bench_name in json_objs["functions"]:
             for sub_bench_name in json_objs["functions"][bench_name]:
@@ -259,8 +266,12 @@ class ParserType2(Parser):
 
     # pylint: disable=W1514
     def parse(self):
-        with open(self.filename) as json_file:
-            json_objs = json.load(json_file)
+        if self.filename == "-":
+            json_file=sys.stdin
+        else:
+            json_file=open(self.filename)
+        
+        json_objs = json.load(json_file)
 
         assert len(json_objs["functions"]) == 1
         #base_string = os.path.basename(self.filename)
@@ -322,18 +333,24 @@ class ParserType3(Parser):
     def parse(self):
         #base_string = os.path.basename(self.filename)
         base_string = os.path.basename(self.filename).split('.')[0][6:]
-        with open(self.filename) as text_file:
-            first_line = text_file.readline()
-            if ":" in first_line:    # special case "bench-strcoll.out"
-                func_list = [""]
+
+        if self.filename == "-":
+            text_file=sys.stdin
+        else:
+            text_file=open(self.filename)
+        
+        first_line = text_file.readline()
+        if ":" in first_line:    # special case "bench-strcoll.out"
+            func_list = [""]
+        else:
+            if self.selector_ifunc_list is None:
+                func_list = first_line.split()   # Firsh line of file
             else:
-                if self.selector_ifunc_list is None:
-                    func_list = first_line.split()   # Firsh line of file
-                else:
-                    func_list = self.selector_ifunc_list
-            node = text_file.readlines()
-            for i in range(0, len(node), self.selector_step):
-                self._combine_output(base_string, node[i], func_list)
+                func_list = self.selector_ifunc_list
+        node = text_file.readlines()
+        for i in range(0, len(node), self.selector_step):
+            self._combine_output(base_string, node[i], func_list)
+
         if self.final_select_func is not None:
             self.final_select_func(self)
 
@@ -377,7 +394,7 @@ class ParserType4(Parser):
                         output_string = base_string + SPLIT_CH + sub_bench_name + "_" + target_words
                         #output_string =  sub_bench_name + "_" + target_words
                         self.results.append((output_string,
-                                             json_objs[sub_bench_name][target_words]))
+                                                json_objs[sub_bench_name][target_words]))
 
 
 class ParserType5(Parser):
@@ -438,6 +455,160 @@ class ParserUnsupported(Parser):
         print("Unsupported file", self.filename)
 
 
+class ParserType6(Parser):
+    '''
+    '''
+
+    # pylint: disable=R0913
+    @classmethod
+    def _combine_output(cls, base_string, node, ifunc_list, target_words_list,
+                        selector_words_list):
+        '''
+        '''
+        ret_list = []
+        #assert len(ifunc_list) == len(node[target_words_list[0]])
+        for i, ifunc in enumerate(ifunc_list):
+            key_string = base_string + SPLIT_CH + "_"
+            key_string += ifunc
+            for select_word in selector_words_list:
+                key_string += "-" + str_sw + "_" + str(node[select_word])
+            ret_kv = (key_string, node[target_words_list[0]][i])
+            ret_list.append(ret_kv)
+        return ret_list
+
+    # pylint: disable=W1514
+    def parse(self):  
+        base_string = ""
+        with NamedTemporaryFile('w+t',delete=False) as json_file:
+            print(json_file.name)
+            json_file.write("{\n")
+            line=sys.stdin.readlines()
+            json_file.writelines(line)
+            json_file.write("\n}")
+            json_file.seek(0)
+            json_objs=json.load(json_file)
+
+        #print(json_objs)
+        for top_name in json_objs:
+            base_string = top_name + "_"
+            for sub_bench_name in json_objs[top_name]:
+                for target_words in self.target_words_list:
+                    if target_words in json_objs[top_name][sub_bench_name]:
+                        output_string = base_string + SPLIT_CH + sub_bench_name + "_" + target_words
+                        #output_string =  sub_bench_name + "_" + target_words
+                        self.results.append((output_string,
+                                             json_objs[top_name][sub_bench_name][target_words]))
+        if self.final_select_func is not None:
+            self.final_select_func(self)
+
+
+class ParserType7(Parser):
+    '''Typical file "bench.out", pattern is below
+    {
+        "timing_type": "hp_timing",
+        "functions": {
+        "acos": {
+        "": {
+            "duration": 1.61643e+09,
+            "iterations": 1.59654e+08,
+            "max": 51.828,
+            "min": 5.338,
+            "mean": 10.1246
+        }   => Get obj["functions"]"acos"][""]["mean"]
+        "exp2f": {
+            "workload-spec2017.wrf": {
+            "duration": 1.62932e+09,
+            "iterations": 1.28736e+08,
+            "reciprocal-throughput": 4.25576,
+            "latency": 21.0568,
+            "max-throughput": 2.34976e+08,
+            "min-throughput": 4.74905e+07
+        }   => Get obj["functions"]["exp2f"]["workload-spec2017.wrf"]["latency"]
+    }
+    '''
+
+    # pylint: disable=W1514
+    def parse(self):
+        with NamedTemporaryFile('w+t',delete=False) as json_file:
+            print(json_file.name)
+            json_file.write("{\n")
+            line=sys.stdin.readlines()
+            json_file.writelines(line)
+            json_file.write("\n}")
+            json_file.seek(0)
+            json_objs=json.load(json_file)
+
+        for bench_name in json_objs:
+            for sub_bench_name in json_objs[bench_name]:
+                if len(set(json_objs[bench_name][sub_bench_name]) -
+                       set(self.target_words_list)) == 0:
+                    print("Unsupport"+"functions_"+bench_name +
+                          "_"+sub_bench_name+target_words)
+                for target_words in self.target_words_list:  # FIXME, this is a bug
+                    if target_words in json_objs[bench_name][sub_bench_name]:
+                        output_string = SPLIT_CH
+                        if sub_bench_name == "":
+                            output_string += bench_name + "_" + target_words
+                        else:
+                            output_string += bench_name+"-" + sub_bench_name + "_" + target_words
+                        self.results.append((output_string,
+                                             json_objs[bench_name][sub_bench_name]
+                                             [target_words]))
+        if self.final_select_func is not None:
+            self.final_select_func(self)
+
+
+class ParserType8(Parser):
+    '''For file "bench-math-inlines.out", pattern is below
+        "math-inlines": {
+        "__isnan": {
+            "inf/nan": {
+            "duration": 9.59272e+06,
+            "iterations": 2048,
+            "mean": 4683
+            }
+        },
+        "__isnan_inl": {
+            "inf/nan": {
+            "duration": 6.7447e+06,
+            "iterations": 2048,
+            "mean": 3293
+            }
+        },
+        It's not a standard json formats
+        => Get obj["strcoll"]["__isnan"]["inf/nan"]["mean"]
+    '''
+
+    # pylint: disable=W1514
+    def parse(self):
+        #base_string = os.path.basename(self.filename)
+        base_string = "math-inlines"
+
+        with NamedTemporaryFile('w+t',delete=False) as json_file:
+            print(json_file.name)
+            json_file.write("{\n")
+            line=sys.stdin.readlines()
+            json_file.writelines(line)
+            json_file.write("\n}")
+            json_file.seek(0)
+            json_objs=json.load(json_file)
+
+        for top_level_name in json_objs:
+            for sub_bench_name in json_objs[top_level_name]:
+                for sub_bench_l2_name in json_objs[top_level_name][sub_bench_name]:
+                    for target_words in self.target_words_list:
+                        if target_words in json_objs[top_level_name][sub_bench_name][sub_bench_l2_name]:
+                            output_string = base_string + SPLIT_CH + "_" + sub_bench_name + "_" + \
+                                sub_bench_l2_name + "_" + target_words
+                            
+                            self.results.append((output_string,
+                                                    json_objs[top_level_name][sub_bench_name][sub_bench_l2_name]
+                                                    [target_words]))
+
+        if self.final_select_func is not None:
+            self.final_select_func(self)
+
+
 PARSER_TYPE_MAP = {
     #   "filename": (ParserTypex, target_words_list, selector_words_list )
     "bench.out":
@@ -459,7 +630,7 @@ PARSER_TYPE_MAP = {
     (ParserType2,
      ("timings",), ("length", "alignment", "char"),
      ["erms", "avx512_unaligned"], 1,
-     None),
+     _fsf_bench_memset),
     "bench-wmemset":
     (ParserType2, ("timings",), ("length", "alignment", "char"), None, 1,
      None),
@@ -593,7 +764,8 @@ PARSER_TYPE_MAP = {
     "bench-sprintf":
     (ParserType4, ("mean",), (None,), None, 1, None),
     "bench-math-inlines":
-    (ParserType5, ("mean",), (None,), None, 1, _fsf_bench_math_inlines),
+#    (ParserType5, ("mean",), (None,), None, 1, _fsf_bench_math_inlines),
+    (ParserType8, ("mean",), (None,), None, 1, None),
 }
 
 
@@ -657,7 +829,75 @@ def main(glibc_version, result_dir, result_file):
         else:
             print(result_file, "is not a regular file")
             sys.exit()
+            
+CASE_TYPE_MAP = {
+    #   "filename": (ParserTypex, target_words_list, selector_words_list )
+    "bench-memcpy-large":
+    (ParserType2, ("timings",), ("length", "align1", "align2", "dst > src"),
+     ["erms", "avx512_unaligned_erms"], 16,
+     _fsf_bench_memset),
+    "bench-strcpy":
+    (ParserType3, (None,), (None,), ["evex", "avx2_rtm"], 32,
+     _fsf_bench_strcpy),
+    "bench-sprintf":
+    (ParserType6, ("mean",), (None,), None, 1, None),
+    "bench-malloc-thread":
+    (ParserType1, ("time_per_iteration",), None, None, 1, None),
+    "bench-malloc-simple":
+    (ParserType1,
+     ("main_arena_st_allocs_0025_time", "main_arena_st_allocs_0100_time",
+      "main_arena_st_allocs_0400_time", "main_arena_st_allocs_1600_time",
+      "main_arena_mt_allocs_0025_time", "main_arena_mt_allocs_0100_time",
+      "main_arena_mt_allocs_0400_time", "main_arena_mt_allocs_1600_time",
+      "thread_arena__allocs_0025_time", "thread_arena__allocs_0100_time",
+      "thread_arena__allocs_0400_time", "thread_arena__allocs_1600_time"),
+     None, None, 1, _fsf_bench_malloc_simple),
+    "bench-acos":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-asinh":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-exp":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-log2":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-sin":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-sincos":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-sqrt":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-tanh":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-pthread_once":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-thread_create":
+    (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-math-inlines":
+    (ParserType8, ("mean",), (None,), None, 1, _fsf_bench_math_inlines),
+}
 
+def create_parser_from_stdio(case_type):
+    '''
+    '''
+    for case_type_key in CASE_TYPE_MAP:
+        if re.match(case_type_key, case_type) is not None:
+            return CASE_TYPE_MAP[case_type_key][0](
+                "-", CASE_TYPE_MAP[case_type_key][1],
+                CASE_TYPE_MAP[case_type_key][2],
+                CASE_TYPE_MAP[case_type_key][3],
+                CASE_TYPE_MAP[case_type_key][4],
+                CASE_TYPE_MAP[case_type_key][5])
+    return ParserUnsupported("NotSupprt", None)
+
+def parsing_log(case_type):
+    if case_type is None:
+        print("Please input -t case type")
+        sys.exit(1)
+    
+    parser = create_parser_from_stdio(case_type)
+    parser.parse()
+    parser.print_result()
+    
 
 if __name__ == '__main__':
     app_parser = argparse.ArgumentParser(
@@ -669,5 +909,12 @@ if __name__ == '__main__':
         '-f', type=str, help='Output file of glibc-bench', dest='result_file')
     app_parser.add_argument('--glibc_version', default='2.35', type=str,
                             help='glibc version info, default value is "2.35"')
+    app_parser.add_argument('-s', "--using_stdio", action='store_true',
+                            help='Parse the log from stdio')
+    app_parser.add_argument('-t', type=str,dest="case_type",
+                            help='The log type if using stdio')
     args = app_parser.parse_args()
-    main(args.glibc_version, args.result_dir, args.result_file)
+    if args.using_stdio :
+        parsing_log(args.case_type)
+    else:
+        main(args.glibc_version, args.result_dir, args.result_file)
