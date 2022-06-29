@@ -459,7 +459,7 @@ PARSER_TYPE_MAP = {
     (ParserType2,
      ("timings",), ("length", "alignment", "char"),
      ["erms", "avx512_unaligned"], 1,
-     None),
+     _fsf_bench_memset),
     "bench-wmemset":
     (ParserType2, ("timings",), ("length", "alignment", "char"), None, 1,
      None),
