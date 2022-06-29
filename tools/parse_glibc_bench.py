@@ -11,12 +11,112 @@ import json
 
 DEFAULT_GLIBC_VERSION = "2.35"
 SPLIT_CH = ''
-TEST_FILE_LIST = ["bench-malloc-simple*.out", "bench-malloc-thread*.out", "bench.out",
+TEST_FILE_LIST = ["bench-malloc-simple-4096.out", "bench-malloc-thread-16.out",
                   "bench-math-inlines.out",
-                  "bench-sprintf.out", "bench-strtod.out", "bench-strcpy.out", "bench-memset.out",
-                  "bench-memcpy-large.out"]
+                  "bench-sprintf.out", "bench-strcpy.out", "bench-memset.out",
+                  "bench-memcpy-large.out",
+                  "bench.out"]
 
 
+def _fsf_bench_memset(parser):
+    '''final select func for file bench-memset.out
+    Only select 1 group to be outputted, for example
+    "memset_erms-length_6688-alignment_0-char_195":426.159 =>
+    "memset_erms-length_6688:426.159"
+    '''
+    temp_list = parser.results
+    parser.results = []
+    max_length = 0
+    # Find out max length
+    for item in temp_list:
+        key_string = item[0]
+        key_length_value = key_string.split('-')[1].split('_')[1]
+        if int(key_length_value) >= max_length:
+            max_length = int(key_length_value)
+    # Re-create the key string
+    picked_count = 2
+    for item in temp_list:
+        key_string = item[0]
+        key_length_value = key_string.split('-')[1].split('_')[1]
+        if int(key_length_value) == max_length and picked_count > 0:
+            key_string_list = key_string.split("-")
+            new_key_string = key_string_list[0]+"-"+key_string_list[1]
+            parser.results.append((new_key_string, item[1]))
+            picked_count -= 1
+
+
+def _fsf_bench_strcpy(parser):
+    '''final select func for file bench-strcpy.out
+    Only select 1 group to be outputted, for example
+    "memcpy_avx_unaligned_rtm-length_33554439-align1_0-align2_0-d2s_0:4606330.0" =>
+    "memcpy_avx_unaligned_rtm-length_33554439:4606330.0"
+    '''
+    temp_list = parser.results
+    parser.results = []
+    max_length = 0
+    # Find out max length
+    for item in temp_list:
+        key_string = item[0]
+        key_length_value = key_string.split('-')[0].split('_')[-1]
+        if int(key_length_value) >= max_length:
+            max_length = int(key_length_value)
+    # Re-create the key string
+    for item in temp_list:
+        key_string = item[0]
+        key_length_value = key_string.split('-')[0].split('_')[-1]
+        if int(key_length_value) == max_length:
+            key_string_list = key_string.split("-")
+            new_key_string = key_string_list[0]
+            parser.results.append((new_key_string, item[1]))
+
+
+def _fsf_bench_math_inlines(parser):
+    '''final select func for file bench-math-inlines.out
+    Only select 1 to be outputted
+    "math-inlines_isnan_normal_mean:3574"
+    '''
+    temp_list = parser.results
+    parser.results = []
+    for item in temp_list:
+        key_string = item[0]
+        if key_string == "math-inlines_isnan_normal_mean":
+            parser.results.append((key_string, item[1]))
+
+
+def _fsf_bench_out(parser):
+    '''final select func for file bench.out
+    only select special cases to be outputted
+    '''
+    test_cases_set1 = ["acos", "exp", "sin", "log2", "sqrt",
+                       "tanh", "asinh", "sincos", "pthread_once"]
+    test_cases_set2 = ["thread_create.*2048", "pthread_locks-mutex.*"]
+    temp_list = parser.results
+    parser.results = []
+    for item in temp_list:
+        key_string = item[0].split("_mean")[0]
+        for case_name in test_cases_set1:
+            if case_name == key_string:
+                parser.results.append((key_string, item[1]))
+                continue
+        for case_name in test_cases_set2:
+            if re.match(case_name, key_string) is not None:
+                parser.results.append((key_string, item[1]))
+                continue
+
+
+def _fsf_bench_malloc_simple(parser):
+    '''final select func for file bench-malloc-simple-4096.out
+    Only select 1 to be outputted
+    "math-inlines_isnan_normal_mean:3574"
+    '''
+    temp_list = parser.results
+    parser.results = []
+    for item in temp_list:
+        key_string = item[0]
+        if "1600" in key_string:
+            parser.results.append((key_string, item[1]))
+
+# pylint: disable=R0902
 class Parser:
     '''
     Common class
@@ -25,6 +125,7 @@ class Parser:
     # pylint: disable=R0913
     def __init__(self, filename, target_words_list, selector_words_list=None,
                  selector_ifunc_list=None, selector_step=1,
+                 final_select_func=None,
                  glibc_version=DEFAULT_GLIBC_VERSION):
         self.filename = filename
         self.target_words_list = target_words_list
@@ -32,6 +133,7 @@ class Parser:
         self.selector_ifunc_list = selector_ifunc_list
         self.selector_step = selector_step
         self.glibc_version = glibc_version
+        self.final_select_func = final_select_func
         self.results = []
 
     # pylint: disable=W0107
@@ -43,17 +145,12 @@ class Parser:
 
     # pylint: disable=W1514
     def print_result(self):
-        
+        '''
+        To print the result
+        '''
         for i in self.results:
-            print(i[0],end=':')
+            print(i[0], end=':')
             print(i[1])
-        '''
-        with open('res2.txt', 'a') as save_file:
-            for i in self.results:
-                # print(i)
-                save_file.write(str(i[0])+':'+str(i[1])+'\n')
-        print("Total items:", len(self.results))
-        '''
 
 class ParserType1(Parser):
     '''Typical file "bench.out", pattern is below
@@ -82,7 +179,6 @@ class ParserType1(Parser):
 
     # pylint: disable=W1514
     def parse(self):
-        print(self.filename)
         with open(self.filename) as json_file:
             json_objs = json.load(json_file)
 
@@ -94,7 +190,7 @@ class ParserType1(Parser):
                           "_"+sub_bench_name+target_words)
                 for target_words in self.target_words_list:  # FIXME, this is a bug
                     if target_words in json_objs["functions"][bench_name][sub_bench_name]:
-                        output_string = os.path.basename(self.filename) + SPLIT_CH
+                        output_string = SPLIT_CH
                         if sub_bench_name == "":
                             output_string += bench_name + "_" + target_words
                         else:
@@ -102,6 +198,8 @@ class ParserType1(Parser):
                         self.results.append((output_string,
                                              json_objs["functions"][bench_name][sub_bench_name]
                                              [target_words]))
+        if self.final_select_func is not None:
+            self.final_select_func(self)
 
 
 class ParserType2(Parser):
@@ -165,8 +263,8 @@ class ParserType2(Parser):
             json_objs = json.load(json_file)
 
         assert len(json_objs["functions"]) == 1
-        base_string = os.path.basename(self.filename)
-        #base_string = ""
+        #base_string = os.path.basename(self.filename)
+        base_string = ""
         for bench_name in json_objs["functions"]:
             if self.selector_ifunc_list is None:
                 ifunc_list = json_objs["functions"][bench_name]["ifuncs"]
@@ -181,6 +279,8 @@ class ParserType2(Parser):
                 self.results += self._combine_output(base_string + bench_name,
                                                      node, ifunc_list, self.target_words_list,
                                                      self.selector_words_list)
+        if self.final_select_func is not None:
+            self.final_select_func(self)
 
 
 class ParserType3(Parser):
@@ -213,6 +313,7 @@ class ParserType3(Parser):
             key_string += func_name + "_"
             for context in context_list:
                 key_string += "_".join(context.split())
+                key_string += "-"
             self.results.append(
                 (key_string, float(value_list[i]))
             )
@@ -220,7 +321,7 @@ class ParserType3(Parser):
     # pylint: disable=W1514
     def parse(self):
         #base_string = os.path.basename(self.filename)
-        base_string = os.path.basename(self.filename) + os.path.basename(self.filename).split('.')[0][6:]
+        base_string = os.path.basename(self.filename).split('.')[0][6:]
         with open(self.filename) as text_file:
             first_line = text_file.readline()
             if ":" in first_line:    # special case "bench-strcoll.out"
@@ -233,6 +334,8 @@ class ParserType3(Parser):
             node = text_file.readlines()
             for i in range(0, len(node), self.selector_step):
                 self._combine_output(base_string, node[i], func_list)
+        if self.final_select_func is not None:
+            self.final_select_func(self)
 
 
 class ParserType4(Parser):
@@ -254,8 +357,8 @@ class ParserType4(Parser):
 
     # pylint: disable=W1514
     def parse(self):
-        base_string = os.path.basename(self.filename)
-        #base_string = ""
+        #base_string = os.path.basename(self.filename)
+        base_string = ""
         with open(self.filename) as json_file:
             # first line is as '  "sprintf": {'
             first_line = json_file.readline()
@@ -300,8 +403,8 @@ class ParserType5(Parser):
 
     # pylint: disable=W1514
     def parse(self):
-        base_string = os.path.basename(self.filename)
-        #base_string = ""
+        #base_string = os.path.basename(self.filename)
+        base_string = ""
         with open(self.filename) as json_file:
             # first line is as '  "sprintf": {'
             first_line = json_file.readline()
@@ -323,6 +426,8 @@ class ParserType5(Parser):
                             self.results.append((output_string,
                                                  json_objes[sub_bench_name][sub_bench_l2_name]
                                                  [target_words]))
+        if self.final_select_func is not None:
+            self.final_select_func(self)
 
 
 class ParserUnsupported(Parser):
@@ -336,7 +441,7 @@ class ParserUnsupported(Parser):
 PARSER_TYPE_MAP = {
     #   "filename": (ParserTypex, target_words_list, selector_words_list )
     "bench.out":
-    (ParserType1, ("mean", "latency"), None, None, 1),
+    (ParserType1, ("mean", "latency"), None, None, 1, _fsf_bench_out),
     "bench-malloc-simple.*.out":
     (ParserType1,
      ("main_arena_st_allocs_0025_time", "main_arena_st_allocs_0100_time",
@@ -345,142 +450,150 @@ PARSER_TYPE_MAP = {
       "main_arena_mt_allocs_0400_time", "main_arena_mt_allocs_1600_time",
       "thread_arena__allocs_0025_time", "thread_arena__allocs_0100_time",
       "thread_arena__allocs_0400_time", "thread_arena__allocs_1600_time"),
-     None, None, 1),
+     None, None, 1, _fsf_bench_malloc_simple),
     "bench-malloc-thread.*.out":
-    (ParserType1, ("time_per_iteration",), None, None, 1),
+    (ParserType1, ("time_per_iteration",), None, None, 1, None),
     "bench-memset-walk":
-    (ParserType2, ("timings",), ("length", "char"), None, 1),
+    (ParserType2, ("timings",), ("length", "char"), None, 1, None),
     "bench-memset":
     (ParserType2,
      ("timings",), ("length", "alignment", "char"),
-     ["erms", "avx512_unaligned", "evex_unaligned_erms", "avx2_unaligned_rtm"], 64),
+     ["erms", "avx512_unaligned"], 1,
+     None),
     "bench-wmemset":
-    (ParserType2, ("timings",), ("length", "alignment", "char"), None, 1),
+    (ParserType2, ("timings",), ("length", "alignment", "char"), None, 1,
+     None),
     "bench-rawmemchr":
-    (ParserType2, ("timings",), ("length", "alignment", "char"), None, 1),
+    (ParserType2, ("timings",), ("length", "alignment", "char"), None, 1,
+     None),
     "bench-memcmpeq":
     (ParserType2, ("timings",), ("length",
-                                 "align1", "align2", "result"), None, 1),
+                                 "align1", "align2", "result"), None, 1,
+     None),
     "bench-memcmp":
     (ParserType2, ("timings",), ("length",
-                                 "align1", "align2", "result"), None, 1),
+                                 "align1", "align2", "result"), None, 1,
+     None),
     "bench-wmemcmp":
     (ParserType2, ("timings",), ("length",
-                                 "align1", "align2", "result"), None, 1),
+                                 "align1", "align2", "result"), None, 1,
+     None),
     "bench-memcpy-random*":
-    (ParserType2, ("timings",), ("length", ), None, 1),
+    (ParserType2, ("timings",), ("length", ), None, 1, None),
     "bench-memcpy-walk*":
-    (ParserType2, ("timings",), ("length", "dst > src"), None, 1),
+    (ParserType2, ("timings",), ("length", "dst > src"), None, 1, None),
     "bench-memcpy-large":
     (ParserType2, ("timings",), ("length", "align1", "align2", "dst > src"),
-     ["erms", "avx512_unaligned_erms", "evex_unaligned_erms", "avx_unaligned_rtm"], 16),
+     ["erms", "avx512_unaligned_erms"], 16,
+     _fsf_bench_memset),
     "bench-memmove-walk":
-    (ParserType2, ("timings",), ("length", "dst > src"), None, 1),
+    (ParserType2, ("timings",), ("length", "dst > src"), None, 1, None),
     "bench-memmove-large":
-    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1),
+    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1, None),
     "bench-memmove":
-    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1),
+    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1, None),
     "bench-mempcpy":
     (ParserType2, ("timings",), ("length",
-                                 "align1", "align2", "dst > src"), None, 1),
+                                 "align1", "align2", "dst > src"), None, 1, None),
     "bench-strcmp":
-    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1),
+    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1, None),
     "bench-wcscmp":
-    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1),
+    (ParserType2, ("timings",), ("length", "align1", "align2"), None, 1, None),
     "bench-strlen":
-    (ParserType2, ("timings",), ("length", "alignment"), None, 1),
+    (ParserType2, ("timings",), ("length", "alignment"), None, 1, None),
     "bench-wcslen":
-    (ParserType2, ("timings",), ("length", "alignment"), None, 1),
+    (ParserType2, ("timings",), ("length", "alignment"), None, 1, None),
     "bench-strncmp":
-    (ParserType2, ("timings",), ("strlen", "len", "align1", "align2"), None, 1),
+    (ParserType2, ("timings",), ("strlen", "len", "align1", "align2"), None, 1, None),
     "bench-wcsncmp":
-    (ParserType2, ("timings",), ("strlen", "len", "align1", "align2"), None, 1),
+    (ParserType2, ("timings",), ("strlen", "len", "align1", "align2"), None, 1, None),
     "bench-memccpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-memmem":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-memrchr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-stpcpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcpcpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-memchr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wmemchr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-stpcpy_chk":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-stpncpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcpncpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcasecmp":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcasestr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcat":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcscat":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strchr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcschr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strchrnul":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcsschrnul":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcpy":
-    (ParserType3, (None,), (None,), ["evex", "avx2_rtm", "sse3"], 32),
+    (ParserType3, (None,), (None,), ["evex", "avx2_rtm"], 32,
+     _fsf_bench_strcpy),
     "bench-wcscpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcpy_chk":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcspn":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strncasecmp":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strncat":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcsncat":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strncpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcsncpy":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strnlen":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcsnlen":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strpbrk":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcspbrk":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strrchr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcsrchr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strsep":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strstr":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strtok":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strtod":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strspn":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcsspn":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-wcscspn":
-    (ParserType3, (None,), (None,), None, 1),
+    (ParserType3, (None,), (None,), None, 1, None),
     "bench-strcoll":
-    (ParserType4, ("mean", ), (None,), None, 1),
+    (ParserType4, ("mean", ), (None,), None, 1, None),
     "bench-sprintf":
-    (ParserType4, ("mean",), (None,), None, 1),
+    (ParserType4, ("mean",), (None,), None, 1, None),
     "bench-math-inlines":
-    (ParserType5, ("mean",), (None,), None, 1),
+    (ParserType5, ("mean",), (None,), None, 1, _fsf_bench_math_inlines),
 }
 
 
@@ -497,11 +610,12 @@ def create_parser(filename, glibc_version=DEFAULT_GLIBC_VERSION):
                 filename, PARSER_TYPE_MAP[parser_type_key][1],
                 PARSER_TYPE_MAP[parser_type_key][2],
                 PARSER_TYPE_MAP[parser_type_key][3],
-                PARSER_TYPE_MAP[parser_type_key][4])
+                PARSER_TYPE_MAP[parser_type_key][4],
+                PARSER_TYPE_MAP[parser_type_key][5])
     return ParserUnsupported(filename, None)
 
 
-def process_file(result_file, glibc_version = DEFAULT_GLIBC_VERSION):
+def process_file(result_file, glibc_version):
     '''Process the glibc-bench output file
     '''
     parser = create_parser(result_file, glibc_version)
@@ -510,7 +624,7 @@ def process_file(result_file, glibc_version = DEFAULT_GLIBC_VERSION):
     return parser
 
 
-def process_dir(result_dir, glibc_version = DEFAULT_GLIBC_VERSION):
+def process_dir(result_dir, glibc_version):
     '''Process the glibc-bench output fild fold
     '''
     parser_list = []
@@ -554,7 +668,6 @@ if __name__ == '__main__':
     app_parser.add_argument(
         '-f', type=str, help='Output file of glibc-bench', dest='result_file')
     app_parser.add_argument('--glibc_version', default='2.35', type=str,
-                            help='glibc version info, default value is "2.35"',
-                            dest='glibc_version')
+                            help='glibc version info, default value is "2.35"')
     args = app_parser.parse_args()
     main(args.glibc_version, args.result_dir, args.result_file)
