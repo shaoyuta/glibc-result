@@ -479,7 +479,7 @@ class ParserType6(Parser):
     # pylint: disable=W1514
     def parse(self):  
         base_string = ""
-        with NamedTemporaryFile('w+t',delete=False) as json_file:
+        with NamedTemporaryFile('w+t') as json_file:
             print(json_file.name)
             json_file.write("{\n")
             line=sys.stdin.readlines()
@@ -529,7 +529,7 @@ class ParserType7(Parser):
 
     # pylint: disable=W1514
     def parse(self):
-        with NamedTemporaryFile('w+t',delete=False) as json_file:
+        with NamedTemporaryFile('w+t') as json_file:
             print(json_file.name)
             json_file.write("{\n")
             line=sys.stdin.readlines()
@@ -584,7 +584,7 @@ class ParserType8(Parser):
         #base_string = os.path.basename(self.filename)
         base_string = "math-inlines"
 
-        with NamedTemporaryFile('w+t',delete=False) as json_file:
+        with NamedTemporaryFile('w+t') as json_file:
             print(json_file.name)
             json_file.write("{\n")
             line=sys.stdin.readlines()
