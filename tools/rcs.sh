@@ -50,7 +50,7 @@ run_test() {
         echo "case name is empty"
         exit 1
     fi
-    pushd ${FOLD_OF_GLIBC_BENCH}
+    pushd ${FOLD_OF_GLIBC_BENCH} > /dev/null
     for ((i = 0; i<${ROUNDS}; i++)); do
         echo "debug:--- run case ROUND ${i} ----"
         EXEC_FILE=${FOLD_OF_GLIBC_BENCH}/benchtests/${CASE_LIST}
@@ -60,7 +60,7 @@ run_test() {
         fi
         exec taskset ${CORE_RUN_APP_MASK}  ${EXEC_FILE} | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t ${CASE_LIST}
     done
-    popd
+    popd > /dev/null
 }
 
 process_args "$@"

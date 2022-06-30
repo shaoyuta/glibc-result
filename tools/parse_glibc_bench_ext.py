@@ -836,6 +836,11 @@ CASE_TYPE_MAP = {
     (ParserType2, ("timings",), ("length", "align1", "align2", "dst > src"),
      ["erms", "avx512_unaligned_erms"], 16,
      _fsf_bench_memset),
+    "bench-memset":
+    (ParserType2,
+     ("timings",), ("length", "alignment", "char"),
+     ["erms", "avx512_unaligned"], 1,
+     _fsf_bench_memset),
     "bench-strcpy":
     (ParserType3, (None,), (None,), ["evex", "avx2_rtm"], 32,
      _fsf_bench_strcpy),
