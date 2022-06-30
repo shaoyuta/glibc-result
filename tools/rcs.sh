@@ -18,6 +18,8 @@ Usage: $(basename "$0") [OPTION]...
   -R cpumask for Running APP, default is 2
   -C cpumask for Collect data APP, dafault is 1
   -h Show this
+Sample:
+    ./rcs.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
 EOM
     exit 0
 }
@@ -50,7 +52,7 @@ run_test() {
     fi
     pushd ${FOLD_OF_GLIBC_BENCH}
     for ((i = 0; i<${ROUNDS}; i++)); do
-        echo "debug:--- run case ----"
+        echo "debug:--- run case ROUND ${i} ----"
         EXEC_FILE=${FOLD_OF_GLIBC_BENCH}/benchtests/${CASE_LIST}
         if [ ! -x  ${EXEC_FILE} ]; then
             echo "file ${EXEC_FILE} not exist"
