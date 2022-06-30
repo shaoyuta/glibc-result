@@ -25,7 +25,7 @@ EOM
 }
 
 process_args() {
-    while getopts ":n:c:f:h:R:C" option; do
+    while getopts ":n:c:f:R:C:h" option; do
         case "$option" in
             n) ROUNDS=$OPTARG;;
             f) FOLD_OF_GLIBC_BENCH=$OPTARG;;
