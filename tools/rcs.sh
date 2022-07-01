@@ -53,6 +53,7 @@ run_test() {
     pushd ${FOLD_OF_GLIBC_BENCH} > /dev/null
     for ((i = 0; i<${ROUNDS}; i++)); do
         # echo "Round ${i}: "
+        echo 
         EXEC_FILE=${FOLD_OF_GLIBC_BENCH}/benchtests/${CASE_LIST}
         if [ ! -x  ${EXEC_FILE} ]; then
             echo "file ${EXEC_FILE} not exist"
