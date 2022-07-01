@@ -4,7 +4,10 @@ CURR_DIR=$(readlink -f $(dirname "$0"))
 
 ROUNDS=1
 
-CASE_LIST=""
+#CASE_LIST=("bench-memset" "bench-strcpy" "bench-memcpy-large" "bench-sprintf" "bench-math-inlines")
+CASE_LIST="bench-memset bench-strcpy bench-memcpy-large bench-sprintf bench-math-inlines bench-acos bench-asinh bench-exp \
+           bench-log2 bench-sin bench-sincos bench-sqrt bench-tanh bench-pthread_once bench-thread_create bench-pthread-locks \
+           bench-malloc-thread bench-malloc-simple" 
 
 CORE_COLLECT_APP_MASK=1     #taskset 1 => cpu 0
 CORE_RUN_APP_MASK=2         #taskset 2 => cpu 1 , which is default value
@@ -19,7 +22,7 @@ Usage: $(basename "$0") [OPTION]...
   -C cpumask for Collect data APP, dafault is 1
   -h Show this
 Sample:
-    ./rcs.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
+    ./rcs_all.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
 EOM
     exit 0
 }
@@ -46,22 +49,16 @@ run_test() {
         echo ${FOLD_OF_GLIBC_BENCH} is not a valid fold
         exit 1
     fi
-    if [ -z ${CASE_LIST} ]; then
-        echo "case name is empty"
-        exit 1
-    fi
-    pushd ${FOLD_OF_GLIBC_BENCH} > /dev/null
-    for ((i = 0; i<${ROUNDS}; i++)); do
-        # echo "Round ${i}: "
-        EXEC_FILE=${FOLD_OF_GLIBC_BENCH}/benchtests/${CASE_LIST}
-        if [ ! -x  ${EXEC_FILE} ]; then
-            echo "file ${EXEC_FILE} not exist"
+
+    
+    for case in ${CASE_LIST[@]}; do
+        echo "=== case: ${case}"
+        if [ -z ${case} ]; then
+            echo "case name is empty"
             exit 1
         fi
-        exec taskset ${CORE_RUN_APP_MASK}  ${EXEC_FILE} | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t ${CASE_LIST}
-        echo 
+        ./rcs.sh -f ${FOLD_OF_GLIBC_BENCH} -c ${case} -n ${ROUNDS} -R ${CORE_RUN_APP_MASK} -C ${CORE_COLLECT_APP_MASK}
     done
-    popd > /dev/null
 }
 
 process_args "$@"
