@@ -5,24 +5,6 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal",
-            "justMyCode": true
-        },
-        {
-            "name": "Compare",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/script/compare_bench.py",
-            "console": "integratedTerminal",
-            "justMyCode": true,
-            "args" : ["C:\\work\\opensrc\\intel-gitlab\\shaoyuta\\glibc-result\\glibc-out\\non-td\\out\\bench.out",  
-                      "C:\\work\\opensrc\\intel-gitlab\\shaoyuta\\glibc-result\\glibc-out\\td\\out\\bench.out"]
-        },
-        {
             "name": "parser",
             "type": "python",
             "request": "launch",
@@ -30,6 +12,15 @@
             "console": "integratedTerminal",
             "justMyCode": true,
             "args" : ["-f", "c:\\work\\opensrc\\intel-gitlab\\shaoyuta\\glibc-result\\glibc-2.35-out\\glibc-2.35-gcc-8.5-bm\\bench-math-inlines.out"]
+        },
+        {
+            "name": "trans",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/trans.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args" : ["-f", "/tmp/a.log"]
         }
     ]
 }
