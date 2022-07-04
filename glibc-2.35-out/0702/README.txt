@@ -32,16 +32,22 @@ BM / log5.txt
 	Numabind -m 0 -N 0 -C 4-19
 	20 cycles
 
+nontd / log1.txt
+	3.5G
+	./rcs_all.sh -f /home/taosy/libc-build/libc2.35-gcc8.5/glibc-build/ -n 10 -R 0xfff0 | taskset 0x1 tee /tmp/log1.txt
+	10 cycles
+
+nontd / log2.txt
+	3.5G
+	./rcs_all.sh -f /home/taosy/libc-build/libc2.35-gcc8.5/glibc-build/ -n 20 -R 0xfff0 | taskset 0x1 tee /tmp/log2.txt
+	20 cycles
+
 tdvm / log1.txt
 	3.5G
 	./rcs_all.sh -f  /home/taosy/libc-build/glibc-2.35-build -n 10 -R 0xfff0 | taskset 0x1 tee /tmp/log2.txt
-	Run : Core 4-19
-	Numabind -m 0 -N 0 -C 4-19
 	10 cycles
 
 tdvm / log2.txt
 	3.5G
 	./rcs_all.sh -f  /home/taosy/libc-build/glibc-2.35-build -n 20 -R 0xfff0 | taskset 0x1 tee /tmp/log2.txt
-	Run : Core 4-19
-	Numabind -m 0 -N 0 -C 4-19
 	20 cycles
