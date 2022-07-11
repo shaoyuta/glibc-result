@@ -40,7 +40,7 @@ parse_data() {
         done
     else
         for d in ${SELECTED_CASES[@]}; do
-            pushd ${d} > /dev/null
+            pushd ${EMON_DATA_FOLD}/${d} > /dev/null
             emon -process-edp /opt/intel/sep_private_5.33_linux_0316081130eb678/config/edp/edp_config.txt
             popd > /dev/null
         done
