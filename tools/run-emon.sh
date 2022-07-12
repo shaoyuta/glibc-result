@@ -64,7 +64,7 @@ run_test() {
         mkdir -p ${EMON_DATA_FOLD}/${case} 
         taskset 0x1 emon -collect-edp -f ${EMON_DATA_FOLD}/${case}/emon.dat &
         ./rcs.sh -f ${FOLD_OF_GLIBC_BENCH} -c ${case} -n ${ROUNDS} -R ${CORE_RUN_APP_MASK} -C ${CORE_COLLECT_APP_MASK}
-        emon -stop && sleep 5 && pkill -9 -x emon
+        emon -stop > /dev/null && sleep 5 && pkill -9 -x emon > /dev/null
     done
 }
 
