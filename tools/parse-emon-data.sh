@@ -16,7 +16,8 @@ Usage: $(basename "$0") [OPTION]...
   -c case list
   -h Show this
 Sample:
-    ./ddd
+    ./parse-emon-data.sh -c "bench-acos bench-asinh bench-exp bench-log2 bench-malloc-simple bench-pthread_once bench-sin bench-sincos bench-sprintf bench-sqrt bench-strcpy bench-tanh "
+    ./parse-emon-data.sh 
 EOM
     exit 0
 }

@@ -24,7 +24,8 @@ Usage: $(basename "$0") [OPTION]...
   -e emon data fold
   -h Show this
 Sample:
-    ./rcs_all.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
+    ./run-emon.sh -f ~/glibc/glibc-build-gcc85 -n 1 -R 0xffff0 -c "bench-acos bench-asinh bench-exp bench-log2 bench-malloc-simple bench-pthread_once bench-sin bench-sincos bench-sprintf bench-sqrt bench-strcpy bench-tanh " | taskset 1 tee /tmp/log1.txt
+    ./run-emon.sh -f ~/glibc/glibc-build-gcc85 -n 1 -R 0xffff0  | taskset 1 tee /tmp/log1.txt
 EOM
     exit 0
 }
