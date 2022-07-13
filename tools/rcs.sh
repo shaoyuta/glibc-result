@@ -63,7 +63,7 @@ run_test() {
             EXTRA_PARAM=4096
         fi
         if [ ${CASE_LIST} = "bench-malloc-thread" ]; then
-            EXTRA_PARAM=16
+            EXTRA_PARAM=8
         fi
 #        exec   taskset ${CORE_RUN_APP_MASK}  ${EXEC_FILE} ${EXTRA_PARAM} | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t ${CASE_LIST}
         exec numactl -m 0 -N 0 -C ${CORE_RUN_APP_MASK}  ${EXEC_FILE} ${EXTRA_PARAM} | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t ${CASE_LIST}
