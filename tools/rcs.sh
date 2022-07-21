@@ -8,6 +8,7 @@ CASE_LIST=""
 
 CORE_COLLECT_APP_MASK=1     #taskset 1 => cpu 0
 CORE_RUN_APP_MASK=2         #taskset 2 => cpu 1 , which is default value
+EXTRA_PARAM=""              #extra parameters
 
 usage() {
     cat << EOM
@@ -17,6 +18,7 @@ Usage: $(basename "$0") [OPTION]...
   -c case name
   -R cpumask for Running APP, default is 2
   -C cpumask for Collect data APP, dafault is 1
+  -p extra parameter
   -h Show this
 Sample:
     ./rcs.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
@@ -25,13 +27,14 @@ EOM
 }
 
 process_args() {
-    while getopts ":n:c:f:R:C:h" option; do
+    while getopts ":n:c:f:R:C:p:h" option; do
         case "$option" in
             n) ROUNDS=$OPTARG;;
             f) FOLD_OF_GLIBC_BENCH=$OPTARG;;
             c) CASE_LIST=$OPTARG;;
             R) CORE_RUN_APP_MASK=$OPTARG;;
             C) CORE_COLLECT_APP_MASK=$OPTARG;;
+            p) EXTRA_PARAM=$OPTARG;;
             h) usage;;
         esac
     done
@@ -58,12 +61,13 @@ run_test() {
             echo "file ${EXEC_FILE} not exist"
             exit 1
         fi
-        EXTRA_PARAM=""
         if [ ${CASE_LIST} = "bench-malloc-simple" ]; then
             EXTRA_PARAM=4096
         fi
         if [ ${CASE_LIST} = "bench-malloc-thread" ]; then
-            EXTRA_PARAM=8
+            if [ -z ${EXTRA_PARAM} ]; then
+                EXTRA_PARAM=8
+            fi
         fi
 #        exec   taskset ${CORE_RUN_APP_MASK}  ${EXEC_FILE} ${EXTRA_PARAM} | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t ${CASE_LIST}
         exec numactl -m 0 -N 0 -C ${CORE_RUN_APP_MASK}  ${EXEC_FILE} ${EXTRA_PARAM} | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t ${CASE_LIST}

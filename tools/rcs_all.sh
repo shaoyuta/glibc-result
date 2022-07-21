@@ -11,6 +11,7 @@ CASE_LIST="bench-memset bench-strcpy bench-memcpy-large bench-sprintf bench-math
 
 CORE_COLLECT_APP_MASK=1     #taskset 1 => cpu 0
 CORE_RUN_APP_MASK=2         #taskset 2 => cpu 1 , which is default value
+EXTRA_PARAM=""              #extra parameters
 
 usage() {
     cat << EOM
@@ -20,6 +21,7 @@ Usage: $(basename "$0") [OPTION]...
   -c case name
   -R cpumask for Running APP, default is 2
   -C cpumask for Collect data APP, dafault is 1
+  -p extra parameter
   -h Show this
 Sample:
     ./rcs_all.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
@@ -28,11 +30,12 @@ EOM
 }
 
 process_args() {
-    while getopts ":n:c:f:R:C:h" option; do
+    while getopts ":n:c:f:R:C:p:h" option; do
         case "$option" in
             n) ROUNDS=$OPTARG;;
             f) FOLD_OF_GLIBC_BENCH=$OPTARG;;
             c) CASE_LIST=$OPTARG;;
+            p) EXTRA_PARAM=$OPTARG;;
             R) CORE_RUN_APP_MASK=$OPTARG;;
             C) CORE_COLLECT_APP_MASK=$OPTARG;;
             h) usage;;
@@ -57,7 +60,7 @@ run_test() {
             echo "case name is empty"
             exit 1
         fi
-        ./rcs.sh -f ${FOLD_OF_GLIBC_BENCH} -c ${case} -n ${ROUNDS} -R ${CORE_RUN_APP_MASK} -C ${CORE_COLLECT_APP_MASK}
+        ./rcs.sh -f ${FOLD_OF_GLIBC_BENCH} -c ${case} -n ${ROUNDS} -R ${CORE_RUN_APP_MASK} -C ${CORE_COLLECT_APP_MASK} -p ${EXTRA_PARAM}
     done
 }
 
