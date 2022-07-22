@@ -24,7 +24,8 @@ Usage: $(basename "$0") [OPTION]...
   -p extra parameter
   -h Show this
 Sample:
-    ./rcs_all.sh  -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
+    ./rcs_all.sh -f /home/sfdev/glibc/glibc-build -c bench-memcpy-large -n 5 -R 0xfe -C 0x1
+    ./rcs_all.sh -f ~/glibc/glibc-build-gcc85/ -c bench-malloc-thread -n 20 -R 4 -p 1 | taskset 0x1 tee ./bench-thread-1-malloc.log
 EOM
     exit 0
 }
