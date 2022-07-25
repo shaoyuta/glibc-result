@@ -16,6 +16,7 @@ Usage: $(basename "$0") [OPTION]...
   -R cpumask for Running APP, default is 2
   -C cpumask for Collect data APP, dafault is 1
   -n select the nof threads of test app, 1, 4, 32
+  -N number of threads 1,4,32
   -h Show this
 Sample:
     ./test-thread.sh -f ~/glibc/glibc-build -n 2 -N 1 -R "4"
