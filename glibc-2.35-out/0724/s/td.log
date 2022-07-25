@@ -1,0 +1,201 @@
+  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.17873e+09,
+    "iterations": 2000,
+    "max": 1.59632e+06,
+    "min": 1.58242e+06,
+    "mean": 1.58937e+06,
+    "time_1": 1.39471e+06,
+    "time_2": 194416
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.17599e+09,
+    "iterations": 2000,
+    "max": 1.58901e+06,
+    "min": 1.58699e+06,
+    "mean": 1.588e+06,
+    "time_1": 1.389e+06,
+    "time_2": 198770
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.18696e+09,
+    "iterations": 2000,
+    "max": 1.5938e+06,
+    "min": 1.59316e+06,
+    "mean": 1.59348e+06,
+    "time_1": 1.3942e+06,
+    "time_2": 199027
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.60485e+09,
+    "iterations": 1000,
+    "max": 1.60485e+06,
+    "min": 1.60485e+06,
+    "mean": 1.60485e+06,
+    "time_1": 1.41052e+06,
+    "time_2": 194110
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.60524e+09,
+    "iterations": 1000,
+    "max": 1.60524e+06,
+    "min": 1.60524e+06,
+    "mean": 1.60524e+06,
+    "time_1": 1.40663e+06,
+    "time_2": 198330
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.11655e+09,
+    "iterations": 2000,
+    "max": 1.56485e+06,
+    "min": 1.55171e+06,
+    "mean": 1.55828e+06,
+    "time_1": 1.37095e+06,
+    "time_2": 187054
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.20523e+09,
+    "iterations": 2000,
+    "max": 1.60883e+06,
+    "min": 1.5964e+06,
+    "mean": 1.60261e+06,
+    "time_1": 1.39615e+06,
+    "time_2": 206230
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.164e+09,
+    "iterations": 2000,
+    "max": 1.58419e+06,
+    "min": 1.57981e+06,
+    "mean": 1.582e+06,
+    "time_1": 1.38585e+06,
+    "time_2": 195916
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.17801e+09,
+    "iterations": 2000,
+    "max": 1.59399e+06,
+    "min": 1.58402e+06,
+    "mean": 1.589e+06,
+    "time_1": 1.38947e+06,
+    "time_2": 199305
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.15634e+09,
+    "iterations": 2000,
+    "max": 1.58524e+06,
+    "min": 1.57109e+06,
+    "mean": 1.57817e+06,
+    "time_1": 1.38535e+06,
+    "time_2": 192589
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.11698e+09,
+    "iterations": 2000,
+    "max": 1.56137e+06,
+    "min": 1.55562e+06,
+    "mean": 1.55849e+06,
+    "time_1": 1.37511e+06,
+    "time_2": 183153
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.16933e+09,
+    "iterations": 2000,
+    "max": 1.58766e+06,
+    "min": 1.58167e+06,
+    "mean": 1.58467e+06,
+    "time_1": 1.38831e+06,
+    "time_2": 196129
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.61064e+09,
+    "iterations": 1000,
+    "max": 1.61064e+06,
+    "min": 1.61064e+06,
+    "mean": 1.61064e+06,
+    "time_1": 1.40815e+06,
+    "time_2": 202187
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.12823e+09,
+    "iterations": 2000,
+    "max": 1.58357e+06,
+    "min": 1.54466e+06,
+    "mean": 1.56411e+06,
+    "time_1": 1.37399e+06,
+    "time_2": 189876
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.16397e+09,
+    "iterations": 2000,
+    "max": 1.58217e+06,
+    "min": 1.58179e+06,
+    "mean": 1.58198e+06,
+    "time_1": 1.38409e+06,
+    "time_2": 197655
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.16382e+09,
+    "iterations": 2000,
+    "max": 1.58442e+06,
+    "min": 1.5794e+06,
+    "mean": 1.58191e+06,
+    "time_1": 1.38739e+06,
+    "time_2": 194296
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.1749e+09,
+    "iterations": 2000,
+    "max": 1.59118e+06,
+    "min": 1.58372e+06,
+    "mean": 1.58745e+06,
+    "time_1": 1.38628e+06,
+    "time_2": 200922
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.1818e+09,
+    "iterations": 2000,
+    "max": 1.59231e+06,
+    "min": 1.58948e+06,
+    "mean": 1.5909e+06,
+    "time_1": 1.39065e+06,
+    "time_2": 200026
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.13004e+09,
+    "iterations": 2000,
+    "max": 1.57131e+06,
+    "min": 1.55873e+06,
+    "mean": 1.56502e+06,
+    "time_1": 1.37724e+06,
+    "time_2": 187544
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 3.17668e+09,
+    "iterations": 2000,
+    "max": 1.59323e+06,
+    "min": 1.58345e+06,
+    "mean": 1.58834e+06,
+    "time_1": 1.39006e+06,
+    "time_2": 198019
+   }
+  }
