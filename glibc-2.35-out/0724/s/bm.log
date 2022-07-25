@@ -1,0 +1,201 @@
+  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.96699e+09,
+    "iterations": 2000,
+    "max": 986279,
+    "min": 980711,
+    "mean": 983495,
+    "time_1": 844720,
+    "time_2": 138612
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.03052e+09,
+    "iterations": 2000,
+    "max": 1.02457e+06,
+    "min": 1.00595e+06,
+    "mean": 1.01526e+06,
+    "time_1": 876121,
+    "time_2": 138973
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.0107e+09,
+    "iterations": 2000,
+    "max": 1.00597e+06,
+    "min": 1.00473e+06,
+    "mean": 1.00535e+06,
+    "time_1": 863765,
+    "time_2": 141447
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.01682e+09,
+    "iterations": 2000,
+    "max": 1.01998e+06,
+    "min": 996844,
+    "mean": 1.00841e+06,
+    "time_1": 870237,
+    "time_2": 138032
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.98763e+09,
+    "iterations": 2000,
+    "max": 1.00931e+06,
+    "min": 978314,
+    "mean": 993814,
+    "time_1": 854260,
+    "time_2": 139409
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.9824e+09,
+    "iterations": 2000,
+    "max": 1.00189e+06,
+    "min": 980518,
+    "mean": 991202,
+    "time_1": 855286,
+    "time_2": 135758
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.02259e+09,
+    "iterations": 2000,
+    "max": 1.0131e+06,
+    "min": 1.00948e+06,
+    "mean": 1.01129e+06,
+    "time_1": 867595,
+    "time_2": 143541
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.91308e+09,
+    "iterations": 2000,
+    "max": 1.46362e+06,
+    "min": 1.44946e+06,
+    "mean": 1.45654e+06,
+    "time_1": 1.30265e+06,
+    "time_2": 153613
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.02388e+09,
+    "iterations": 2000,
+    "max": 1.0196e+06,
+    "min": 1.00428e+06,
+    "mean": 1.01194e+06,
+    "time_1": 871221,
+    "time_2": 140573
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.95869e+09,
+    "iterations": 2000,
+    "max": 994179,
+    "min": 964511,
+    "mean": 979345,
+    "time_1": 843987,
+    "time_2": 135201
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.0382e+09,
+    "iterations": 2000,
+    "max": 1.02251e+06,
+    "min": 1.01569e+06,
+    "mean": 1.0191e+06,
+    "time_1": 878462,
+    "time_2": 140490
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.01907e+09,
+    "iterations": 2000,
+    "max": 1.01827e+06,
+    "min": 1.0008e+06,
+    "mean": 1.00954e+06,
+    "time_1": 868144,
+    "time_2": 141244
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.00434e+09,
+    "iterations": 2000,
+    "max": 1.01389e+06,
+    "min": 990449,
+    "mean": 1.00217e+06,
+    "time_1": 863899,
+    "time_2": 138087
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.04373e+09,
+    "iterations": 2000,
+    "max": 1.02466e+06,
+    "min": 1.01907e+06,
+    "mean": 1.02187e+06,
+    "time_1": 880843,
+    "time_2": 140859
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.02594e+09,
+    "iterations": 2000,
+    "max": 1.01846e+06,
+    "min": 1.00749e+06,
+    "mean": 1.01297e+06,
+    "time_1": 871775,
+    "time_2": 141040
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 2.00399e+09,
+    "iterations": 2000,
+    "max": 1.01303e+06,
+    "min": 990963,
+    "mean": 1.002e+06,
+    "time_1": 862853,
+    "time_2": 138985
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.96578e+09,
+    "iterations": 2000,
+    "max": 991642,
+    "min": 974138,
+    "mean": 982890,
+    "time_1": 846383,
+    "time_2": 136343
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.96498e+09,
+    "iterations": 2000,
+    "max": 984925,
+    "min": 980056,
+    "mean": 982490,
+    "time_1": 846115,
+    "time_2": 136228
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.97416e+09,
+    "iterations": 2000,
+    "max": 989640,
+    "min": 984519,
+    "mean": 987079,
+    "time_1": 850681,
+    "time_2": 136229
+   }
+  }  "thread_create": {
+   "stack=2048,guard=1": {
+    "duration": 1.96516e+09,
+    "iterations": 2000,
+    "max": 986540,
+    "min": 978619,
+    "mean": 982579,
+    "time_1": 847146,
+    "time_2": 135279
+   }
+  }
