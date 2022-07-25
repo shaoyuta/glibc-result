@@ -51,7 +51,6 @@ run_test() {
     echo "=== case: bench-thread_create-${NOF_THREADS}"
     EXEC_FILE=${FOLD_OF_GLIBC_BENCH}/test-thread/bench-thread_create-${NOF_THREADS}
     for ((i = 0; i<${ROUNDS}; i++)); do
-        CORE_RUN_APP_MASK="4"
         exec numactl -m 0 -N 0 -C ${CORE_RUN_APP_MASK}  ${EXEC_FILE}  | taskset ${CORE_COLLECT_APP_MASK} python3 ${CURR_DIR}/parse_glibc_bench_ext.py -s -t "bench-thread_create"
         echo 
     done
