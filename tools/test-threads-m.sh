@@ -47,7 +47,7 @@ run_test() {
         exit 1
     fi
 
-    for ((i=1;i<=32;i++)); do
+    for ((i=4;i<=32;i+=4)); do
         ./rcs_all.sh -f ${FOLD_OF_GLIBC_BENCH} -R ${CORE_RUN_APP_MASK} -c bench-thread_create_m -n ${ROUNDS} -p $i
     done
 }
