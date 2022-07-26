@@ -875,6 +875,8 @@ CASE_TYPE_MAP = {
     (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
     "bench-pthread_once":
     (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
+    "bench-thread_create_m":
+    (ParserType7, ("mean", "latency", "time_1", "time_2"), None, None, 1, None),
     "bench-thread_create":
     (ParserType7, ("mean", "latency"), None, None, 1, _fsf_bench_out),
     "bench-pthread-locks":
